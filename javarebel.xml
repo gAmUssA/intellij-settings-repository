@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="JavaRebelPlugin">
+    <option name="javaRebelPath" value="$MY_VAR$/Library/Application Support/IntelliJIdea12/jr-ide-idea/lib/jrebel/jrebel.jar" />
+  </component>
+</application>
+

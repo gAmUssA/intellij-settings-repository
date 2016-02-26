@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="HttpConfigurable">
+    <option name="PROXY_HOST" value="webproxy.ssmb.com" />
+    <option name="PROXY_PORT" value="8080" />
+  </component>
+</application>
+

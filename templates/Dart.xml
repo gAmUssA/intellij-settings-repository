@@ -1,0 +1,29 @@
+<templateSet group="Dart">
+  <template name="sv" value="static var $END$" description="static var" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="fs" value="$RETURN_TYPE$ $NAME$($ARGS$) =&gt; $END$ ;" description="simple function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="fb" value="$RETURN_TYPE$ $NAME$($ARGS$) {&#10; $END$ &#10;}" description="function with body" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="sfs" value="static $RETURN_TYPE$ $NAME$($ARGS$) =&gt; $END$ ;" description="static simple function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="sfb" value="static $RETURN_TYPE$ $NAME$($ARGS$) {&#10; $END$ &#10;}" description="static function with body" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

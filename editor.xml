@@ -1,0 +1,16 @@
+<application>
+  <component name="EditorSettings">
+    <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
+    <option name="ARE_LINE_NUMBERS_SHOWN" value="true" />
+    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+  </component>
+  <component name="InstantHtmlEditingOptions">
+    <option name="instantEditing" value="true" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
+      <option name="FOREGROUND" value="ffffff" />
+      <option name="FONT_TYPE" value="3" />
+    </pattern>
+  </component>
+</application>

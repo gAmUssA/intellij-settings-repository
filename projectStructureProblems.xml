@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="library-invalid-classes-path(library:application:angularjs-DefinitelyTyped)" />
+    </ignored-problems>
+  </component>
+</application>
+
