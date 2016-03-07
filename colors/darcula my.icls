@@ -366,10 +366,25 @@
         <option name="FOREGROUND" value="a5c25c" />
       </value>
     </option>
+    <option name="HTML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="a5c261" />
+      </value>
+    </option>
     <option name="HTML_COMMENT">
       <value>
         <option name="FOREGROUND" value="bc9458" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="HTML_ENTITY_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="6d9cbe" />
+      </value>
+    </option>
+    <option name="HTML_TAG">
+      <value>
+        <option name="FOREGROUND" value="e8bf6a" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -801,6 +816,11 @@
         <option name="FOREGROUND" value="bc3f3c" />
       </value>
     </option>
+    <option name="XML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="bababa" />
+      </value>
+    </option>
     <option name="XML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="a5c261" />
@@ -812,7 +832,17 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="XML_ENTITY_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="6d9cbe" />
+      </value>
+    </option>
     <option name="XML_PROLOGUE">
+      <value>
+        <option name="FOREGROUND" value="e8bf6a" />
+      </value>
+    </option>
+    <option name="XML_TAG">
       <value>
         <option name="FOREGROUND" value="e8bf6a" />
       </value>
