@@ -9,9 +9,8 @@
   </component>
   <component name="TodoConfiguration">
     <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
-      <option name="FOREGROUND" value="73bf" />
+      <option name="FOREGROUND" value="ffffff" />
       <option name="FONT_TYPE" value="3" />
-      <option name="ERROR_STRIPE_COLOR" value="54aae3" />
     </pattern>
   </component>
 </application>

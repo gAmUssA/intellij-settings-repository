@@ -9,6 +9,7 @@
     <option name="EDITOR_FONT_SIZE" value="17" />
   </font>
   <option name="CONSOLE_FONT_NAME" value="Inconsolata-dz for Powerline" />
+  <option name="CONSOLE_FONT_SIZE" value="28" />
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="MEDIUM" />
   <colors>
@@ -1135,6 +1136,9 @@
         <option name="FOREGROUND" value="969696" />
         <option name="FONT_TYPE" value="2" />
       </value>
+    </option>
+    <option name="JS.LOCAL_VARIABLE">
+      <value />
     </option>
     <option name="JS.NUMBER">
       <value>
