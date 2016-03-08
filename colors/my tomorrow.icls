@@ -1027,9 +1027,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JS.LOCAL_VARIABLE">
-      <value />
-    </option>
     <option name="JS.NUMBER">
       <value>
         <option name="FOREGROUND" value="f5871f" />
