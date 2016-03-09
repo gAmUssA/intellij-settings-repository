@@ -4,7 +4,7 @@
     <macro name="MAVEN_REPOSITORY" value="/Users/vikgamov/.m2/repository" />
     <macro name="MY_VAR" value="/Users/apple" />
     <macro name="DOCUMENTS" value="/Users/apple/Workspaces/Clear/ClearMyBatisSample" />
-    <macro name="KOTLIN_BUNDLED" value="/Applications/IntelliJ IDEA 16 CE EAP.app/Contents/plugins/Kotlin/kotlinc" />
+    <macro name="KOTLIN_BUNDLED" value="/Applications/IntelliJ IDEA 16 EAP.app/Contents/plugins/Kotlin/kotlinc" />
     <ignoredMacro name="MESSAGE" />
     <ignoredMacro name="FILE_PATH" />
     <ignoredMacro name="LINE" />
