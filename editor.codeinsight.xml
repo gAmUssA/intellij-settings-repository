@@ -9,6 +9,7 @@
     <option name="SURROUND_SELECTION_ON_QUOTE_TYPED" value="true" />
     <option name="REFORMAT_ON_PASTE" value="2" />
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
+    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
     <EXCLUDED_PACKAGE NAME="org.omg.CORBA" />
     <EXCLUDED_PACKAGE NAME="sun.tools.java" />
   </component>
