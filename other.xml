@@ -25,6 +25,20 @@
   <component name="CodeStyleSchemesUIConfiguration">
     <option name="RECENT_IMPORT_FILE_LOCATION" value="file:$MY_VAR$/projects/google-styleguide/eclipse-java-google-style.xml" />
   </component>
+  <component name="CopyAsHtmlConfiguration">
+    <option name="_addBorder" value="true" />
+    <option name="_includeWarningHighlights" value="false" />
+    <option name="_mimeTypes" value="3" />
+    <option name="_lineNosStartAt1" value="true" />
+    <option name="_lineNoType" value="follow" />
+    <option name="_unindent" value="false" />
+    <option name="_includePadding" value="true" />
+    <option name="_padding" value="4" />
+    <option name="_fontSizeType" value="follow" />
+    <option name="_fontSize" value="0" />
+    <option name="_tabsToSpaces" value="true" />
+    <option name="_tabSize" value="4" />
+  </component>
   <component name="CvsApplicationLevelConfiguration">
     <option name="EXT_CONFIGURATION">
       <value>
