@@ -1,5 +1,11 @@
 <application>
   <component name="PresentationAssistant">
-    <option name="showActionDescriptions" value="false" />
+    <option name="alternativeKeymap" />
+    <option name="fontSize" value="22" />
+    <option name="mainKeymap">
+      <KeymapDescription>
+        <option name="name" value="Mac OS X" />
+      </KeymapDescription>
+    </option>
   </component>
 </application>
