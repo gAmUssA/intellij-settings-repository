@@ -192,6 +192,27 @@
     <option name="KEEP_ITN_PASSWORD" value="true" />
     <option name="EMAIL" value="" />
   </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="$MY_VAR$/.nvm/versions/node/v5.9.1/bin/node">
+      <version-cache version="5.9.1" last-modified="1458748558000" />
+      <npm-package value="$MY_VAR$/.nvm/versions/node/v5.9.1/lib/node_modules/npm" />
+    </local-interpreter>
+    <local-interpreter path="$MY_VAR$/.nvm/versions/node/v5.4.1/bin/node">
+      <version-cache version="5.4.1" last-modified="1452632593000" />
+    </local-interpreter>
+    <local-interpreter path="$MY_VAR$/.nvm/versions/node/v5.1.0/bin/node">
+      <version-cache version="5.1.0" last-modified="1447793407000" />
+    </local-interpreter>
+    <local-interpreter path="$MY_VAR$/.nvm/versions/node/v5.0.0/bin/node">
+      <version-cache version="5.0.0" last-modified="1446120945000" />
+    </local-interpreter>
+    <local-interpreter path="$MY_VAR$/.nvm/v0.11.12/bin/node">
+      <version-cache version="0.11.12" last-modified="1394577944000" />
+    </local-interpreter>
+  </component>
+  <component name="NodeLocalInterpreterManager">
+    <node-interpreter path="$MY_VAR$/.nvm/versions/node/v5.9.1/bin/node" version="5.9.1" last-modified="1458748558000" />
+  </component>
   <component name="PlaybackDebugger" currentScript="" />
   <component name="PlayframeworkConfiguration" path="$MY_VAR$/projects/jwardsession/foobar" show="true" />
   <component name="PluginManagerConfigurable" proportions="0.53457" version="1">
