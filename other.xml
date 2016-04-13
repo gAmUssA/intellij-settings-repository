@@ -25,6 +25,20 @@
   <component name="CodeStyleSchemesUIConfiguration">
     <option name="RECENT_IMPORT_FILE_LOCATION" value="file:$MY_VAR$/projects/google-styleguide/eclipse-java-google-style.xml" />
   </component>
+  <component name="CopyAsHtmlConfiguration">
+    <option name="_addBorder" value="true" />
+    <option name="_includeWarningHighlights" value="false" />
+    <option name="_mimeTypes" value="3" />
+    <option name="_lineNosStartAt1" value="true" />
+    <option name="_lineNoType" value="follow" />
+    <option name="_unindent" value="false" />
+    <option name="_includePadding" value="true" />
+    <option name="_padding" value="4" />
+    <option name="_fontSizeType" value="follow" />
+    <option name="_fontSize" value="0" />
+    <option name="_tabsToSpaces" value="true" />
+    <option name="_tabSize" value="4" />
+  </component>
   <component name="CvsApplicationLevelConfiguration">
     <option name="EXT_CONFIGURATION">
       <value>
@@ -177,6 +191,27 @@
     <option name="ITN_PASSWORD_CRYPT" value="MDJTVDEyOWEzMg==" />
     <option name="KEEP_ITN_PASSWORD" value="true" />
     <option name="EMAIL" value="" />
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="$MY_VAR$/.nvm/versions/node/v5.9.1/bin/node">
+      <version-cache version="5.9.1" last-modified="1458748558000" />
+      <npm-package value="$MY_VAR$/.nvm/versions/node/v5.9.1/lib/node_modules/npm" />
+    </local-interpreter>
+    <local-interpreter path="$MY_VAR$/.nvm/versions/node/v5.4.1/bin/node">
+      <version-cache version="5.4.1" last-modified="1452632593000" />
+    </local-interpreter>
+    <local-interpreter path="$MY_VAR$/.nvm/versions/node/v5.1.0/bin/node">
+      <version-cache version="5.1.0" last-modified="1447793407000" />
+    </local-interpreter>
+    <local-interpreter path="$MY_VAR$/.nvm/versions/node/v5.0.0/bin/node">
+      <version-cache version="5.0.0" last-modified="1446120945000" />
+    </local-interpreter>
+    <local-interpreter path="$MY_VAR$/.nvm/v0.11.12/bin/node">
+      <version-cache version="0.11.12" last-modified="1394577944000" />
+    </local-interpreter>
+  </component>
+  <component name="NodeLocalInterpreterManager">
+    <node-interpreter path="$MY_VAR$/.nvm/versions/node/v5.9.1/bin/node" version="5.9.1" last-modified="1458748558000" />
   </component>
   <component name="PlaybackDebugger" currentScript="" />
   <component name="PlayframeworkConfiguration" path="$MY_VAR$/projects/jwardsession/foobar" show="true" />
