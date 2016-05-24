@@ -3,6 +3,7 @@
     <resource url="http://docbook.org/ns/docbook" location="$MY_VAR$/Library/Caches/IntelliJIdea14/extResources/1e9583e1_docbook.xml" />
     <resource url="http://docbook.sourceforge.net/release/xsl/current/xhtml/chunk.xsl" location="$MY_VAR$/Library/Caches/IntelliJIdea14/extResources/ae7dc7d_ea427735_chunk.xsl" />
     <resource url="http://hazelcast.com/schema/client-config/hazelcast-client-config-3.5.xsd" location="$MY_VAR$/Library/Caches/IntelliJIdea15/extResources/2a7c7674_hazelcast-client-config-3.5.xsd" />
+    <resource url="http://www.hazelcast.com/schema/client-config/hazelcast-client-config-3.6.xsd" location="$USER_HOME$/Library/Caches/IntelliJIdea2016.2/extResources/81f8a0ac_hazelcast-client-config-3.6.xsd" />
     <resource url="http://www.hazelcast.com/schema/config/hazelcast-config-3.5.xsd" location="$MY_VAR$/Library/Caches/IntelliJIdea15/extResources/87a9baed_hazelcast-config-3.5.xsd" />
     <resource url="http://www.itunes.com/dtds/podcast-1.0.dtd" location="$MY_VAR$/Library/Caches/IntelliJIdea14/extResources/84d2ce41_podcast-1.0.dtd" />
     <resource url="urn:jboss:1.0" location="$MY_VAR$/projects/wildfly-8.2.0.Final/docs/schema/jboss_1_0.xsd" />
