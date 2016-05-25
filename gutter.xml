@@ -1,0 +1,28 @@
+<application>
+  <component name="LineMarkerSettings">
+    <option name="providers">
+      <map>
+        <entry key="ConfigurationPropertyRelatedItemLineMarkerProvider" value="true" />
+        <entry key="ModelDependenciesLineMarkerProviderJava" value="true" />
+        <entry key="ModelDependenciesLineMarkerProviderXml" value="true" />
+        <entry key="SpringAopAnnotator" value="true" />
+        <entry key="SpringCacheableAnnotator" value="true" />
+        <entry key="SpringClassAnnotator" value="true" />
+        <entry key="SpringDataRepositoryAnnotator" value="true" />
+        <entry key="SpringDomAnnotator" value="true" />
+        <entry key="SpringEventListenerAnnotator" value="true" />
+        <entry key="SpringGroovyClassAnnotator" value="true" />
+        <entry key="SpringMvcRequestMappingRelatedItemLineMarkerProvider" value="true" />
+        <entry key="com.intellij.codeInsight.ExternalAnnotationsLineMarkerProvider" value="true" />
+        <entry key="com.intellij.codeInsight.daemon.impl.IconLineMarkerProvider" value="true" />
+        <entry key="com.intellij.codeInsight.daemon.impl.RecursiveCallLineMarkerProvider" value="true" />
+        <entry key="com.intellij.execution.lineMarker.RunLineMarkerProvider" value="true" />
+        <entry key="java.implemented" value="true" />
+        <entry key="java.implementing" value="true" />
+        <entry key="java.lambda" value="true" />
+        <entry key="java.overridden" value="true" />
+        <entry key="java.overriding" value="true" />
+      </map>
+    </option>
+  </component>
+</application>
