@@ -1,10 +1,10 @@
 <application>
   <component name="PathMacrosImpl">
     <macro name="PROJECT_FRAMEWORKS" value="/Applications/Adobe Flash Builder 4.6/sdks/4.6.0" />
-    <macro name="MAVEN_REPOSITORY" value="/Users/apple/.m2/repository" />
+    <macro name="MAVEN_REPOSITORY" value="/Users/vikgamov/.m2/repository" />
     <macro name="MY_VAR" value="/Users/apple" />
     <macro name="DOCUMENTS" value="/Users/apple/Workspaces/Clear/ClearMyBatisSample" />
-    <macro name="KOTLIN_BUNDLED" value="/Users/apple/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/162.426.1/IntelliJ IDEA 2016.2 CE EAP.app/Contents/plugins/Kotlin/kotlinc" />
+    <macro name="KOTLIN_BUNDLED" value="/Applications/IntelliJ IDEA 2016.2 EAP.app/Contents/plugins/Kotlin/kotlinc" />
     <ignoredMacro name="MESSAGE" />
     <ignoredMacro name="FILE_PATH" />
     <ignoredMacro name="LINE" />
