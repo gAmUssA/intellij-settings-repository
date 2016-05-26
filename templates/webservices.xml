@@ -8,21 +8,9 @@
     <variable name="WS_Soap_BindingStub" expression="descendantClassesEnum(&quot;org.apache.axis.client.Stub&quot;)" defaultValue="&quot;MyService_Soap_BindingStub&quot;" alwaysStopAt="false" />
     <variable name="businessMethod" expression="complete()" defaultValue="&quot;businessMethod&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="false" />
       <option name="OTHER" value="true" />
     </context>
@@ -34,21 +22,9 @@
     <variable name="targetNs" expression="&quot;http://localhost:8080/MyService&quot;" defaultValue="&quot;http://localhost:8080/MyService&quot;" alwaysStopAt="true" />
     <variable name="methodname" expression="&quot;businessMethod&quot;" defaultValue="&quot;businessMethod&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="false" />
       <option name="OTHER" value="true" />
     </context>
@@ -60,21 +36,9 @@
     <variable name="getPort" expression="completeSmart()" defaultValue="&quot;getPort&quot;" alwaysStopAt="true" />
     <variable name="businessMethod" expression="annotated(&quot;javax.jws.WebMethod&quot;, &quot;WebServicePortType&quot;)" defaultValue="&quot;businessMethod&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="false" />
       <option name="OTHER" value="true" />
     </context>
@@ -85,21 +49,9 @@
     <variable name="results" expression="&quot;results&quot;" defaultValue="&quot;results&quot;" alwaysStopAt="true" />
     <variable name="methodname" expression="&quot;methodname&quot;" defaultValue="&quot;methodname&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="false" />
       <option name="OTHER" value="true" />
     </context>
@@ -110,21 +62,9 @@
     <variable name="object" expression="&quot;objectToMarshal&quot;" defaultValue="&quot;objectToMarshal&quot;" alwaysStopAt="true" />
     <variable name="filename" expression="complete()" defaultValue="&quot;filename.xml&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="false" />
       <option name="OTHER" value="true" />
     </context>
@@ -135,21 +75,9 @@
     <variable name="object" expression="&quot;unmarshalledObject&quot;" defaultValue="&quot;unmarshalledObject&quot;" alwaysStopAt="true" />
     <variable name="filename" expression="complete()" defaultValue="&quot;filename.xml&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="false" />
       <option name="OTHER" value="true" />
     </context>
@@ -159,21 +87,9 @@
     <variable name="object" expression="&quot;objectToMarshal&quot;" defaultValue="&quot;objectToMarshal&quot;" alwaysStopAt="true" />
     <variable name="filename" expression="complete()" defaultValue="&quot;filename.xml&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="false" />
       <option name="OTHER" value="true" />
     </context>
@@ -183,21 +99,9 @@
     <variable name="object" expression="&quot;unmarshalledObject&quot;" defaultValue="&quot;unmarshalledObject&quot;" alwaysStopAt="true" />
     <variable name="filename" expression="complete()" defaultValue="&quot;filename.xml&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="false" />
       <option name="OTHER" value="true" />
     </context>
@@ -207,21 +111,9 @@
     <variable name="stub" expression="&quot;stub&quot;" defaultValue="&quot;stub&quot;" alwaysStopAt="true" />
     <variable name="businessMethod" expression="complete()" defaultValue="&quot;businessMethod&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="false" />
       <option name="OTHER" value="true" />
     </context>
@@ -233,21 +125,9 @@
     <variable name="getPort" expression="completeSmart()" defaultValue="&quot;getPort&quot;" alwaysStopAt="true" />
     <variable name="businessMethod" expression="annotated(&quot;javax.jws.WebMethod&quot;, &quot;WebServicePortType&quot;)" defaultValue="&quot;businessMethod&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="false" />
       <option name="OTHER" value="true" />
     </context>
@@ -260,21 +140,9 @@
     <variable name="getMethod" expression="completeSmart()" defaultValue="get" alwaysStopAt="true" />
     <variable name="businessMethod" expression="complete()" defaultValue="businessMethod" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="false" />
       <option name="OTHER" value="true" />
     </context>
@@ -287,42 +155,18 @@
     <variable name="getMethod" expression="completeSmart()" defaultValue="&quot;getMethod&quot;" alwaysStopAt="true" />
     <variable name="businessMethod" expression="complete()" defaultValue="&quot;businessMethod&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="jaxrs" value="try {&#10;  com.sun.net.httpserver.HttpServer server = com.sun.jersey.api.container.httpserver.HttpServerFactory.create(&quot;http://localhost:9998/&quot;);&#10;  server.start();&#10;  &#10;  System.out.println(&quot;Server running&quot;);&#10;  System.out.println(&quot;Visit: http://localhost:9998/helloworld&quot;);&#10;  System.out.println(&quot;Hit return to stop...&quot;);&#10;  System.in.read();&#10;  System.out.println(&quot;Stopping server&quot;);   &#10;  server.stop(0);&#10;  System.out.println(&quot;Server stopped&quot;);&#10;} catch (java.io.IOException ioe) {&#10;  ioe.printStackTrace(System.err);&#10;}" description="Generate Axis web service invocation" toReformat="true" toShortenFQNames="false">
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
       <option name="MAVEN" value="false" />
       <option name="OTHER" value="true" />
     </context>
