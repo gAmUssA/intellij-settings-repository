@@ -1,0 +1,8 @@
+<keymap version="1" name="[my] Mac OS X" parent="Mac OS X">
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="shift ctrl space" />
+  </action>
+  <action id="SmartTypeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+  </action>
+</keymap>
