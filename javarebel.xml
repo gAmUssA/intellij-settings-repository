@@ -3,7 +3,7 @@
     <option name="ideInstallationStorage">
       <map>
         <entry key="com.zeroturnaround.jrebel.update.LastKnownVersionOnUpdateSite" value="6.4.4" />
-        <entry key="com.zeroturnaround.jrebel.update.UpdateNotificationCount" value="1" />
+        <entry key="com.zeroturnaround.jrebel.update.UpdateNotificationCount" value="2" />
       </map>
     </option>
     <option name="javaRebelPath" value="$MY_VAR$/Library/Application Support/IntelliJIdea12/jr-ide-idea/lib/jrebel/jrebel.jar" />
