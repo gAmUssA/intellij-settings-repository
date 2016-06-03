@@ -13,6 +13,7 @@
       <option name="JSON" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
       <option name="CSS" value="false" />
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -22,9 +23,11 @@
       <option name="TypeScript" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
       <option name="JSP" value="false" />
+      <option name="OGNL" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
@@ -46,6 +49,7 @@
       <option name="JSON" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
       <option name="CSS" value="false" />
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -55,9 +59,11 @@
       <option name="TypeScript" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
       <option name="JSP" value="false" />
+      <option name="OGNL" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
@@ -79,6 +85,7 @@
       <option name="JSON" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
       <option name="CSS" value="false" />
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -88,9 +95,11 @@
       <option name="TypeScript" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
       <option name="JSP" value="false" />
+      <option name="OGNL" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
@@ -111,6 +120,7 @@
       <option name="JSON" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
       <option name="CSS" value="false" />
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -120,9 +130,11 @@
       <option name="TypeScript" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
       <option name="JSP" value="false" />
+      <option name="OGNL" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
@@ -143,6 +155,7 @@
       <option name="JSON" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
       <option name="CSS" value="false" />
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -152,9 +165,11 @@
       <option name="TypeScript" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
       <option name="JSP" value="false" />
+      <option name="OGNL" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
@@ -175,6 +190,7 @@
       <option name="JSON" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
       <option name="CSS" value="false" />
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -184,9 +200,11 @@
       <option name="TypeScript" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
       <option name="JSP" value="false" />
+      <option name="OGNL" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
@@ -206,6 +224,7 @@
       <option name="JSON" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
       <option name="CSS" value="false" />
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -215,9 +234,11 @@
       <option name="TypeScript" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
       <option name="JSP" value="false" />
+      <option name="OGNL" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
@@ -237,6 +258,7 @@
       <option name="JSON" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
       <option name="CSS" value="false" />
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -246,9 +268,11 @@
       <option name="TypeScript" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
       <option name="JSP" value="false" />
+      <option name="OGNL" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
@@ -268,6 +292,7 @@
       <option name="JSON" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
       <option name="CSS" value="false" />
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -277,9 +302,11 @@
       <option name="TypeScript" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
       <option name="JSP" value="false" />
+      <option name="OGNL" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
@@ -301,6 +328,7 @@
       <option name="JSON" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
       <option name="CSS" value="false" />
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -310,9 +338,11 @@
       <option name="TypeScript" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
       <option name="JSP" value="false" />
+      <option name="OGNL" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
@@ -335,6 +365,7 @@
       <option name="JSON" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
       <option name="CSS" value="false" />
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -344,9 +375,11 @@
       <option name="TypeScript" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
       <option name="JSP" value="false" />
+      <option name="OGNL" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
@@ -369,6 +402,7 @@
       <option name="JSON" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
       <option name="CSS" value="false" />
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -378,9 +412,11 @@
       <option name="TypeScript" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
       <option name="JSP" value="false" />
+      <option name="OGNL" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
@@ -397,6 +433,7 @@
       <option name="JSON" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
       <option name="CSS" value="false" />
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -406,9 +443,11 @@
       <option name="TypeScript" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
       <option name="JSP" value="false" />
+      <option name="OGNL" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
