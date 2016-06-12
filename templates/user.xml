@@ -61,4 +61,10 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="hz.client" value="final com.hazelcast.core.HazelcastInstance hazelcastClient = com.hazelcast.client.HazelcastClient.newHazelcastClient();" description="creates Hazelcast client instance" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
 </templateSet>
