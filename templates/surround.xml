@@ -6,8 +6,6 @@
       <option name="XML" value="false" />
       <option name="JSON" value="false" />
       <option name="JAVA_CODE" value="false" />
-      <option name="SQL" value="false" />
-      <option name="ColdFusion" value="false" />
       <option name="CSS" value="false" />
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -15,6 +13,8 @@
       <option name="Bash" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
       <option name="GROOVY" value="false" />
       <option name="GROOVY_STATEMENT" value="true" />
       <option name="MAVEN" value="false" />
@@ -47,8 +47,6 @@
       <option name="XML" value="false" />
       <option name="JSON" value="false" />
       <option name="JAVA_CODE" value="false" />
-      <option name="SQL" value="false" />
-      <option name="ColdFusion" value="false" />
       <option name="CSS" value="false" />
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
@@ -56,6 +54,8 @@
       <option name="Bash" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
       <option name="ASPECTJ" value="false" />
