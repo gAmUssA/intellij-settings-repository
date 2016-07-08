@@ -67,4 +67,9 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="hz.clientxml" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;hazelcast-client&#10;        xsi:schemaLocation=&quot;http://www.hazelcast.com/schema/client-config http://www.hazelcast.com/schema/client-config/hazelcast-client-config-3.6.xsd&quot;&#10;        xmlns=&quot;http://www.hazelcast.com/schema/client-config&quot;&#10;        xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&#10;        &#10;        $END$&#10;&lt;/hazelcast-client&gt;&#10;" description="Hazelcast Client XML header" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
 </templateSet>
