@@ -72,4 +72,9 @@
       <option name="XML_TEXT" value="true" />
     </context>
   </template>
+  <template name="hz.memberxml" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;hazelcast&#10;        xsi:schemaLocation=&quot;http://www.hazelcast.com/schema/config http://www.hazelcast.com/schema/config/hazelcast-config-3.6.xsd&quot;&#10;        xmlns=&quot;http://www.hazelcast.com/schema/config&quot;&#10;        xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&#10;&#10;       $END$&#10;&#10;&lt;/hazelcast&gt;&#10;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
 </templateSet>
