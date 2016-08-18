@@ -1,0 +1,80 @@
+<templateSet group="user">
+  <template name="xstore" value="Ext.define('$rootPackage$.store.$fileName$', {&#10;    extend: 'Ext.data.Store',&#10;    model: '$model$',&#10;    autoLoad: $3$,&#10;    remoteSort: $4$,&#10;    remoteFilter: $5$&#10;});" description="ExtJs store" toReformat="true" toShortenFQNames="true">
+    <variable name="rootPackage" expression="" defaultValue="MyApp" alwaysStopAt="true" />
+    <variable name="fileName" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="true" alwaysStopAt="false" />
+    <variable name="4" expression="" defaultValue="true" alwaysStopAt="false" />
+    <variable name="5" expression="" defaultValue="true" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="it" value="it('$SPEC_NAME$', function () {&#10; $END$&#10;        });" description="jasmine spec" toReformat="true" toShortenFQNames="true">
+    <variable name="SPEC_NAME" expression="" defaultValue="should do something" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bi" value="beforeEach(function () {&#10;$END$&#10;        });" description="insert jasmine before each" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="ae" value="afterEach(function(){&#10;$END$            &#10;        });" description="insert Jasmine's afterEach method" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="iife" value="(function(){&#10;    &#10;})();" description="IIFE" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="hz.scp" value="com.hazelcast.cache.impl.HazelcastServerCachingProvider.createCachingProvider(com.hazelcast.core.Hazelcast.newHazelcastInstance())&#10;            .getCacheManager().createCache(&quot;city&quot;, new javax.cache.configuration.MutableConfiguration&lt;&gt;());" description="Hazelcast Server Cachign Provider4" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="hz.all" value="compile &quot;com.hazelcast:hazelcast-all:3.6.1&quot;" description="add compile time dependency for Hazelcast-all jar" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="icity" value="public static interface CityService {&#10;        public java.lang.String getCity();&#10;    }" description="[webinar] CityService interface" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="myrunner" value="@org.springframework.stereotype.Component&#10;    public static class MyCommandLineRunner implements org.springframework.boot.CommandLineRunner {&#10;        @java.lang.Override public void run(java.lang.String... args) throws java.lang.Exception {&#10;            $END$&#10;        }&#10;    }" description="[webinar] commandline runner" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="servicetime" value="java.lang.System.out.println(&quot;Calling for city&quot;);&#10;            long start = nanoTime();&#10;            java.lang.System.out.println(service.getCity());&#10;            java.lang.System.out.println(java.lang.String.format(&quot;Took: %s mills&quot;, (NANOSECONDS.toMillis(nanoTime() - start))));" description="[webinar] print bean method invocation time" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="hz.scp1" value="com.hazelcast.cache.impl.HazelcastServerCachingProvider.createCachingProvider($SELECTION$)&#10;            .getCacheManager().createCache(&quot;$END$&quot;, new javax.cache.configuration.MutableConfiguration&lt;&gt;());" description="Hazelcast Server Cachign Provider4" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="hz.instance" value="final com.hazelcast.core.HazelcastInstance hazelcastInstance = com.hazelcast.core.Hazelcast.newHazelcastInstance();" description="creates Hazelcast Member Instance" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="hz.client" value="final com.hazelcast.core.HazelcastInstance hazelcastClient = com.hazelcast.client.HazelcastClient.newHazelcastClient();" description="creates Hazelcast client instance" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="hz.clientxml" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;hazelcast-client&#10;        xsi:schemaLocation=&quot;http://www.hazelcast.com/schema/client-config http://www.hazelcast.com/schema/client-config/hazelcast-client-config-3.6.xsd&quot;&#10;        xmlns=&quot;http://www.hazelcast.com/schema/client-config&quot;&#10;        xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&#10;        &#10;        $END$&#10;&lt;/hazelcast-client&gt;&#10;" description="Hazelcast Client XML header" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="hz.memberxml" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;hazelcast&#10;        xsi:schemaLocation=&quot;http://www.hazelcast.com/schema/config http://www.hazelcast.com/schema/config/hazelcast-config-3.6.xsd&quot;&#10;        xmlns=&quot;http://www.hazelcast.com/schema/config&quot;&#10;        xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&#10;&#10;       $END$&#10;&#10;&lt;/hazelcast&gt;&#10;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>
