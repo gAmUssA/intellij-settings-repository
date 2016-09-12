@@ -16,7 +16,6 @@
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="AsciiDoc" value="false" />
-      <option name="Bash" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="SQL" value="false" />
@@ -24,13 +23,11 @@
       <option name="MAVEN" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -49,7 +46,6 @@
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="AsciiDoc" value="false" />
-      <option name="Bash" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="SQL" value="false" />
@@ -57,13 +53,11 @@
       <option name="MAVEN" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -82,7 +76,6 @@
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="AsciiDoc" value="false" />
-      <option name="Bash" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="SQL" value="false" />
@@ -90,13 +83,11 @@
       <option name="MAVEN" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -114,7 +105,6 @@
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="AsciiDoc" value="false" />
-      <option name="Bash" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="SQL" value="false" />
@@ -122,13 +112,11 @@
       <option name="MAVEN" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -146,7 +134,6 @@
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="AsciiDoc" value="false" />
-      <option name="Bash" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="SQL" value="false" />
@@ -154,13 +141,11 @@
       <option name="MAVEN" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -178,7 +163,6 @@
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="AsciiDoc" value="false" />
-      <option name="Bash" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="SQL" value="false" />
@@ -186,13 +170,11 @@
       <option name="MAVEN" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -209,7 +191,6 @@
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="AsciiDoc" value="false" />
-      <option name="Bash" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="SQL" value="false" />
@@ -217,13 +198,11 @@
       <option name="MAVEN" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -240,7 +219,6 @@
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="AsciiDoc" value="false" />
-      <option name="Bash" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="SQL" value="false" />
@@ -248,13 +226,11 @@
       <option name="MAVEN" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -271,7 +247,6 @@
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="AsciiDoc" value="false" />
-      <option name="Bash" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="SQL" value="false" />
@@ -279,13 +254,11 @@
       <option name="MAVEN" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -304,7 +277,6 @@
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="AsciiDoc" value="false" />
-      <option name="Bash" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="SQL" value="false" />
@@ -312,13 +284,11 @@
       <option name="MAVEN" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -338,7 +308,6 @@
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="AsciiDoc" value="false" />
-      <option name="Bash" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="SQL" value="false" />
@@ -346,13 +315,11 @@
       <option name="MAVEN" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -372,7 +339,6 @@
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="AsciiDoc" value="false" />
-      <option name="Bash" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="SQL" value="false" />
@@ -380,13 +346,11 @@
       <option name="MAVEN" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -400,7 +364,6 @@
       <option name="GAUGE" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="AsciiDoc" value="false" />
-      <option name="Bash" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="SQL" value="false" />
@@ -408,13 +371,11 @@
       <option name="MAVEN" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
