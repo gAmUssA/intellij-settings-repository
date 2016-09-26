@@ -18,11 +18,11 @@
       <option name="MAVEN" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -52,11 +52,11 @@
       <option name="MAVEN" value="false" />
       <option name="ACTION_SCRIPT" value="false" />
       <option name="MXML" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="JSP" value="false" />
       <option name="GSP" value="false" />
       <option name="KOTLIN" value="false" />
       <option name="HAML" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
