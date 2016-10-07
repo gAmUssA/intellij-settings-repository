@@ -77,4 +77,11 @@
       <option name="XML_TEXT" value="true" />
     </context>
   </template>
+  <template name="collectJars" value="task collectJars(type: Copy) {&#10;    into &quot;$buildDir/$END$dependencies&quot;&#10;    from configurations.testRuntime&#10;}" description="collect all project jars in dependencies folder" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="GROOVY_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
