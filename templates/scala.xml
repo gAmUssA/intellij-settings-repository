@@ -1,5 +1,7 @@
 <templateSet group="scala">
   <template name="main" value="def main(args: Array[String]){&#10;  $END$&#10;}" description="Template for main method" toReformat="true" toShortenFQNames="true">
-    <context />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
   </template>
 </templateSet>
