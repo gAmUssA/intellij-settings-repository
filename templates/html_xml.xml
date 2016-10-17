@@ -7,7 +7,6 @@
       <option name="HTML_TEXT" value="true" />
       <option name="XSL_TEXT" value="true" />
       <option name="JAVA_COMMENT" value="true" />
-      <option name="JSP" value="true" />
     </context>
   </template>
   <template name="T" value="&lt;$TAG$&gt;$SELECTION$&lt;/$TAGNAME$&gt;&#10;" description="Surround with &lt;tag&gt;&lt;/tag&gt;" toReformat="true" toShortenFQNames="true">
@@ -25,8 +24,6 @@
     <variable name="TAGNAME" expression="firstWord(TAG)" defaultValue="&quot;&quot;" alwaysStopAt="false" />
     <context>
       <option name="HTML" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JSP" value="true" />
     </context>
   </template>
   <template name="CD" value="&lt;![CDATA[&#10;$SELECTION$&#10;]]&gt;" description="Surround with CDATA section" toReformat="false" toShortenFQNames="false">
@@ -35,7 +32,6 @@
       <option name="HTML" value="true" />
       <option name="XSL_TEXT" value="true" />
       <option name="XML_TEXT" value="true" />
-      <option name="JSP" value="true" />
     </context>
   </template>
 </templateSet>
