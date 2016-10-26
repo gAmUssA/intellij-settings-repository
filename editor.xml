@@ -1,7 +1,4 @@
 <application>
-  <component name="EditorSettings">
-    <option name="SHOW_BREADCRUMBS" value="false" />
-  </component>
   <component name="InstantHtmlEditingOptions">
     <option name="instantEditing" value="true" />
   </component>
