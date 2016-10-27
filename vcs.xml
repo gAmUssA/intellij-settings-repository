@@ -110,8 +110,12 @@
           <option name="url" value="git@github.com:hazelcast/hazelcast-solace-testing.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:apache/groovy.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/projects/hazelcast" />
+    <option name="cloneParentDir" value="$USER_HOME$/projects/" />
   </component>
 </application>
