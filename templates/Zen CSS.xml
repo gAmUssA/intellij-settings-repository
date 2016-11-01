@@ -1,65 +1,45 @@
 <templateSet group="Zen CSS">
   <template name="bdlc" value="border-left-color:$VAR0$;" description="border-left-color:#000;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="tt" value="text-transform:$VAR0$;" description="text-transform:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="td" value="text-decoration:$VAR0$;" description="text-decoration:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="ta" value="text-align:$VAR0$;" description="text-align:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="bxz" value="box-sizing:$VAR0$;" description="box-sizing:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="bdf" value="border-fit:$VAR0$;" description="border-fit:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="bdc" value="border-color:$VAR0$;" description="border-color:#000;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="bdc:t" value="border-color:transparent;" description="border-color:transparent;" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="@m" value="@media print {&#10;  $VAR0$&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_RULESET_LIST" value="true" />
-    </context>
+    <context />
   </template>
   <template name="oc:i" value="outline-color:invert;" description="outline-color:invert;" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
   <template name="v" value="visibility:$VAR0$;" description="visibility:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="tal" value="text-align-last:$VAR0$;" description="text-align-last:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
@@ -70,39 +50,27 @@
   </template>
   <template name="ovs" value="overflow-style:$VAR0$;" description="overflow-style:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="fs" value="font-style:$VAR0$;" description="font-style:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="ovx" value="overflow-x:$VAR0$;" description="overflow-x:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="ovy" value="overflow-y:$VAR0$;" description="overflow-y:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="ov" value="overflow:$VAR0$;" description="overflow:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="fl" value="float:$VAR0$;" description="float:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="bsha" value="-webkit-box-shadow: $VAR0$ $VAR1$ $VAR2$ $VAR3$;&#10;-moz-box-shadow: $VAR0$ $VAR1$ $VAR2$ $VAR3$;&#10;-ms-box-shadow: $VAR0$ $VAR1$ $VAR2$ $VAR3$;&#10;box-shadow: $VAR0$ $VAR1$ $VAR2$ $VAR3$;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
@@ -113,15 +81,11 @@
   </template>
   <template name="bdbk" value="border-break:$VAR0$;" description="border-break:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="bdbc" value="border-bottom-color:$VAR0$;" description="border-bottom-color:#000;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="rz" value="resize:$VAR0$;" description="resize:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
@@ -129,9 +93,7 @@
   </template>
   <template name="bdtc" value="border-top-color:$VAR0$;" description="border-top-color:#000;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="bgz:cv" value="background-size:cover;" description="background-size:cover;" toReformat="true" toShortenFQNames="true">
     <context />
@@ -140,9 +102,7 @@
     <context />
   </template>
   <template name="bxsh:n" value="box-shadow:none;" description="box-shadow:none;" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="bxsh:m" value="-moz-box-shadow:0 0 0 0 #000;" description="-moz-box-shadow:0 0 0 0 #000;" toReformat="true" toShortenFQNames="true">
     <context />
@@ -164,15 +124,11 @@
   </template>
   <template name="bgcp" value="background-clip:$VAR0$;" description="background-clip:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="c" value="color:$VAR0$;" description="color:#000;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="brad" value="-webkit-border-radius: $VAR0$;&#10;-moz-border-radius: $VAR0$;&#10;-ms-border-radius: $VAR0$;&#10;border-radius: $VAR0$;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
@@ -180,18 +136,14 @@
   </template>
   <template name="cl" value="clear:$VAR0$;" description="clear:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="bxsh" value="box-shadow: $VAR0$ $VAR1$ $VAR2$ $VAR3$;" description="box-shadow:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="VAR2" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="VAR3" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="cn" value="content:$VAR0$;" description="content:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
@@ -199,9 +151,7 @@
   </template>
   <template name="cp:r" value="clip:rect($VAR0$);" description="clip:rect(...);" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="rz:v" value="resize:vertical;" description="resize:vertical;" toReformat="true" toShortenFQNames="true">
     <context />
@@ -217,30 +167,22 @@
   </template>
   <template name="va" value="vertical-align:$VAR0$;" description="vertical-align:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="cur" value="cursor:$VAR0$;" description="cursor:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="wob:bs" value="word-break:break-strict;" description="word-break:break-strict;" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
   <template name="pos" value="position:$VAR0$;" description="position:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="d" value="display:$VAR0$;" description="display:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="p:4" value="padding:0 0 0 0;" description="padding:0 0 0 0;" toReformat="true" toShortenFQNames="true">
     <context />
@@ -290,18 +232,14 @@
   </template>
   <template name="bdrc" value="border-right-color:$VAR0$;" description="border-right-color:#000;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="o:n" value="outline:none;" description="outline:none;" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
   <template name="bg" value="background:$VAR0$;" description="background:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="bdi:m" value="-moz-border-image:url($VAR0$) 0 0 0 0 stretch stretch;" description="-moz-border-image:url(...) 0 0 0 0 stretch stretch;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
@@ -313,41 +251,27 @@
   </template>
   <template name="mar" value="max-resolution:$VAR0$;" description="max-resolution:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="mir" value="min-resolution:$VAR0$;" description="min-resolution:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="trf:t" value="transform: translate($VAR0$, $VAR1$);" description="transform: translate(x, y);" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
     <variable name="VAR1" expression="" defaultValue="&quot;y&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="trf:tx" value="transform: translateX($VAR0$);" description="transform: translateX(x);" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="trf:ty" value="transform: translateY($VAR0$);" description="transform: translateY(y);" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;y&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-    </context>
+    <context />
   </template>
   <template name="cm" value="/* $VAR0$ */" description="/* */" toReformat="true" toShortenFQNames="true">
     <variable name="$VAR0$" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_PROPERTY_VALUE" value="true" />
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-      <option name="CSS_RULESET_LIST" value="true" />
-    </context>
+    <context />
   </template>
 </templateSet>
