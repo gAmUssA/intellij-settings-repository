@@ -3,20 +3,16 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="GROOVY" value="true" />
-      <option name="SPOCK_SPECIFICATION" value="true" />
     </context>
   </template>
   <template name="spgwt" value="def &quot;$NAME$&quot;() {&#10;  given:&#10;  $END$&#10;&#10;  when:&#10;  // TODO: add when&#10;&#10;  then:&#10;  true&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="SPOCK_SPECIFICATION" value="true" />
-    </context>
+    <context />
   </template>
   <template name="spew" value="def &quot;$NAME$&quot;() {&#10;  expect:&#10;  $END$&#10;&#10;  where:&#10;  // TODO add where block&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="GROOVY" value="true" />
-      <option name="SPOCK_SPECIFICATION" value="true" />
     </context>
   </template>
 </templateSet>
