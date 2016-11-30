@@ -1,5 +1,4 @@
 <application>
-  <component name="DiffManager" COMPARISON_POLICY="Ignore spaces" />
   <component name="DiffSettings">
     <option name="PLACES_MAP">
       <entry key="ChangesView">
@@ -9,6 +8,9 @@
         <PlaceSettings />
       </entry>
       <entry key="Default">
+        <PlaceSettings />
+      </entry>
+      <entry key="DirDiff">
         <PlaceSettings />
       </entry>
       <entry key="TestsFiledAssertions">
@@ -29,6 +31,11 @@
         </PlaceSettings>
       </entry>
       <entry key="Default">
+        <PlaceSettings>
+          <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES_CHUNKS" />
+        </PlaceSettings>
+      </entry>
+      <entry key="DirDiff">
         <PlaceSettings />
       </entry>
       <entry key="Merge">

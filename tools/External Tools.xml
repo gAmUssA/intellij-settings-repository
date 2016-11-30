@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="rlwrap" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="rlwrap" />
+      <option name="PARAMETERS" value="java -cp $Classpath$ com.hazelcast.gradle.starter.MemberConsole" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

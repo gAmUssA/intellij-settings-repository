@@ -1,54 +1,68 @@
 <application>
-  <component name="LocalDatabaseDriverManager" version="141+">
+  <component name="LocalDatabaseDriverManager" version="163">
     <driver id="h2.unified" name="H2" dialect="H2">
+      <artifact name="H2" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="oracle" name="Oracle" dialect="Oracle">
+      <artifact name="Oracle" use="true" version="12.1.0.2" />
       <option name="auto-sync" value="false" />
       <option name="auto-commit" value="false" />
     </driver>
     <driver id="derby.embedded" name="Derby (Embedded)" dialect="Derby">
+      <artifact name="Apache Derby" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="sybase.jtds" name="Sybase (jTds)" dialect="Sybase">
+      <artifact name="jTDS (SQL Server and Sybase)" use="true" />
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="sqlserver.jtds" name="SQL Server (jTds)" dialect="TSQL">
+      <artifact name="jTDS (SQL Server and Sybase)" use="true" />
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="hsqldb.local" name="HSQLDB (Local)" dialect="HSQLDB">
+      <artifact name="HSQLDB" use="true">
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/hsqldb-2.3.2.jar</url>
+        </library>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/hsqldb-license.txt</url>
+        </library>
+      </artifact>
       <option name="auto-sync" value="true" />
-      <library>
-        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/hsqldb-2.3.2.jar</url>
-      </library>
-      <library>
-        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/hsqldb-license.txt</url>
-      </library>
     </driver>
     <driver id="derby.remote" name="Derby (Remote)" dialect="Derby">
+      <artifact name="Apache Derby" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="sqlite.xerial" name="Sqlite (Xerial)" dialect="SQLite">
+      <artifact name="Xerial SQLiteJDBC" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="sybase.ase" name="Sybase (Native)" dialect="Sybase">
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="postgresql" name="PostgreSQL" dialect="PostgreSQL">
+      <artifact name="PostgreSQL" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="db2" name="DB2 (LUW)" dialect="DB2">
+      <artifact name="DB2" use="true" />
       <option name="auto-sync" value="false" />
       <property name="retrieveMessagesFromServerOnGetMessage" value="true" />
     </driver>
     <driver id="sqlserver.ms" name="SQL Server (Microsoft)" dialect="TSQL">
+      <artifact name="SQL Server" use="true" />
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="db2.jtopen" name="DB2 (JTOpen)" dialect="DB2">
+      <artifact name="JTOpen (DB2 iSeries)" use="true" />
       <option name="auto-sync" value="false" />
       <property name="prompt" value="false" />
     </driver>
     <driver id="mysql" name="MySQL" dialect="MySQL">
+      <artifact name="MySQL Connector/J" use="true" />
       <option name="auto-sync" value="true" />
       <property name="autoReconnect" value="true" />
       <property name="zeroDateTimeBehavior" value="convertToNull" />
@@ -58,6 +72,7 @@
       <property name="yearIsDateType" value="false" />
     </driver>
     <driver id="hsqldb.remote" name="HSQLDB (Remote)" dialect="HSQLDB">
+      <artifact name="HSQLDB" use="true" />
       <option name="auto-sync" value="true" />
       <library>
         <url>file://$MY_VAR$/Library/Preferences/IntelliJIdea13/jdbc-drivers/hsqldb-license.txt</url>

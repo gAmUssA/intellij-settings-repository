@@ -10,8 +10,13 @@
     <context>
       <option name="HTML" value="false" />
       <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="AsciiDoc" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="KOTLIN" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -24,8 +29,13 @@
     <context>
       <option name="HTML" value="false" />
       <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="AsciiDoc" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="KOTLIN" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -38,8 +48,13 @@
     <context>
       <option name="HTML" value="false" />
       <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="AsciiDoc" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="KOTLIN" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -51,8 +66,13 @@
     <context>
       <option name="HTML" value="false" />
       <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="AsciiDoc" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="KOTLIN" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -64,8 +84,13 @@
     <context>
       <option name="HTML" value="false" />
       <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="AsciiDoc" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="KOTLIN" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -77,8 +102,13 @@
     <context>
       <option name="HTML" value="false" />
       <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="AsciiDoc" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="KOTLIN" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -89,8 +119,13 @@
     <context>
       <option name="HTML" value="false" />
       <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="AsciiDoc" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="KOTLIN" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -101,8 +136,13 @@
     <context>
       <option name="HTML" value="false" />
       <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="AsciiDoc" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="KOTLIN" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -113,8 +153,13 @@
     <context>
       <option name="HTML" value="false" />
       <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="AsciiDoc" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="KOTLIN" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -127,8 +172,13 @@
     <context>
       <option name="HTML" value="false" />
       <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="AsciiDoc" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="KOTLIN" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -142,8 +192,13 @@
     <context>
       <option name="HTML" value="false" />
       <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="AsciiDoc" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="KOTLIN" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -157,8 +212,13 @@
     <context>
       <option name="HTML" value="false" />
       <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="AsciiDoc" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="KOTLIN" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -166,8 +226,13 @@
     <context>
       <option name="HTML" value="false" />
       <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="GAUGE" value="false" />
+      <option name="AsciiDoc" value="false" />
       <option name="GROOVY" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="KOTLIN" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>

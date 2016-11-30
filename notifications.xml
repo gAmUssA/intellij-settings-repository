@@ -1,13 +1,5 @@
 <application>
   <component name="NotificationConfiguration">
-    <notification groupId="AIR Packaging" />
-    <notification groupId="Browser Connection" />
-    <notification groupId="Browser Extension" />
-    <notification groupId="Browser Extension requested to be installed" />
-    <notification groupId="Clean artifact" />
-    <notification groupId="Common Version Control Messages" displayType="TOOL_WINDOW" />
-    <notification groupId="Compile Dart to JavaScript" />
-    <notification groupId="Compiler" displayType="NONE" />
     <notification groupId="Database" displayType="TOOL_WINDOW" />
     <notification groupId="Database editor log" displayType="NONE" />
     <notification groupId="Database log" displayType="NONE" />
@@ -20,56 +12,32 @@
     <notification groupId="Facet Detector" displayType="STICKY_BALLOON" />
     <notification groupId="Flash app not compiled before launch" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Flex messages" displayType="TOOL_WINDOW" shouldLog="false" />
-    <notification groupId="Framework Detection" />
-    <notification groupId="Git Important Errors" />
     <notification groupId="Git Important Messages" displayType="STICKY_BALLOON" />
     <notification groupId="Git Messages" displayType="TOOL_WINDOW" />
-    <notification groupId="Git Minor Notifications" />
-    <notification groupId="github" />
-    <notification groupId="Gradle Notification Group" />
     <notification groupId="Gradle warnings" displayType="TOOL_WINDOW" />
     <notification groupId="Grails" displayType="TOOL_WINDOW" />
-    <notification groupId="Grape" />
-    <notification groupId="Groovy DSL errors" />
     <notification groupId="Heroku" displayType="TOOL_WINDOW" />
     <notification groupId="HotSwap" displayType="TOOL_WINDOW" />
     <notification groupId="IDE Fatal Errors" displayType="NONE" />
     <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" shouldLog="false" />
-    <notification groupId="Indexing" shouldLog="false" />
     <notification groupId="JavaEE" displayType="TOOL_WINDOW" />
     <notification groupId="JavaScript debugger" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="JavaScript Library Management" displayType="STICKY_BALLOON" />
-    <notification groupId="Load Error" />
-    <notification groupId="Maven" />
+    <notification groupId="JRebel non-sticky" displayType="NONE" />
     <notification groupId="Maven Import" displayType="STICKY_BALLOON" />
     <notification groupId="Maven: non-managed pom.xml" displayType="NONE" shouldLog="false" />
     <notification groupId="Node.js Boilerplate Project Generator" displayType="STICKY_BALLOON" />
-    <notification groupId="Node.js Project Detector" />
-    <notification groupId="notification.group.id.gradle" displayType="TOOL_WINDOW" />
     <notification groupId="OSGi important errors" displayType="STICKY_BALLOON" />
     <notification groupId="OSGi Important Messages" displayType="STICKY_BALLOON" />
     <notification groupId="PHP Debugger" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="PHPUnit" displayType="TOOL_WINDOW" shouldLog="false" />
-    <notification groupId="PHPUnit Generate Actions" />
     <notification groupId="Plugin Error" displayType="STICKY_BALLOON" />
-    <notification groupId="Plugins Lifecycle Group" />
-    <notification groupId="Project Loading Error" />
-    <notification groupId="Reformat Code" />
-    <notification groupId="RVM Support" />
-    <notification groupId="scala" />
     <notification groupId="settings" displayType="STICKY_BALLOON" />
-    <notification groupId="Source searcher" />
     <notification groupId="Spring Configuration Check" displayType="STICKY_BALLOON" />
     <notification groupId="Svn Roots Detection Errors" displayType="STICKY_BALLOON" />
     <notification groupId="System Messages" displayType="STICKY_BALLOON" />
     <notification groupId="Test Runner" displayType="NONE" />
     <notification groupId="Unindexed maven repositories gradle detection" displayType="NONE" shouldLog="false" />
-    <notification groupId="Unknown Natures Detected" />
-    <notification groupId="update.available.group" />
-    <notification groupId="Updater" />
     <notification groupId="Upgrade Subscription Renewal" displayType="NONE" shouldLog="false" />
-    <notification groupId="Vcs Important Messages" displayType="STICKY_BALLOON" />
-    <notification groupId="Vcs Minor Notifications" />
-    <notification groupId="Web Deployment" />
   </component>
 </application>

@@ -1,15 +1,15 @@
 <scheme name="my tomorrow eighties" version="142" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.2" />
+  <option name="LINE_SPACING" value="1.1" />
   <font>
-    <option name="EDITOR_FONT_NAME" value="Hack" />
-    <option name="EDITOR_FONT_SIZE" value="17" />
+    <option name="EDITOR_FONT_NAME" value="Fira Code" />
+    <option name="EDITOR_FONT_SIZE" value="18" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Monaco" />
-    <option name="EDITOR_FONT_SIZE" value="17" />
+    <option name="EDITOR_FONT_SIZE" value="18" />
   </font>
+  <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Inconsolata-dz for Powerline" />
-  <option name="CONSOLE_FONT_SIZE" value="28" />
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="MEDIUM" />
   <colors>
@@ -21,7 +21,7 @@
     <option name="CONSOLE_BACKGROUND_KEY" value="" />
     <option name="FILESTATUS_MODIFIED" value="6897bb" />
     <option name="FILESTATUS_UNKNOWN" value="d1675a" />
-    <option name="GUTTER_BACKGROUND" value="2d2d2d" />
+    <option name="GUTTER_BACKGROUND" value="3c3f41" />
     <option name="HTML_TAG_TREE_LEVEL0" value="cc99cc" />
     <option name="HTML_TAG_TREE_LEVEL1" value="6699cc" />
     <option name="HTML_TAG_TREE_LEVEL2" value="66cccc" />
@@ -36,12 +36,12 @@
     <option name="READONLY_BACKGROUND" value="" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="ffff00" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="cc99cc" />
-    <option name="RIGHT_MARGIN_COLOR" value="515151" />
+    <option name="RIGHT_MARGIN_COLOR" value="3c3f41" />
     <option name="SELECTED_INDENT_GUIDE" value="515151" />
     <option name="SELECTED_TEARLINE_COLOR" value="ffffff" />
-    <option name="SELECTION_BACKGROUND" value="515151" />
+    <option name="SELECTION_BACKGROUND" value="3c3f41" />
     <option name="SELECTION_FOREGROUND" value="" />
-    <option name="TEARLINE_COLOR" value="515151" />
+    <option name="TEARLINE_COLOR" value="3c3f41" />
     <option name="WHITESPACES" value="515151" />
   </colors>
   <attributes>
@@ -725,8 +725,7 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="f2777a" />
+        <option name="EFFECT_COLOR" value="f2777a" />
         <option name="ERROR_STRIPE_COLOR" value="cf5b56" />
         <option name="EFFECT_TYPE" value="2" />
       </value>

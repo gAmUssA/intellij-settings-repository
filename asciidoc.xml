@@ -1,0 +1,9 @@
+<application>
+  <component name="AsciidocApplicationSettings">
+    <AsciiDocPreviewSettings>
+      <HtmlPanelProviderInfo>
+        <ProviderInfo name="JavaFX WebView" className="org.asciidoc.intellij.editor.javafx.JavaFxHtmlPanelProvider" />
+      </HtmlPanelProviderInfo>
+    </AsciiDocPreviewSettings>
+  </component>
+</application>
