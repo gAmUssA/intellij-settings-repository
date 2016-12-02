@@ -5,6 +5,7 @@
       <mapping ext="avro" type="Avro™ IDL" />
       <mapping ext="dust" type="HTML" />
       <mapping pattern=".jshintrc" type="JSHint" />
+      <mapping ext="avsc" type="JSON" />
       <mapping pattern=".keepme" type="PLAIN_TEXT" />
       <mapping pattern=".holder" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
