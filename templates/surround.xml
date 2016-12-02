@@ -2,11 +2,6 @@
   <template name="B" value="{$SELECTION$}" description="Surround with {}" toReformat="true" toShortenFQNames="true">
     <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="GAUGE" value="false" />
-      <option name="AsciiDoc" value="false" />
-      <option name="KOTLIN" value="false" />
-      <option name="JSON" value="false" />
-      <option name="MAVEN" value="false" />
       <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
@@ -18,13 +13,7 @@
   </template>
   <template name="P" value="($SELECTION$)" description="Surround with ()" toReformat="false" toShortenFQNames="true">
     <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
-    <context>
-      <option name="GAUGE" value="false" />
-      <option name="AsciiDoc" value="false" />
-      <option name="KOTLIN" value="false" />
-      <option name="JSON" value="false" />
-      <option name="MAVEN" value="false" />
-    </context>
+    <context />
   </template>
   <template name="C" value="java.util.concurrent.Callable&lt;$RET$&gt; callable = new java.util.concurrent.Callable&lt;$RET$&gt;() {&#10;  public $RET$ call() throws Exception {&#10;    $SELECTION$&#10;    $END$ &#10;  }&#10;};" description="Surround with Callable" toReformat="true" toShortenFQNames="true">
     <variable name="RET" expression="" defaultValue="&quot;java.lang.Object&quot;" alwaysStopAt="true" />

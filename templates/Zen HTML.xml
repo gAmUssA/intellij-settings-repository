@@ -52,10 +52,7 @@
   </template>
   <template name="script:src" value="&lt;script type=&quot;text/javascript&quot; src=&quot;$VAR0$&quot;&gt;$END$&lt;/script&gt;" description="&lt;script type=&quot;text/javascript&quot; src=&quot;...&quot;&gt;...&lt;/script&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JSX_EXPRESSION" value="true" />
-      <option name="JSX_STATEMENT" value="true" />
-    </context>
+    <context />
   </template>
   <template name="link:favicon" value="&lt;link rel=&quot;shortcut icon&quot; type=&quot;image/x-icon&quot; href=&quot;$END$favicon.ico&quot;/&gt;" description="&lt;link rel=&quot;shortcut icon&quot; type=&quot;image/x-icon&quot; href=&quot;...favicon.ico&quot;&gt;" toReformat="true" toShortenFQNames="true">
     <context />
@@ -87,10 +84,7 @@
   </template>
   <template name="link" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;$VAR0$&quot;/&gt;" description="&lt;link rel=&quot;stylesheet&quot; href=&quot;...&quot;&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JSX_EXPRESSION" value="true" />
-      <option name="JSX_STATEMENT" value="true" />
-    </context>
+    <context />
   </template>
   <template name="input" value="&lt;input type=&quot;$VAR0$&quot;/&gt;" description="&lt;input type=&quot;...&quot;/&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
