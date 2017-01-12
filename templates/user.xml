@@ -114,4 +114,16 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="jcache" value="compile('javax.cache:cache-api:1.0.0')" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="GROOVY_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="populate" value="final com.hazelcast.core.HazelcastInstance hazelcastInstance = newHazelcastInstance();&#10;        final com.hazelcast.core.IMap&lt;java.lang.String, java.lang.String&gt; city = hazelcastInstance.getMap(&quot;city&quot;);&#10;        city.putIfAbsent(&quot;OH&quot;, &quot;Sandusky&quot;);&#10;        city.putIfAbsent(&quot;test&quot;, &quot;dunno&quot;);" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
 </templateSet>
