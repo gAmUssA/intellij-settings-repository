@@ -81,7 +81,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="csb" value="@org.springframework.context.annotation.Bean&#10;    public com.example.DemoApplication.CityService getCityService() {&#10;        return state -&gt; {&#10;            switch (state) {&#10;                case &quot;OH&quot;:&#10;                    return &quot;Sandusky&quot;;&#10;                default:&#10;                    return &quot;duno&quot;;&#10;            }&#10;        };&#10;    }" description="city service bean" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="csb" value="@org.springframework.context.annotation.Bean&#10;    public CityService getCityService() {&#10;        return state -&gt; {&#10;            switch (state) {&#10;                case &quot;OH&quot;:&#10;                    return &quot;Sandusky&quot;;&#10;                default:&#10;                    return &quot;duno&quot;;&#10;            }&#10;        };&#10;    }" description="city service bean" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
@@ -121,6 +121,17 @@
     </context>
   </template>
   <template name="populate" value="final com.hazelcast.core.HazelcastInstance hazelcastInstance = newHazelcastInstance();&#10;        final com.hazelcast.core.IMap&lt;java.lang.String, java.lang.String&gt; city = hazelcastInstance.getMap(&quot;city&quot;);&#10;        city.putIfAbsent(&quot;OH&quot;, &quot;Sandusky&quot;);&#10;        city.putIfAbsent(&quot;test&quot;, &quot;dunno&quot;);" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="listen" value="public static class MyListener implements javax.cache.event.CacheEntryCreatedListener&lt;java.lang.String, java.lang.String&gt; {&#10;        @java.lang.Override&#10;        public void onCreated(java.lang.Iterable&lt;javax.cache.event.CacheEntryEvent&lt;? extends java.lang.String, ? extends java.lang.String&gt;&gt; cacheEntryEvents) throws javax.cache.event.CacheEntryListenerException {&#10;            cacheEntryEvents.forEach(e -&gt; {&#10;                java.lang.System.out.println(&quot;key: &quot; + e.getKey() + &quot;, value: &quot; + e.getValue());&#10;            });&#10;        }&#10;    }" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="register_list" value="final javax.cache.configuration.MutableConfiguration&lt;java.lang.String, java.lang.String&gt; configuration = new javax.cache.configuration.MutableConfiguration&lt;&gt;();&#10;        final javax.cache.configuration.Factory&lt;com.example.ClusterMember.MyListener&gt; tFactory = javax.cache.configuration.FactoryBuilder.factoryOf(com.example.ClusterMember.MyListener.class);&#10;        javax.cache.configuration.MutableCacheEntryListenerConfiguration celc =&#10;                new javax.cache.configuration.MutableCacheEntryListenerConfiguration(tFactory,null, false, false);&#10;&#10;        configuration.addCacheEntryListenerConfiguration(celc);&#10;        com.hazelcast.cache.impl.HazelcastServerCachingProvider.createCachingProvider(com.hazelcast.core.Hazelcast.newHazelcastInstance())&#10;                .getCacheManager().createCache(&quot;city&quot;, configuration);" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
