@@ -1,0 +1,5 @@
+<templateSet group="Groovy">
+  <template name="sout" value="println $END$" description="Prints a string to System.out" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>
