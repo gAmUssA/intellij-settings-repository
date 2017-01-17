@@ -114,8 +114,12 @@
           <option name="url" value="git@github.com:apache/groovy.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:anilkmeesala/HZCacheDuplicateKeys.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/projects/" />
+    <option name="cloneParentDir" value="$USER_HOME$/projects/hazelcast/poc" />
   </component>
 </application>
