@@ -1,5 +1,4 @@
 <keymap version="1" name="[my] Mac OS X" parent="Mac OS X">
-  <action id="CopyReference" />
   <action id="ProjectViewChangeView" />
   <action id="SelectIn" />
   <action id="SelectInProjectView">
@@ -25,8 +24,5 @@
   </action>
   <action id="TogglePresentationMode">
     <keyboard-shortcut first-keystroke="ctrl f" />
-  </action>
-  <action id="one.util.ideaplugin.screenshoter.CopyImageAction">
-    <keyboard-shortcut first-keystroke="shift meta alt c" />
   </action>
 </keymap>
