@@ -5,10 +5,11 @@
   <component name="InstantHtmlEditingOptions">
     <option name="instantEditing" value="true" />
   </component>
+  <component name="SqlEditorOptions">
+    <option name="concatenateStringsOnEnter" value="true" />
+    <option name="qualificationType" value="On collisions" />
+  </component>
   <component name="TodoConfiguration">
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
-      <option name="FOREGROUND" value="ffffff" />
-      <option name="FONT_TYPE" value="3" />
-    </pattern>
+    <pattern pattern="\btodo\b.*" />
   </component>
 </application>
