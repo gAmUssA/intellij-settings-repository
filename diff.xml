@@ -18,32 +18,4 @@
       </entry>
     </option>
   </component>
-  <component name="TextDiffSettings">
-    <option name="PLACES_MAP">
-      <entry key="ChangesView">
-        <PlaceSettings>
-          <option name="EXPAND_BY_DEFAULT" value="false" />
-        </PlaceSettings>
-      </entry>
-      <entry key="CommitDialog">
-        <PlaceSettings>
-          <option name="EXPAND_BY_DEFAULT" value="false" />
-        </PlaceSettings>
-      </entry>
-      <entry key="Default">
-        <PlaceSettings>
-          <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES_CHUNKS" />
-        </PlaceSettings>
-      </entry>
-      <entry key="DirDiff">
-        <PlaceSettings />
-      </entry>
-      <entry key="Merge">
-        <PlaceSettings />
-      </entry>
-      <entry key="TestsFiledAssertions">
-        <PlaceSettings />
-      </entry>
-    </option>
-  </component>
 </application>
