@@ -4,8 +4,8 @@
     <variable name="ATTRS" expression="" defaultValue="&quot;&quot;" alwaysStopAt="false" />
     <variable name="TAG_NAME" expression="firstWord(TAG)" defaultValue="&quot;&quot;" alwaysStopAt="false" />
     <context>
-      <option name="HTML_TEXT" value="true" />
       <option name="XSL_TEXT" value="true" />
+      <option name="HTML_TEXT" value="true" />
     </context>
   </template>
   <template name="T" value="&lt;$TAG$&gt;$SELECTION$&lt;/$TAGNAME$&gt;&#10;" description="Surround with &lt;tag&gt;&lt;/tag&gt;" toReformat="true" toShortenFQNames="true">
