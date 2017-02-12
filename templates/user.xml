@@ -71,9 +71,9 @@
   </template>
   <template name="collectJars" value="task collectJars(type: Copy) {&#10;    into &quot;$buildDir/$END$dependencies&quot;&#10;    from configurations.testRuntime&#10;}" description="collect all project jars in dependencies folder" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="GROOVY_DECLARATION" value="true" />
       <option name="GROOVY_EXPRESSION" value="true" />
       <option name="GROOVY_STATEMENT" value="true" />
-      <option name="GROOVY_DECLARATION" value="true" />
     </context>
   </template>
   <template name="cs" value="public interface CityService {&#10;        public java.lang.String getCity(java.lang.String state);&#10;&#10;    }" description="city service interface" toReformat="true" toShortenFQNames="true" useStaticImport="true">
@@ -139,8 +139,8 @@
   </template>
   <template name="cstream" value="count = source.entrySet().parallelStream()&#10;                .flatMap(m -&gt; java.util.stream.Stream.of(PATTERN.split(m.getValue())))&#10;                .map(com.hazelcast.util.WordUtil::cleanWord)&#10;                .map(java.lang.String::toLowerCase)&#10;                .filter(m -&gt; m.length() &gt;= 5)&#10;                .collect(toMap(&#10;                        k -&gt; k,&#10;                        v -&gt; 1,&#10;                        (l, r) -&gt; l + r&#10;                ));" description="count stream" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
