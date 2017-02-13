@@ -3,6 +3,7 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="false" />
     <variable name="TYPE" expression="classNameComplete()" defaultValue="java.lang.String" alwaysStopAt="true" />
     <variable name="REQUIRED" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="jspxa" value="&lt;jsp:directive.attribute name=&quot;$NAME$&quot; type=&quot;$TYPE$&quot; required=&quot;$REQUIRED$&quot;/&gt;" description="JSPX Tag attribute" toReformat="false" toShortenFQNames="false">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="false" />
