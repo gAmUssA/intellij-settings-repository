@@ -10,13 +10,11 @@
     <variable name="container" expression="" defaultValue="Ext.container.Container" alwaysStopAt="true" />
     <variable name="layout" expression="" defaultValue="auto" alwaysStopAt="true" />
     <variable name="items" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="xmodel" value="Ext.define('$rootPackege$.model.$fileName$', {&#10;    extend: 'Ext.data.Model',&#10;    idProperty: '$id$',&#10;    fields: [{&#10;        name: '$id$',&#10;        type: '$type$'&#10;    }]&#10;});" description="ExtJs model" toReformat="false" toShortenFQNames="true">
     <variable name="rootPackege" expression="" defaultValue="MyApp" alwaysStopAt="true" />
     <variable name="fileName" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="type" expression="" defaultValue="Ext.Number" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>

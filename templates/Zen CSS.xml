@@ -52,9 +52,7 @@
       <option name="CSS_RULESET_LIST" value="true" />
     </context>
   </template>
-  <template name="oc:i" value="outline-color:invert;" description="outline-color:invert;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="oc:i" value="outline-color:invert;" description="outline-color:invert;" toReformat="true" toShortenFQNames="true" />
   <template name="v" value="visibility:$VAR0$;" description="visibility:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
@@ -63,11 +61,8 @@
   </template>
   <template name="tal" value="text-align-last:$VAR0$;" description="text-align-last:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
   </template>
-  <template name="bdl:a" value="border-length:auto;" description="border-length:auto;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="bdl:a" value="border-length:auto;" description="border-length:auto;" toReformat="true" toShortenFQNames="true" />
   <template name="ovs" value="overflow-style:$VAR0$;" description="overflow-style:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
@@ -109,7 +104,6 @@
     <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="VAR2" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="VAR3" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="bdbk" value="border-break:$VAR0$;" description="border-break:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
@@ -125,7 +119,6 @@
   </template>
   <template name="rz" value="resize:$VAR0$;" description="resize:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="bdtc" value="border-top-color:$VAR0$;" description="border-top-color:#000;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
@@ -133,35 +126,19 @@
       <option name="CSS_DECLARATION_BLOCK" value="true" />
     </context>
   </template>
-  <template name="bgz:cv" value="background-size:cover;" description="background-size:cover;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="bgz:ct" value="background-size:contain;" description="background-size:contain;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="bgz:cv" value="background-size:cover;" description="background-size:cover;" toReformat="true" toShortenFQNames="true" />
+  <template name="bgz:ct" value="background-size:contain;" description="background-size:contain;" toReformat="true" toShortenFQNames="true" />
   <template name="bxsh:n" value="box-shadow:none;" description="box-shadow:none;" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="CSS_DECLARATION_BLOCK" value="true" />
     </context>
   </template>
-  <template name="bxsh:m" value="-moz-box-shadow:0 0 0 0 #000;" description="-moz-box-shadow:0 0 0 0 #000;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="bxsh:w" value="-webkit-box-shadow:0 0 0 #000;" description="-webkit-box-shadow:0 0 0 #000;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="m:2" value="margin:0 0;" description="margin:0 0;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="m:4" value="margin:0 0 0 0;" description="margin:0 0 0 0;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="m:0" value="margin:0;" description="margin:0;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="m:3" value="margin:0 0 0;" description="margin:0 0 0;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="bxsh:m" value="-moz-box-shadow:0 0 0 0 #000;" description="-moz-box-shadow:0 0 0 0 #000;" toReformat="true" toShortenFQNames="true" />
+  <template name="bxsh:w" value="-webkit-box-shadow:0 0 0 #000;" description="-webkit-box-shadow:0 0 0 #000;" toReformat="true" toShortenFQNames="true" />
+  <template name="m:2" value="margin:0 0;" description="margin:0 0;" toReformat="true" toShortenFQNames="true" />
+  <template name="m:4" value="margin:0 0 0 0;" description="margin:0 0 0 0;" toReformat="true" toShortenFQNames="true" />
+  <template name="m:0" value="margin:0;" description="margin:0;" toReformat="true" toShortenFQNames="true" />
+  <template name="m:3" value="margin:0 0 0;" description="margin:0 0 0;" toReformat="true" toShortenFQNames="true" />
   <template name="bgcp" value="background-clip:$VAR0$;" description="background-clip:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
@@ -176,7 +153,6 @@
   </template>
   <template name="brad" value="-webkit-border-radius: $VAR0$;&#10;-moz-border-radius: $VAR0$;&#10;-ms-border-radius: $VAR0$;&#10;border-radius: $VAR0$;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="cl" value="clear:$VAR0$;" description="clear:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
@@ -195,7 +171,6 @@
   </template>
   <template name="cn" value="content:$VAR0$;" description="content:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="cp:r" value="clip:rect($VAR0$);" description="clip:rect(...);" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
@@ -203,18 +178,10 @@
       <option name="CSS_DECLARATION_BLOCK" value="true" />
     </context>
   </template>
-  <template name="rz:v" value="resize:vertical;" description="resize:vertical;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="rz:n" value="resize:none;" description="resize:none;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="rz:h" value="resize:horizontal;" description="resize:horizontal;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="rz:b" value="resize:both;" description="resize:both;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="rz:v" value="resize:vertical;" description="resize:vertical;" toReformat="true" toShortenFQNames="true" />
+  <template name="rz:n" value="resize:none;" description="resize:none;" toReformat="true" toShortenFQNames="true" />
+  <template name="rz:h" value="resize:horizontal;" description="resize:horizontal;" toReformat="true" toShortenFQNames="true" />
+  <template name="rz:b" value="resize:both;" description="resize:both;" toReformat="true" toShortenFQNames="true" />
   <template name="va" value="vertical-align:$VAR0$;" description="vertical-align:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
@@ -227,9 +194,7 @@
       <option name="CSS_DECLARATION_BLOCK" value="true" />
     </context>
   </template>
-  <template name="wob:bs" value="word-break:break-strict;" description="word-break:break-strict;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="wob:bs" value="word-break:break-strict;" description="word-break:break-strict;" toReformat="true" toShortenFQNames="true" />
   <template name="pos" value="position:$VAR0$;" description="position:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
@@ -242,51 +207,32 @@
       <option name="CSS_DECLARATION_BLOCK" value="true" />
     </context>
   </template>
-  <template name="p:4" value="padding:0 0 0 0;" description="padding:0 0 0 0;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="bgz:a" value="background-size:auto;" description="background-size:auto;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="p:0" value="padding:0;" description="padding:0;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="p:3" value="padding:0 0 0;" description="padding:0 0 0;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="p:2" value="padding:0 0;" description="padding:0 0;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="wob:l" value="word-break:loose;" description="word-break:loose;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="p:4" value="padding:0 0 0 0;" description="padding:0 0 0 0;" toReformat="true" toShortenFQNames="true" />
+  <template name="bgz:a" value="background-size:auto;" description="background-size:auto;" toReformat="true" toShortenFQNames="true" />
+  <template name="p:0" value="padding:0;" description="padding:0;" toReformat="true" toShortenFQNames="true" />
+  <template name="p:3" value="padding:0 0 0;" description="padding:0 0 0;" toReformat="true" toShortenFQNames="true" />
+  <template name="p:2" value="padding:0 0;" description="padding:0 0;" toReformat="true" toShortenFQNames="true" />
+  <template name="wob:l" value="word-break:loose;" description="word-break:loose;" toReformat="true" toShortenFQNames="true" />
   <template name="oo" value="outline-offset:$VAR0$;" description="outline-offset:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="oc" value="outline-color:$VAR0$;" description="outline-color:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="o" value="outline:$VAR0$;" description="outline:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="ow" value="outline-width:$VAR0$;" description="outline-width:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="bgz" value="background-size:$VAR0$;" description="background-size:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="os" value="outline-style:$VAR0$;" description="outline-style:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="bdrz" value="border-radius:$VAR0$;" description="border-radius:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="bdrc" value="border-right-color:$VAR0$;" description="border-right-color:#000;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
@@ -294,9 +240,7 @@
       <option name="CSS_DECLARATION_BLOCK" value="true" />
     </context>
   </template>
-  <template name="o:n" value="outline:none;" description="outline:none;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="o:n" value="outline:none;" description="outline:none;" toReformat="true" toShortenFQNames="true" />
   <template name="bg" value="background:$VAR0$;" description="background:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
@@ -305,11 +249,9 @@
   </template>
   <template name="bdi:m" value="-moz-border-image:url($VAR0$) 0 0 0 0 stretch stretch;" description="-moz-border-image:url(...) 0 0 0 0 stretch stretch;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="bdi:w" value="-webkit-border-image:url($VAR0$) 0 0 0 0 stretch stretch;" description="-webkit-border-image:url(...) 0 0 0 0 stretch stretch;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="mar" value="max-resolution:$VAR0$;" description="max-resolution:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
@@ -345,9 +287,9 @@
   <template name="cm" value="/* $VAR0$ */" description="/* */" toReformat="true" toShortenFQNames="true">
     <variable name="$VAR0$" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CSS_PROPERTY_VALUE" value="true" />
       <option name="CSS_DECLARATION_BLOCK" value="true" />
       <option name="CSS_RULESET_LIST" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="true" />
     </context>
   </template>
 </templateSet>
