@@ -1,8 +1,6 @@
 <templateSet group="JavaScript">
   <template name="us" value="'use strict';&#10;$END$" description="Inserts 'use strict' statement" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
+    <context />
   </template>
   <template name="xview" value="Ext.define('$myApp$.view.$compName$', {&#10;    extend: '$container$',&#10;    layout: {&#10;        type: '$layout$'&#10;    },&#10;    items: [{&#10;        $items$&#10;    }]&#10;});" description="Template for ExtJS/ST view" toReformat="true" toShortenFQNames="true">
     <variable name="myApp" expression="" defaultValue="MyApp" alwaysStopAt="true" />
