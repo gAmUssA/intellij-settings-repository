@@ -64,7 +64,7 @@
       <option name="XML_TEXT" value="true" />
     </context>
   </template>
-  <template name="hz.memberxml" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;hazelcast&#10;        xsi:schemaLocation=&quot;http://www.hazelcast.com/schema/config http://www.hazelcast.com/schema/config/hazelcast-config-3.6.xsd&quot;&#10;        xmlns=&quot;http://www.hazelcast.com/schema/config&quot;&#10;        xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&#10;&#10;       $END$&#10;&#10;&lt;/hazelcast&gt;&#10;" toReformat="true" toShortenFQNames="true">
+  <template name="hz.memberxml" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;hazelcast&#10;        xsi:schemaLocation=&quot;http://www.hazelcast.com/schema/config http://www.hazelcast.com/schema/config/hazelcast-config-3.6.xsd&quot;&#10;        xmlns=&quot;http://www.hazelcast.com/schema/config&quot;&#10;        xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&#10;&#10;       $END$&#10;&#10;&lt;/hazelcast&gt;&#10;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="XML_TEXT" value="true" />
     </context>
@@ -97,7 +97,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="slow" value="try {&#10;                SECONDS.sleep(10);&#10;            } catch (java.lang.InterruptedException e) {&#10;                e.printStackTrace();&#10;            }" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="slow" value="try {&#10;                SECONDS.sleep(10);&#10;            } catch (java.lang.InterruptedException e) {&#10;                e.printStackTrace();&#10;            }" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
@@ -109,29 +109,29 @@
       <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="hzb" value="@org.springframework.context.annotation.Bean&#10;    public com.hazelcast.core.HazelcastInstance getHazelcastInstance(){&#10;        return com.hazelcast.core.Hazelcast.newHazelcastInstance();&#10;    }" toReformat="true" toShortenFQNames="true">
+  <template name="hzb" value="@org.springframework.context.annotation.Bean&#10;    public com.hazelcast.core.HazelcastInstance getHazelcastInstance(){&#10;        return com.hazelcast.core.Hazelcast.newHazelcastInstance();&#10;    }" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="jcache" value="compile('javax.cache:cache-api:1.0.0')" toReformat="true" toShortenFQNames="true">
+  <template name="jcache" value="compile('javax.cache:cache-api:1.0.0')" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY_EXPRESSION" value="true" />
       <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="populate" value="final com.hazelcast.core.HazelcastInstance hazelcastInstance = newHazelcastInstance();&#10;        final com.hazelcast.core.IMap&lt;java.lang.String, java.lang.String&gt; city = hazelcastInstance.getMap(&quot;city&quot;);&#10;        city.putIfAbsent(&quot;OH&quot;, &quot;Sandusky&quot;);&#10;        city.putIfAbsent(&quot;test&quot;, &quot;dunno&quot;);" toReformat="true" toShortenFQNames="true">
+  <template name="populate" value="final com.hazelcast.core.HazelcastInstance hazelcastInstance = newHazelcastInstance();&#10;        final com.hazelcast.core.IMap&lt;java.lang.String, java.lang.String&gt; city = hazelcastInstance.getMap(&quot;city&quot;);&#10;        city.putIfAbsent(&quot;OH&quot;, &quot;Sandusky&quot;);&#10;        city.putIfAbsent(&quot;test&quot;, &quot;dunno&quot;);" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="listen" value="public static class MyListener implements javax.cache.event.CacheEntryCreatedListener&lt;java.lang.String, java.lang.String&gt; {&#10;        @java.lang.Override&#10;        public void onCreated(java.lang.Iterable&lt;javax.cache.event.CacheEntryEvent&lt;? extends java.lang.String, ? extends java.lang.String&gt;&gt; cacheEntryEvents) throws javax.cache.event.CacheEntryListenerException {&#10;            cacheEntryEvents.forEach(e -&gt; {&#10;                java.lang.System.out.println(&quot;key: &quot; + e.getKey() + &quot;, value: &quot; + e.getValue());&#10;            });&#10;        }&#10;    }" toReformat="true" toShortenFQNames="true">
+  <template name="listen" value="public static class MyListener implements javax.cache.event.CacheEntryCreatedListener&lt;java.lang.String, java.lang.String&gt; {&#10;        @java.lang.Override&#10;        public void onCreated(java.lang.Iterable&lt;javax.cache.event.CacheEntryEvent&lt;? extends java.lang.String, ? extends java.lang.String&gt;&gt; cacheEntryEvents) throws javax.cache.event.CacheEntryListenerException {&#10;            cacheEntryEvents.forEach(e -&gt; {&#10;                java.lang.System.out.println(&quot;key: &quot; + e.getKey() + &quot;, value: &quot; + e.getValue());&#10;            });&#10;        }&#10;    }" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="register_list" value="final javax.cache.configuration.MutableConfiguration&lt;java.lang.String, java.lang.String&gt; configuration = new javax.cache.configuration.MutableConfiguration&lt;&gt;();&#10;        final javax.cache.configuration.Factory&lt;ClusterMember.MyListener&gt; tFactory = javax.cache.configuration.FactoryBuilder.factoryOf(ClusterMember.MyListener.class);&#10;        javax.cache.configuration.MutableCacheEntryListenerConfiguration celc =&#10;                new javax.cache.configuration.MutableCacheEntryListenerConfiguration(tFactory,null, false, false);&#10;&#10;        configuration.addCacheEntryListenerConfiguration(celc);&#10;        com.hazelcast.cache.impl.HazelcastServerCachingProvider.createCachingProvider(com.hazelcast.core.Hazelcast.newHazelcastInstance())&#10;                .getCacheManager().createCache(&quot;city&quot;, configuration);" toReformat="true" toShortenFQNames="true">
+  <template name="register_list" value="final javax.cache.configuration.MutableConfiguration&lt;java.lang.String, java.lang.String&gt; configuration = new javax.cache.configuration.MutableConfiguration&lt;&gt;();&#10;        final javax.cache.configuration.Factory&lt;ClusterMember.MyListener&gt; tFactory = javax.cache.configuration.FactoryBuilder.factoryOf(ClusterMember.MyListener.class);&#10;        javax.cache.configuration.MutableCacheEntryListenerConfiguration celc =&#10;                new javax.cache.configuration.MutableCacheEntryListenerConfiguration(tFactory,null, false, false);&#10;&#10;        configuration.addCacheEntryListenerConfiguration(celc);&#10;        com.hazelcast.cache.impl.HazelcastServerCachingProvider.createCachingProvider(com.hazelcast.core.Hazelcast.newHazelcastInstance())&#10;                .getCacheManager().createCache(&quot;city&quot;, configuration);" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
