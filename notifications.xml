@@ -7,7 +7,6 @@
     <notification groupId="Database view" displayType="TOOL_WINDOW" />
     <notification groupId="Debugger messages" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Error Report" shouldLog="false" />
-    <notification groupId="Execution" displayType="NONE" />
     <notification groupId="External Executable Critical Failures" displayType="TOOL_WINDOW" />
     <notification groupId="Facet Detector" displayType="STICKY_BALLOON" />
     <notification groupId="Flash app not compiled before launch" displayType="TOOL_WINDOW" shouldLog="false" />
@@ -33,10 +32,10 @@
     <notification groupId="PHPUnit" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Plugin Error" displayType="STICKY_BALLOON" />
     <notification groupId="settings" displayType="STICKY_BALLOON" />
+    <notification groupId="Settings Error" shouldLog="false" />
     <notification groupId="Spring Configuration Check" displayType="STICKY_BALLOON" />
     <notification groupId="Svn Roots Detection Errors" displayType="STICKY_BALLOON" />
     <notification groupId="System Messages" displayType="STICKY_BALLOON" />
-    <notification groupId="Test Runner" displayType="NONE" />
     <notification groupId="Unindexed maven repositories gradle detection" displayType="NONE" shouldLog="false" />
     <notification groupId="Upgrade Subscription Renewal" displayType="NONE" shouldLog="false" />
   </component>
