@@ -22,6 +22,7 @@
     <notification groupId="JavaScript debugger" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="JavaScript Library Management" displayType="STICKY_BALLOON" />
     <notification groupId="JRebel non-sticky" displayType="NONE" />
+    <notification groupId="Lombok plugin" displayType="NONE" shouldLog="false" />
     <notification groupId="Maven Import" displayType="STICKY_BALLOON" />
     <notification groupId="Maven: non-managed pom.xml" displayType="NONE" shouldLog="false" />
     <notification groupId="Node.js Boilerplate Project Generator" displayType="STICKY_BALLOON" />
@@ -31,6 +32,7 @@
     <notification groupId="PHPUnit" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Plugin Error" displayType="STICKY_BALLOON" />
     <notification groupId="settings" displayType="STICKY_BALLOON" />
+    <notification groupId="Spring Configuration Check" displayType="NONE" />
     <notification groupId="Svn Roots Detection Errors" displayType="STICKY_BALLOON" />
     <notification groupId="System Messages" displayType="STICKY_BALLOON" />
     <notification groupId="Unindexed maven repositories gradle detection" displayType="NONE" shouldLog="false" />
