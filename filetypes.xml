@@ -2,7 +2,6 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.orig;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;" />
     <extensionMap>
-      <mapping ext="avro" type="Avro™ IDL" />
       <mapping ext="dust" type="HTML" />
       <mapping pattern=".jshintrc" type="JSHint" />
       <mapping ext="avsc" type="JSON" />
@@ -10,7 +9,9 @@
       <mapping pattern="article" type="PLAIN_TEXT" />
       <mapping pattern=".holder" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
+      <mapping ext="out" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
+      <mapping ext="avro" type="Avro™ IDL" />
     </extensionMap>
   </component>
 </application>
