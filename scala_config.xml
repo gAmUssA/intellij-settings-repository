@@ -2,4 +2,7 @@
   <component name="ScalaApplicationSettings">
     <option name="ASK_USE_LATEST_PLUGIN_BUILDS" value="false" />
   </component>
+  <component name="TypeAwareHighlightingApplicationState">
+    <option name="SUGGEST_TYPE_AWARE_HIGHLIGHTING_ENABLED" value="true" />
+  </component>
 </application>

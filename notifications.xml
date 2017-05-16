@@ -3,17 +3,15 @@
     <notification groupId="Database" displayType="TOOL_WINDOW" />
     <notification groupId="Database editor log" displayType="NONE" />
     <notification groupId="Database log" displayType="NONE" />
-    <notification groupId="Database refactoring log" displayType="NONE" />
     <notification groupId="Database view" displayType="TOOL_WINDOW" />
     <notification groupId="Debugger messages" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Error Report" shouldLog="false" />
-    <notification groupId="Execution" displayType="NONE" />
     <notification groupId="External Executable Critical Failures" displayType="TOOL_WINDOW" />
     <notification groupId="Facet Detector" displayType="STICKY_BALLOON" />
-    <notification groupId="Flash app not compiled before launch" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Flex messages" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Git Important Messages" displayType="STICKY_BALLOON" />
     <notification groupId="Git Messages" displayType="TOOL_WINDOW" />
+    <notification groupId="Gradle Import" displayType="NONE" shouldLog="false" />
     <notification groupId="Gradle warnings" displayType="TOOL_WINDOW" />
     <notification groupId="Grails" displayType="TOOL_WINDOW" />
     <notification groupId="Heroku" displayType="TOOL_WINDOW" />
@@ -24,6 +22,7 @@
     <notification groupId="JavaScript debugger" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="JavaScript Library Management" displayType="STICKY_BALLOON" />
     <notification groupId="JRebel non-sticky" displayType="NONE" />
+    <notification groupId="Lombok plugin" displayType="NONE" shouldLog="false" />
     <notification groupId="Maven Import" displayType="STICKY_BALLOON" />
     <notification groupId="Maven: non-managed pom.xml" displayType="NONE" shouldLog="false" />
     <notification groupId="Node.js Boilerplate Project Generator" displayType="STICKY_BALLOON" />
@@ -33,10 +32,9 @@
     <notification groupId="PHPUnit" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Plugin Error" displayType="STICKY_BALLOON" />
     <notification groupId="settings" displayType="STICKY_BALLOON" />
-    <notification groupId="Spring Configuration Check" displayType="STICKY_BALLOON" />
+    <notification groupId="Spring Configuration Check" displayType="NONE" />
     <notification groupId="Svn Roots Detection Errors" displayType="STICKY_BALLOON" />
     <notification groupId="System Messages" displayType="STICKY_BALLOON" />
-    <notification groupId="Test Runner" displayType="NONE" />
     <notification groupId="Unindexed maven repositories gradle detection" displayType="NONE" shouldLog="false" />
     <notification groupId="Upgrade Subscription Renewal" displayType="NONE" shouldLog="false" />
   </component>

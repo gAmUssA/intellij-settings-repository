@@ -1,19 +1,13 @@
 <scheme name="my tomorrow eighties" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <option name="LINE_SPACING" value="1.1" />
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Fira Code" />
-    <option name="EDITOR_FONT_SIZE" value="15" />
-  </font>
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Monaco" />
-    <option name="EDITOR_FONT_SIZE" value="16" />
-  </font>
+  <option name="EDITOR_FONT_SIZE" value="17" />
   <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Inconsolata-dz for Powerline" />
   <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="MEDIUM" />
+  <option name="EDITOR_FONT_NAME" value="Fira Code" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="cccccc" />
     <option name="ANNOTATIONS_COLOR" value="ffffff" />
