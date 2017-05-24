@@ -7,5 +7,6 @@
         <option name="name" value="Mac OS X" />
       </KeymapDescription>
     </option>
+    <option name="showActionDescriptions" value="false" />
   </component>
 </application>

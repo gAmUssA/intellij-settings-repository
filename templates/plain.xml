@@ -1,5 +1,0 @@
-<templateSet group="plain">
-  <template name="St" value="String " description="String" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
-</templateSet>
