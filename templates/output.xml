@@ -4,7 +4,4 @@
     <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
     <context />
   </template>
-  <template name="sout" value="System.out.println($END$);" description="Prints a string to System.out" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
 </templateSet>
