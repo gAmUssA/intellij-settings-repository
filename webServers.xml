@@ -1,9 +1,0 @@
-<application>
-  <component name="WebServers">
-    <option name="servers">
-      <webServer id="44de8258-b1d3-48eb-90a2-3b0a3eda79b7" name="apache" url="http://localhost:80">
-        <fileTransfer mountedRoot="/Library/WebServer/Documents" accessType="MOUNT" />
-      </webServer>
-    </option>
-  </component>
-</application>
