@@ -1,15 +1,9 @@
 <application>
-  <component name="EditorSettings">
-    <option name="SHOW_BREADCRUMBS" value="false" />
-  </component>
   <component name="InstantHtmlEditingOptions">
     <option name="instantEditing" value="true" />
   </component>
   <component name="SqlEditorOptions">
     <option name="concatenateStringsOnEnter" value="true" />
     <option name="qualificationType" value="On collisions" />
-  </component>
-  <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
   </component>
 </application>
