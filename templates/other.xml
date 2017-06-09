@@ -1,0 +1,5 @@
+<templateSet group="other">
+  <template name="psvm" value="public static void main(String[] args){&#10;  $END$&#10;}" description="main() method declaration" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>
