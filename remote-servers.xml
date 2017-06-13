@@ -1,0 +1,13 @@
+<application>
+  <component name="RemoteServers">
+    <remote-server name="PCFDev" type="cloudfoundry">
+      <configuration email="admin" password="admin">
+        <option name="apiUrl" value="https://api.local.pcfdev.io" />
+        <option name="domain" value="" />
+        <option name="organization" value="pcfdev-org" />
+        <option name="space" value="pcfdev-space" />
+        <option name="trustSelfSignedCert" value="true" />
+      </configuration>
+    </remote-server>
+  </component>
+</application>
