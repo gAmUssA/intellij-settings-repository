@@ -7,6 +7,7 @@
       <mapping ext="avsc" type="JSON" />
       <mapping pattern=".keepme" type="PLAIN_TEXT" />
       <mapping pattern="article" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern=".holder" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="out" type="PLAIN_TEXT" />
