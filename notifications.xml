@@ -1,0 +1,5 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="Configure Kotlin: info notification" displayType="NONE" />
+  </component>
+</application>
