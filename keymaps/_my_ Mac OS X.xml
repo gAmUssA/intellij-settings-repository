@@ -5,9 +5,6 @@
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="alt f1" />
   </action>
-  <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="ctrl alt enter" />
-  </action>
   <action id="SwitchDown">
     <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
