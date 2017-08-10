@@ -6,11 +6,11 @@
     <option name="EDITOR_FONT_SIZE" value="17" />
   </font>
   <font>
-    <option name="EDITOR_FONT_NAME" value="Operator Mono" />
+    <option name="EDITOR_FONT_NAME" value="Menlo" />
     <option name="EDITOR_FONT_SIZE" value="17" />
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
-  <option name="CONSOLE_FONT_NAME" value="Inconsolata-dz for Powerline" />
+  <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <option name="CONSOLE_LIGATURES" value="true" />
   <option name="CONSOLE_LINE_SPACING" value="1.1" />
   <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="MEDIUM" />
