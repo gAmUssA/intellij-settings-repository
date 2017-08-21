@@ -1213,6 +1213,11 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="KOTLIN_ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="f2777a" />
+      </value>
+    </option>
     <option name="LABEL">
       <value>
         <option name="FOREGROUND" value="999999" />
