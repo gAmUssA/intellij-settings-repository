@@ -1,0 +1,5 @@
+<application>
+  <component name="AdvancedExpressionFoldingSettings">
+    <option name="varExpressionsCollapse" value="false" />
+  </component>
+</application>
