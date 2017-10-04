@@ -6,5 +6,6 @@
   </component>
   <component name="Registry">
     <entry key="SBT.system.in.process" value="true" />
+    <entry key="CBT.system.in.process" value="true" />
   </component>
 </application>
