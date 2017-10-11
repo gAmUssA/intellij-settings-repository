@@ -1,5 +1,5 @@
 <application>
-  <component name="CodeFoldingSettings">
-    <option name="COLLAPSE_DOC_COMMENTS" value="true" />
+  <component name="AdvancedExpressionFoldingSettings">
+    <option name="varExpressionsCollapse" value="false" />
   </component>
 </application>

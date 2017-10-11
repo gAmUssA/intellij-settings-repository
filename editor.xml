@@ -1,7 +1,11 @@
 <application>
   <component name="EditorSettings">
+    <option name="languageBreadcrumbsMap">
+      <map>
+        <entry key="JAVA" value="true" />
+      </map>
+    </option>
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
-    <option name="SHOW_BREADCRUMBS" value="false" />
   </component>
   <component name="InstantHtmlEditingOptions">
     <option name="instantEditing" value="true" />

@@ -1,16 +1,8 @@
 <application>
   <component name="WebBrowsersConfiguration" default="first">
-    <browser id="6e7f60e4-4317-4ac9-85e4-d033bf6c89c9" name="Chrome Canary" family="CHROME" path="/Applications/Google Chrome Canary.app" />
-    <browser id="bfee1b69-a97d-4338-8ba4-25170adcbaa6" name="Dartium" family="CHROME" path="/Developer/dart/chromium/Chromium.app">
-      <settings>
-        <environment-variables>
-          <entry key="DART_FLAGS" value="--checked" />
-        </environment-variables>
-      </settings>
-    </browser>
+    <browser id="e5120d43-2c3f-47ef-9f26-65e539e05186" name="Safari" family="SAFARI" />
     <browser id="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" name="Chrome" family="CHROME" />
     <browser id="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" name="Firefox" family="FIREFOX" />
-    <browser id="e5120d43-2c3f-47ef-9f26-65e539e05186" name="Safari" family="SAFARI" />
     <browser id="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" name="Opera" family="OPERA" />
     <browser id="16bf23d4-93e0-4ffc-bfd6-cb13575177b0" name="Internet Explorer" family="EXPLORER" />
     <browser id="b1b2ec2c-20bd-4ee2-89c4-616db004bcd4" name="Yandex" family="CHROME" path="Yandex" active="false" />
