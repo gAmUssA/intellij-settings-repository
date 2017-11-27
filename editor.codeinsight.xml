@@ -1,5 +1,9 @@
 <application>
   <component name="AdvancedExpressionFoldingSettings">
+    <option name="compactControlFlowSyntaxCollapse" value="false" />
+    <option name="concatenationExpressionsCollapse" value="false" />
+    <option name="getExpressionsCollapse" value="false" />
+    <option name="getSetExpressionsCollapse" value="false" />
     <option name="varExpressionsCollapse" value="false" />
   </component>
 </application>
