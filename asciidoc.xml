@@ -1,6 +1,6 @@
 <application>
   <component name="AsciidocApplicationSettings">
-    <AsciiDocPreviewSettings>
+    <AsciiDocPreviewSettings PreviewTheme="AsciiDoc light">
       <HtmlPanelProviderInfo>
         <ProviderInfo name="JavaFX WebView" className="org.asciidoc.intellij.editor.javafx.JavaFxHtmlPanelProvider" />
       </HtmlPanelProviderInfo>
