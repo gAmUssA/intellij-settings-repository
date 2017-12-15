@@ -47,5 +47,51 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="groovy-2.4.13">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-swing-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/gpars-1.2.1.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/commons-logging-1.2.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/xstream-1.4.10.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/jansi-1.11.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-jsr223-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/jsr166y-1.7.0.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-nio-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-groovydoc-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/ant-antlr-1.9.4.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/junit-4.12.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/jcommander-1.47.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-console-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/bsf-2.4.0.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/ant-junit-1.9.4.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/multiverse-core-0.7.0.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/servlet-api-2.4.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-docgenerator-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/commons-cli-1.2.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/qdox-1.12.1.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-json-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-ant-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-servlet-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/ant-1.9.4.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/jsp-api-2.0.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/ant-launcher-1.9.4.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-templates-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/testng-6.8.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-test-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/hamcrest-core-1.3.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/jline-2.12.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-testng-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-sql-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-bsf-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/xmlpull-1.1.3.1.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/ivy-2.4.0.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-xml-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-jmx-2.4.13.jar!/" />
+        <root url="jar://$USER_HOME$/.sdkman/candidates/groovy/current/lib/groovy-groovysh-2.4.13.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
   </component>
 </application>
