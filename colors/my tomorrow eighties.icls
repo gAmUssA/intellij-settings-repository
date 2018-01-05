@@ -1239,6 +1239,12 @@
         <option name="FOREGROUND" value="f2777a" />
       </value>
     </option>
+    <option name="KOTLIN_EXTENSION_PROPERTY">
+      <value>
+        <option name="FOREGROUND" value="486c90" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="LABEL">
       <value>
         <option name="FOREGROUND" value="999999" />
