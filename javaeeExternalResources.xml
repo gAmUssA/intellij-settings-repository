@@ -3,6 +3,7 @@
     <resource url="http://docbook.org/ns/docbook" location="$USER_HOME$/Library/Caches/IntelliJIdea14/extResources/1e9583e1_docbook.xml" />
     <resource url="http://docbook.sourceforge.net/release/xsl/current/xhtml/chunk.xsl" location="$USER_HOME$/Library/Caches/IntelliJIdea14/extResources/ae7dc7d_ea427735_chunk.xsl" />
     <resource url="http://hazelcast.com/schema/client-config/hazelcast-client-config-3.5.xsd" location="$USER_HOME$/Library/Caches/IntelliJIdea15/extResources/2a7c7674_hazelcast-client-config-3.5.xsd" />
+    <resource url="http://maven.apache.org/xsd/assembly-1.1.2.xsd" location="$USER_HOME$/Library/Caches/IntelliJIdea2018.1/extResources/48b8f268_assembly-1.1.2.xsd" />
     <resource url="http://www.hazelcast.com/schema/client-config/hazelcast-client-config-3.7.xsd" location="$USER_HOME$/Library/Caches/IdeaIC2016.3/extResources/8206b82d_hazelcast-client-config-3.7.xsd" />
     <resource url="http://www.hazelcast.com/schema/client-config/hazelcast-client-config-3.8.xsd" location="$USER_HOME$/Library/Caches/IntelliJIdea2017.1/extResources/8214cfae_hazelcast-client-config-3.8.xsd" />
     <resource url="http://www.hazelcast.com/schema/config/hazelcast-config-3.5.xsd" location="$USER_HOME$/Library/Caches/IntelliJIdea2017.1/extResources/87a9baed_hazelcast-config-3.5.xsd" />
