@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
-  <component name="dataSourceStorage" format="xml">
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
     <data-source source="LOCAL" name="oracle @ farata" uuid="8611cf66-f950-4094-a2c1-c075215287a1">
       <jdbc-driver>oracle.jdbc.driver.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:cleardb/cl32rt3st@oracle.faratasystems.com:1521:xe</jdbc-url>
@@ -16,4 +15,3 @@
     </data-source>
   </component>
 </application>
-
