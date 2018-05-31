@@ -6,4 +6,7 @@
     <option name="getSetExpressionsCollapse" value="false" />
     <option name="varExpressionsCollapse" value="false" />
   </component>
+  <component name="Go">
+    <option name="detectGoPackageFromClipboard" value="false" />
+  </component>
 </application>
