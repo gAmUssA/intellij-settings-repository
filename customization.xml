@@ -1,0 +1,17 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="CompileDirty" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RestoreDefaultLayout" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <action id="RestoreDefaultLayout" icon="$USER_HOME$/Dropbox/Apps/IntelliJ IDEA/16x16-IC Aspect Ratio 24px@2x.1.png" />
+  </component>
+</application>
