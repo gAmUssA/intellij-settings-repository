@@ -10,5 +10,6 @@
     <entry key="CBT.system.in.process" value="true" />
     <entry key="BSP.experimental.feature.enabled" value="false" />
     <entry key="BSP.system.in.process" value="true" />
+    <entry key="ide.mac.allowDarkWindowDecorations" value="true" />
   </component>
 </application>
