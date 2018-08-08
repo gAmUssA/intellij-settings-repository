@@ -5,6 +5,10 @@
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="ProjectViewChangeView" />
+  <action id="Scala.ShowImplicits">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
+  </action>
   <action id="SelectIn" />
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="alt f1" />
