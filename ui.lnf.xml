@@ -1,6 +1,5 @@
 <application>
   <component name="UISettings">
-    <option name="COLOR_BLINDNESS" value="deuteranopia" />
     <option name="EDITOR_TAB_PLACEMENT" value="0" />
     <option name="FONT_FACE" value="Source Sans Pro" />
     <option name="FONT_SCALE" value="1.0" />
