@@ -19,7 +19,6 @@
     <option name="EDITOR_FONT_SIZE" value="17" />
   </console-font>
   <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.1" />
   <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="MEDIUM" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="cccccc" />
@@ -590,6 +589,12 @@
     <option name="DEFAULT_COMMA">
       <value>
         <option name="FOREGROUND" value="cc7832" />
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
