@@ -2,7 +2,7 @@
   <component name="AsciidocApplicationSettings">
     <AsciiDocPreviewSettings PreviewTheme="AsciiDoc light">
       <HtmlPanelProviderInfo>
-        <ProviderInfo name="JavaFX WebView" className="org.asciidoc.intellij.editor.javafx.JavaFxHtmlPanelProvider" />
+        <ProviderInfo name="Swing" className="org.asciidoc.intellij.editor.jeditor.JeditorHtmlPanelProvider" />
       </HtmlPanelProviderInfo>
     </AsciiDocPreviewSettings>
   </component>
