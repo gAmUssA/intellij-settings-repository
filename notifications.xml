@@ -1,5 +1,6 @@
 <application>
   <component name="NotificationConfiguration">
+    <notification groupId="Docker: Dockerfile detection" displayType="NONE" shouldLog="false" />
     <notification groupId="Maven: non-managed pom.xml" displayType="NONE" shouldLog="false" />
   </component>
 </application>
