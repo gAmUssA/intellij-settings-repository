@@ -118,8 +118,12 @@
           <option name="url" value="git@github.com:anilkmeesala/HZCacheDuplicateKeys.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/igorkosandyak/spring-boot-kafka.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/projects/hazelcast/poc" />
+    <option name="cloneParentDir" value="$USER_HOME$/projects" />
   </component>
 </application>
