@@ -7,7 +7,7 @@
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Menlo" />
-    <option name="EDITOR_FONT_SIZE" value="19" />
+    <option name="EDITOR_FONT_SIZE" value="17" />
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
   <console-font>
@@ -591,6 +591,12 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="DEFAULT_ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="486c90" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="DEFAULT_COMMA">
       <value>
         <option name="FOREGROUND" value="cc7832" />
@@ -600,6 +606,12 @@
       <value>
         <option name="FOREGROUND" value="ff6ac1" />
         <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="DEFAULT_ENTITY">
+      <value>
+        <option name="FOREGROUND" value="486c90" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
@@ -634,7 +646,7 @@
     </option>
     <option name="DEFAULT_TAG">
       <value>
-        <option name="BACKGROUND" value="626262" />
+        <option name="BACKGROUND" value="343434" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
