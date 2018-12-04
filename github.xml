@@ -1,7 +1,11 @@
 <application>
+  <component name="GithubAccounts">
+    <account id="3b64b263-ba75-4b78-bcf4-f7c032795197" name="gamussa">
+      <server host="github.com" />
+    </account>
+  </component>
   <component name="GithubSettings">
     <option name="LOGIN" value="gamussa" />
     <option name="AUTH_TYPE" value="BASIC" />
-    <option name="PRIVATE_GIST" value="false" />
   </component>
 </application>
