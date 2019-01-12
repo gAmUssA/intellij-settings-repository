@@ -12,6 +12,8 @@
       </map>
     </option>
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
+    <option name="STRIP_TRAILING_SPACES" value="None" />
+    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
   </component>
   <component name="InstantHtmlEditingOptions">
     <option name="instantEditing" value="true" />
