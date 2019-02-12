@@ -1293,6 +1293,11 @@
         <option name="FOREGROUND" value="f2777a" />
       </value>
     </option>
+    <option name="KOTLIN_CLASS">
+      <value>
+        <option name="FOREGROUND" value="ffcc66" />
+      </value>
+    </option>
     <option name="KOTLIN_EXTENSION_PROPERTY">
       <value>
         <option name="FOREGROUND" value="486c90" />
