@@ -1,5 +1,5 @@
 <application>
   <component name="ParameterNameHintsSettings">
-    <blacklists />
+    <option id="SHOW_FUNCTION_HINT" value="true" />
   </component>
 </application>
