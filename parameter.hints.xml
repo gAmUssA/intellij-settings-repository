@@ -1,5 +1,13 @@
 <application>
   <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript" />
+      <blacklist language="Java" />
+      <blacklist language="JavaScript" />
+      <blacklist language="Go" />
+      <blacklist language="Groovy" />
+      <blacklist language="Kotlin" />
+    </blacklists>
     <option id="SHOW_LAMBDA_IMPLICIT_PARAMETER_RECEIVER" value="false" />
   </component>
 </application>
