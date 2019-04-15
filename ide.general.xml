@@ -20,7 +20,6 @@
     <entry key="ide.mac.file.chooser.native" value="false" />
     <entry key="ide.tree.horizontal.default.autoscrolling" value="false" />
     <entry key="search.everywhere.settings" value="true" />
-    <entry key="editor.distraction.free.mode" value="true" />
     <entry key="git.explicit.commit.renames.prohibit.multiple.calls" value="false" />
   </component>
 </application>
