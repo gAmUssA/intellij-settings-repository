@@ -1,0 +1,6 @@
+<application>
+  <component name="FrameSwitcherSettings">
+    <option name="maxRecentProjects" value="5" />
+    <option name="remoting" value="true" />
+  </component>
+</application>
