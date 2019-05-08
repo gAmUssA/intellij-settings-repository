@@ -21,6 +21,6 @@
     <entry key="ide.tree.horizontal.default.autoscrolling" value="false" />
     <entry key="search.everywhere.settings" value="true" />
     <entry key="git.explicit.commit.renames.prohibit.multiple.calls" value="false" />
-    <entry key="ide.max.recent.projects" value="5" />
+    <entry key="ide.max.recent.projects" value="10" />
   </component>
 </application>
