@@ -1,7 +1,7 @@
 <application>
   <component name="PresentationAssistant">
     <option name="alternativeKeymap" />
-    <option name="fontSize" value="22" />
+    <option name="fontSize" value="18" />
     <option name="mainKeymap">
       <KeymapDescription>
         <option name="name" value="Mac OS X" />
