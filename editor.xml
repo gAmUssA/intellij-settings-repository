@@ -11,7 +11,7 @@
         <entry key="JAVA" value="true" />
       </map>
     </option>
-    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
+    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
     <option name="STRIP_TRAILING_SPACES" value="None" />
     <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
     <option name="ARE_GUTTER_ICONS_SHOWN" value="false" />
