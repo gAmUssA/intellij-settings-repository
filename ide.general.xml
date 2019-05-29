@@ -22,5 +22,6 @@
     <entry key="search.everywhere.settings" value="true" />
     <entry key="git.explicit.commit.renames.prohibit.multiple.calls" value="false" />
     <entry key="ide.max.recent.projects" value="10" />
+    <entry key="editor.distraction.free.mode" value="true" />
   </component>
 </application>
