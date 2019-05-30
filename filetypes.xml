@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="avcs" type="Avro™ IDL" />
       <mapping pattern="Dockerfile-kafka-connect-twitter" type="Dockerfile" />
       <mapping pattern="Dockerfile-local" type="Dockerfile" />
       <mapping ext="avsc" type="JSON" />
