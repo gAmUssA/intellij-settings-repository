@@ -87,6 +87,17 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="ASCIIDOC.BULLET">
+      <value>
+        <option name="FOREGROUND" value="f2aaaa" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ASCIIDOC_MONO">
+      <value>
+        <option name="FOREGROUND" value="89a040" />
+      </value>
+    </option>
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="ffffff" />
