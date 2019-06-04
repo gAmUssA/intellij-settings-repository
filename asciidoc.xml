@@ -1,5 +1,5 @@
 <application>
   <component name="AsciidocApplicationSettings">
-    <AsciiDocPreviewSettings PreviewTheme="AsciiDoc light" />
+    <AsciiDocPreviewSettings PreviewTheme="AsciiDoc darcula" />
   </component>
 </application>
