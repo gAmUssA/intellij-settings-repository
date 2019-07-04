@@ -6,6 +6,7 @@
       <mapping pattern="Dockerfile-local" type="Dockerfile" />
       <mapping ext="avsc" type="JSON" />
       <mapping pattern=".retain" type="PLAIN_TEXT" />
+      <mapping pattern=".testcontainers-tmp-R2WYx" type="PLAIN_TEXT" />
       <mapping pattern=".jekyll-metadata" type="PLAIN_TEXT" />
       <mapping pattern="Docker" type="PLAIN_TEXT" />
       <mapping pattern="VERSION" type="PLAIN_TEXT" />
