@@ -14,6 +14,7 @@
       <mapping pattern=".testcontainers-tmp-r6ro1" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="avro" type="PLAIN_TEXT" />
+      <mapping ext="file" type="PLAIN_TEXT" />
       <removed_mapping ext="avsc" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
