@@ -1,5 +1,6 @@
 <keymap version="1" name="[my] Mac OS X" parent="Mac OS X">
   <action id="CopyReference" />
+  <action id="Django.RunManageTaskAction" />
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift ctrl meta down" />
   </action>
@@ -8,6 +9,9 @@
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="ProjectViewChangeView" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
@@ -38,4 +42,5 @@
   <action id="one.util.ideaplugin.screenshoter.CopyImageAction">
     <keyboard-shortcut first-keystroke="shift meta alt c" />
   </action>
+  <action id="org.jetbrains.plugins.ruby.tasks.rake.actions.RakeTasksPopupAction" />
 </keymap>
