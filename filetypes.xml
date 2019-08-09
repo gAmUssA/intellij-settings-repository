@@ -1,15 +1,8 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="klib" type="ARCHIVE" />
-      <mapping pattern="Dockerfile-kafka-connect-twitter" type="Dockerfile" />
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
-      <mapping pattern="TODO" type="PLAIN_TEXT" />
-      <mapping pattern=".testcontainers-tmp-r6ro1" type="PLAIN_TEXT" />
-      <mapping pattern="Docker" type="PLAIN_TEXT" />
-      <mapping ext="avsc" type="PLAIN_TEXT" />
-      <mapping ext="avro" type="PLAIN_TEXT" />
       <removed_mapping ext="php4" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="swift" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="php" approved="true" type="PLAIN_TEXT" />

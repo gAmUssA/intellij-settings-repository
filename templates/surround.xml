@@ -2,9 +2,7 @@
   <template name="B" value="{$SELECTION$}" description="Surround with {}" toReformat="true" toShortenFQNames="true">
     <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="GROOVY" value="false" />
       <option name="GROOVY_STATEMENT" value="true" />
-      <option name="JSP" value="false" />
     </context>
   </template>
   <template name="I" value="for ($ELEMENT_TYPE$ $VAR$ : $SELECTION$) {&#10;  $END$&#10;}&#10;" description="Iterate Iterable | Array in J2SDK 5.0 syntax" toReformat="true" toShortenFQNames="true">
@@ -14,11 +12,6 @@
   </template>
   <template name="P" value="($SELECTION$)" description="Surround with ()" toReformat="false" toShortenFQNames="true">
     <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
-    <context>
-      <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="JSP" value="false" />
-    </context>
   </template>
   <template name="C" value="java.util.concurrent.Callable&lt;$RET$&gt; callable = new java.util.concurrent.Callable&lt;$RET$&gt;() {&#10;  public $RET$ call() throws Exception {&#10;    $SELECTION$&#10;    $END$ &#10;  }&#10;};" description="Surround with Callable" toReformat="true" toShortenFQNames="true">
     <variable name="RET" expression="" defaultValue="&quot;java.lang.Object&quot;" alwaysStopAt="true" />

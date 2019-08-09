@@ -1,5 +1,14 @@
 <application>
   <component name="ParameterNameHintsSettings">
-    <blacklists />
+    <blacklists>
+      <blacklist language="TypeScript" />
+      <blacklist language="Java" />
+      <blacklist language="JavaScript" />
+      <blacklist language="Go" />
+      <blacklist language="Groovy" />
+      <blacklist language="Kotlin" />
+    </blacklists>
+    <option id="SHOW_PROPERTY_HINT" value="true" />
+    <option id="SHOW_PARAMETER_TYPE_HINT" value="true" />
   </component>
 </application>

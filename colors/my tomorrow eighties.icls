@@ -25,7 +25,7 @@
     <option name="ANNOTATIONS_COLOR" value="ffffff" />
     <option name="ANNOTATIONS_MERGED_COLOR" value="ffffff" />
     <option name="CARET_COLOR" value="ffffff" />
-    <option name="CARET_ROW_COLOR" value="393939" />
+    <option name="CARET_ROW_COLOR" value="2b2b2b" />
     <option name="CONSOLE_BACKGROUND_KEY" value="" />
     <option name="FILESTATUS_MODIFIED" value="6897bb" />
     <option name="FILESTATUS_UNKNOWN" value="d1675a" />
@@ -58,6 +58,11 @@
         <option name="FOREGROUND" value="ffcc66" />
       </value>
     </option>
+    <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
+      <value>
+        <option name="FOREGROUND" value="bcdaf7" />
+      </value>
+    </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="f2777a" />
@@ -80,6 +85,17 @@
       <value>
         <option name="FOREGROUND" value="cc99cc" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ASCIIDOC.BULLET">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ASCIIDOC_MONO">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
       </value>
     </option>
     <option name="BAD_CHARACTER">
@@ -639,6 +655,12 @@
         <option name="FOREGROUND" value="cc7832" />
       </value>
     </option>
+    <option name="DEFAULT_STATIC_FIELD">
+      <value>
+        <option name="FOREGROUND" value="f2777a" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="DEFAULT_STRING">
       <value>
         <option name="FOREGROUND" value="ffcc66" />
@@ -975,6 +997,9 @@
         <option name="FOREGROUND" value="ffcc66" />
       </value>
     </option>
+    <option name="HTML_CODE">
+      <value />
+    </option>
     <option name="HTML_COMMENT">
       <value>
         <option name="FOREGROUND" value="999999" />
@@ -1279,11 +1304,19 @@
         <option name="FOREGROUND" value="f2777a" />
       </value>
     </option>
+    <option name="KOTLIN_CLASS">
+      <value>
+        <option name="FOREGROUND" value="ffcc66" />
+      </value>
+    </option>
     <option name="KOTLIN_EXTENSION_PROPERTY">
       <value>
         <option name="FOREGROUND" value="486c90" />
         <option name="FONT_TYPE" value="2" />
       </value>
+    </option>
+    <option name="KOTLIN_LABEL">
+      <value />
     </option>
     <option name="LABEL">
       <value>
@@ -1391,8 +1424,8 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="515151" />
+        <option name="BACKGROUND" value="3b514d" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="METHOD_CALL_ATTRIBUTES">
@@ -1914,6 +1947,16 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="ROUND_BRACKETS_RAINBOW_COLOR0">
+      <value>
+        <option name="FOREGROUND" value="ededed" />
+      </value>
+    </option>
+    <option name="ROUND_BRACKETS_RAINBOW_COLOR3">
+      <value>
+        <option name="FOREGROUND" value="f2777a" />
+      </value>
+    </option>
     <option name="RUBY_BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -2273,6 +2316,11 @@
       </value>
     </option>
     <option name="SQL_TABLE">
+      <value>
+        <option name="FOREGROUND" value="6699cc" />
+      </value>
+    </option>
+    <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR0">
       <value>
         <option name="FOREGROUND" value="6699cc" />
       </value>
