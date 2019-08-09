@@ -16,8 +16,15 @@
     <entry key="actionSystem.fix.alt.gr" value="false" />
     <entry key="ide.tooltip.initialDelay" value="0" />
     <entry key="ide.tooltip.initialDelay.highlighter" value="0" />
-    <entry key="ide.mac.file.chooser.native" value="false" />
     <entry key="ide.tree.horizontal.default.autoscrolling" value="false" />
     <entry key="search.everywhere.settings" value="true" />
+    <entry key="parameter.info.max.visible.rows" value="10" />
+    <entry key="performance.watcher.sampling.interval.ms" value="100" />
+    <entry key="performance.watcher.unresponsive.interval.ms" value="500" />
+    <entry key="ide.win.file.chooser.native" value="true" />
+    <entry key="ide.borderless.title.project.path" value="false" />
+    <entry key="ide.borderless.title.classpath" value="false" />
+    <entry key="ide.borderless.title.product" value="false" />
+    <entry key="rider.enable.designer.winForms" value="false" />
   </component>
 </application>
