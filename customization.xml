@@ -4,7 +4,7 @@
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
-      <path value="Default with Alt key" />
+      <path value="Default with Alt Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="RestoreDefaultLayout" is_action="true" action_type="1" position="6">
