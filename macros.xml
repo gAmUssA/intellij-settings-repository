@@ -1,0 +1,37 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="green comments">
+      <action id="QuickChangeScheme" />
+      <typing text-keycode="49:0">1</typing>
+      <action id="ChangeColorScheme" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="ENTER" />
+    </macro>
+    <macro name="gray comments">
+      <action id="QuickChangeScheme" />
+      <action id="ChangeColorScheme" />
+      <shortuct text="ENTER" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="DOWN" />
+      <shortuct text="ENTER" />
+    </macro>
+  </component>
+</application>
