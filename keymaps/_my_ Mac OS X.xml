@@ -9,6 +9,10 @@
     <keyboard-shortcut first-keystroke="meta l" />
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
+  <action id="Jdbc.OpenEditor.DDL">
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+  </action>
   <action id="Macro.gray comments">
     <keyboard-shortcut first-keystroke="meta alt g" />
   </action>
@@ -47,6 +51,9 @@
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="asciidoc.makebold">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
   <action id="one.util.ideaplugin.screenshoter.CopyImageAction">
     <keyboard-shortcut first-keystroke="shift meta alt c" />
   </action>
