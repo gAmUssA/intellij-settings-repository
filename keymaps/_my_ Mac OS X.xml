@@ -1,5 +1,6 @@
 <keymap version="1" name="[my] Mac OS X" parent="Mac OS X">
   <action id="CopyReference" />
+  <action id="DatabaseView.SqlGenerator" />
   <action id="Django.RunManageTaskAction" />
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift ctrl meta down" />
@@ -8,6 +9,17 @@
     <keyboard-shortcut first-keystroke="meta l" />
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
+  <action id="Jdbc.OpenEditor.DDL">
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+  </action>
+  <action id="Macro.gray comments">
+    <keyboard-shortcut first-keystroke="meta alt g" />
+  </action>
+  <action id="Macro.green comments">
+    <keyboard-shortcut first-keystroke="ctrl meta alt g" />
+  </action>
+  <action id="Mvc.RunTarget" />
   <action id="ProjectViewChangeView" />
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="alt r" />
@@ -39,6 +51,9 @@
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="asciidoc.makebold">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
   <action id="one.util.ideaplugin.screenshoter.CopyImageAction">
     <keyboard-shortcut first-keystroke="shift meta alt c" />
   </action>

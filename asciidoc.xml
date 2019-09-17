@@ -1,5 +1,9 @@
 <application>
   <component name="AsciidocApplicationSettings">
-    <AsciiDocPreviewSettings DefaultSplitLayout="Show editor only" PreviewTheme="AsciiDoc light" ExperimentalInplacePreviewRefresh="true" DisabledInjectionsByLanguage="" />
+    <AsciiDocPreviewSettings DefaultSplitLayout="Show editor only" PreviewTheme="AsciiDoc light" DisabledInjectionsByLanguage="">
+      <HtmlPanelProviderInfo>
+        <ProviderInfo name="Swing" className="org.asciidoc.intellij.editor.jeditor.JeditorHtmlPanelProvider" />
+      </HtmlPanelProviderInfo>
+    </AsciiDocPreviewSettings>
   </component>
 </application>
