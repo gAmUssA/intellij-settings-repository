@@ -1,11 +1,16 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="*.js.flow" type="Flow" />
       <mapping ext="avsc" type="JSON" />
       <mapping pattern=".keepme" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <mapping ext="ksql" type="SQL" />
+      <mapping ext="local" type="YAML" />
       <removed_mapping ext="phtml" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
