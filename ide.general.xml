@@ -10,13 +10,12 @@
     <entry key="search.everywhere.pattern.checking" value="false" />
     <entry key="actionSystem.fix.alt.gr" value="false" />
     <entry key="parameter.info.max.visible.rows" value="10" />
-    <entry key="performance.watcher.sampling.interval.ms" value="100" />
-    <entry key="performance.watcher.unresponsive.interval.ms" value="500" />
+    <entry key="performance.watcher.sampling.interval.ms" value="200" />
+    <entry key="performance.watcher.unresponsive.interval.ms" value="1000" />
     <entry key="ide.max.recent.projects" value="10" />
     <entry key="rider.enable.designer.winForms" value="false" />
+    <entry key="ide.mac.allowDarkWindowDecorations" value="true" />
     <entry key="SBT.system.in.process" value="true" />
     <entry key="BSP.system.in.process" value="true" />
-    <entry key="ide.mac.allowDarkWindowDecorations" value="true" />
-    <entry key="editor.distraction.free.mode" value="true" />
   </component>
 </application>
