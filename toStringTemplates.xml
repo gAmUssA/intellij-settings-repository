@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="ToStringTemplates">
-    <option name="defaultTempalteName" value="StringBuilder (JDK 1.5)" />
+    <option name="defaultTempalteName" value="StringJoiner (JDK 1.8)" />
     <option name="templates">
       <list>
         <TemplateResource>
@@ -28,4 +27,3 @@
     </option>
   </component>
 </application>
-
