@@ -17,5 +17,6 @@
     <entry key="ide.mac.allowDarkWindowDecorations" value="true" />
     <entry key="SBT.system.in.process" value="true" />
     <entry key="BSP.system.in.process" value="true" />
+    <entry key="completion.stats.show.ml.ranking.diff" value="true" />
   </component>
 </application>
