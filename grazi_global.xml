@@ -7,6 +7,11 @@
       </set>
     </option>
     <option name="enabledCommitIntegration" value="true" />
+    <option name="userDisabledRules">
+      <set>
+        <option value="ARTICLE_MISSING" />
+      </set>
+    </option>
     <option name="lastSeenVersion" value="2019.3-6.2.stable" />
   </component>
 </application>
