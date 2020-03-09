@@ -6,9 +6,6 @@
         <option value="Russian" />
       </set>
     </option>
-    <option name="enabledProgrammingLanguages">
-      <set />
-    </option>
     <option name="enabledCommitIntegration" value="true" />
     <option name="userDisabledRules">
       <set>
