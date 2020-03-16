@@ -1,9 +1,0 @@
-<toolSet name="grunt">
-  <tool name="grunt watch" description="grunt watch command" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="/usr/local/share/npm/bin/grunt" />
-      <option name="PARAMETERS" value="watch" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-    </exec>
-  </tool>
-</toolSet>
