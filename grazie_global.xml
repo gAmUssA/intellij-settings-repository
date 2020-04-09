@@ -1,17 +1,9 @@
 <application>
   <component name="GraziConfig">
-    <option name="enabledLanguages">
-      <set>
-        <option value="English (US)" />
-        <option value="Russian" />
-      </set>
-    </option>
-    <option name="enabledCommitIntegration" value="true" />
     <option name="userDisabledRules">
       <set>
-        <option value="ARTICLE_MISSING" />
+        <option value="And" />
       </set>
     </option>
-    <option name="version" value="1" />
   </component>
 </application>
