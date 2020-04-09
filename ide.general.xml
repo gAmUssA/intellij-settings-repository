@@ -19,4 +19,11 @@
     <entry key="BSP.system.in.process" value="true" />
     <entry key="completion.stats.show.ml.ranking.diff" value="true" />
   </component>
+  <component name="StatusBar">
+    <option name="widgets">
+      <map>
+        <entry key="Memory" value="true" />
+      </map>
+    </option>
+  </component>
 </application>
