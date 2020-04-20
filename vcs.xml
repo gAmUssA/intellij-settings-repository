@@ -138,6 +138,9 @@
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/temp" />
   </component>
+  <component name="Vcs.Log.App.Settings">
+    <option name="SHOW_DIFF_PREVIEW" value="true" />
+  </component>
   <component name="VcsApplicationSettings">
     <option name="COMMIT_FROM_LOCAL_CHANGES" value="true" />
   </component>
