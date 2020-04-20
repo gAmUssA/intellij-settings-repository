@@ -1,5 +1,5 @@
 <application>
   <component name="AsciidocApplicationSettings">
-    <AsciiDocPreviewSettings DefaultSplitLayout="Show editor only" PreviewTheme="AsciiDoc light" DisabledInjectionsByLanguage="" />
+    <AsciiDocPreviewSettings DefaultSplitLayout="Show editor only" PreviewTheme="AsciiDoc light" DisabledInjectionsByLanguage="" KrokiUrl="" />
   </component>
 </application>
