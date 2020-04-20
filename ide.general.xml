@@ -13,9 +13,25 @@
     <entry key="performance.watcher.sampling.interval.ms" value="200" />
     <entry key="performance.watcher.unresponsive.interval.ms" value="1000" />
     <entry key="ide.max.recent.projects" value="10" />
-    <entry key="rider.enable.designer.winForms" value="false" />
+    <entry key="rider.enable.designer.winForms" value="true" />
     <entry key="ide.mac.allowDarkWindowDecorations" value="true" />
     <entry key="SBT.system.in.process" value="true" />
     <entry key="BSP.system.in.process" value="true" />
+    <entry key="ide.borderless.title.debug" value="true" />
+    <entry key="ide.title.debug" value="true" />
+    <entry key="debugger.new.debug.tool.window.view" value="true" />
+    <entry key="ide.win.frame.decoration" value="true" />
+    <entry key="ide.tooltip.showAllSeverities" value="true" />
+    <entry key="show.diff.preview.as.editor.tab.with.single.click" value="true" />
+    <entry key="show.log.as.editor.tab" value="false" />
+    <entry key="show.diff.preview.as.editor.tab" value="true" />
+    <entry key="vcs.log.show.diff.preview.as.editor.tab" value="true" />
+  </component>
+  <component name="StatusBar">
+    <option name="widgets">
+      <map>
+        <entry key="Memory" value="true" />
+      </map>
+    </option>
   </component>
 </application>
