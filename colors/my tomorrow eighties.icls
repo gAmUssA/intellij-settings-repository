@@ -19,7 +19,6 @@
     <option name="EDITOR_FONT_SIZE" value="17" />
   </console-font>
   <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="MEDIUM" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="cccccc" />
     <option name="ANNOTATIONS_COLOR" value="ffffff" />
@@ -53,6 +52,11 @@
     <option name="WHITESPACES" value="515151" />
   </colors>
   <attributes>
+    <option name="!_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="e02a1d" />
+      </value>
+    </option>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffcc66" />
