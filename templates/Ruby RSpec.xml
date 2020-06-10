@@ -3,9 +3,11 @@
     <variable name="SYSTEM_UNDER_TEST" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="SETUP" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="it" value="it 'should $DO_SOME_COOL_STUFF$' do&#10;  $ADD_SOME_COOL_CODE$&#10;end" description="it" toReformat="true" toShortenFQNames="true">
     <variable name="DO_SOME_COOL_STUFF" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ADD_SOME_COOL_CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>
