@@ -1,5 +1,12 @@
-<scheme name="my tomorrow" version="142" parent_scheme="Default">
+<scheme name="my tomorrow operator" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="created">2020-07-28T10:46:08</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2020.2.0.0</property>
+    <property name="modified">2020-07-28T10:46:17</property>
+    <property name="originalScheme">my tomorrow</property>
+  </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Operator Mono Lig" />
