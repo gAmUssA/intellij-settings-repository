@@ -14,8 +14,6 @@
     <entry key="performance.watcher.unresponsive.interval.ms" value="1000" />
     <entry key="ide.max.recent.projects" value="10" />
     <entry key="ide.mac.allowDarkWindowDecorations" value="true" />
-    <entry key="SBT.system.in.process" value="true" />
-    <entry key="BSP.system.in.process" value="true" />
     <entry key="ide.borderless.title.debug" value="true" />
     <entry key="ide.title.debug" value="true" />
     <entry key="debugger.new.debug.tool.window.view" value="true" />
