@@ -85,9 +85,7 @@
     <library name="Bundled Protobuf Distribution">
       <CLASSES />
       <JAVADOC />
-      <SOURCES>
-        <root url="jar://$APPLICATION_PLUGINS_DIR$/protobuf-jetbrains-plugin/lib/protobuf-java-3.6.1-sources.jar!/" />
-      </SOURCES>
+      <SOURCES />
     </library>
     <library name="bundler (v2.0.1, rbenv: 2.4.1) [gem]" type="rubylib">
       <properties>
@@ -688,6 +686,37 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/public_suffix-3.1.1/data" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/public_suffix-3.1.1/test" />
       </excluded>
+    </library>
+    <library name="Python 3.8 interpreter library">
+      <CLASSES>
+        <root url="file:///usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8/lib/python3.8" />
+        <root url="file:///usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8/lib/python3.8/lib-dynload" />
+        <root url="file:///usr/local/lib/python3.8/site-packages" />
+        <root url="file://$USER_HOME$/projects/confluent/kafka-tutorials/harness_runner" />
+        <root url="file:///usr/local/Cellar/protobuf/3.12.4/libexec/lib/python3.8/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2020.2/python_stubs/-1199943125" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.7" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8/lib/python3.8" />
+        <root url="file:///usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8/lib/python3.8/lib-dynload" />
+        <root url="file:///usr/local/lib/python3.8/site-packages" />
+        <root url="file://$USER_HOME$/projects/confluent/kafka-tutorials/harness_runner" />
+        <root url="file:///usr/local/Cellar/protobuf/3.12.4/libexec/lib/python3.8/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2020.2/python_stubs/-1199943125" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.7" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
+      </SOURCES>
     </library>
     <library name="rake (v12.0.0, rbenv: 2.4.1) [gem]" type="rubylib">
       <properties>
