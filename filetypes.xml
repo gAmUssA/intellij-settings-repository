@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="avsc" type="JSON" />
+      <removed_mapping pattern="composer.lock" type="JSON" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
@@ -11,6 +12,7 @@
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <mapping ext="ksql" type="SQL" />
       <mapping pattern="Cameras" type="TypeScript" />
+      <removed_mapping pattern="phpunit.xml.dist" type="XML" />
       <mapping ext="local" type="YAML" />
       <removed_mapping ext="phtml" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
