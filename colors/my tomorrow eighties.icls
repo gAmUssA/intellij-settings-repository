@@ -3,13 +3,22 @@
   <option name="LINE_SPACING" value="1.1" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Iosevka Term" />
-    <option name="EDITOR_FONT_SIZE" value="17" />
+    <option name="EDITOR_FONT_SIZE" value="19" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Menlo" />
     <option name="EDITOR_FONT_SIZE" value="17" />
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="Iosevka Term" />
+    <option name="EDITOR_FONT_SIZE" value="17" />
+  </console-font>
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="Menlo" />
+    <option name="EDITOR_FONT_SIZE" value="17" />
+  </console-font>
+  <option name="CONSOLE_LIGATURES" value="true" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="cccccc" />
     <option name="ANNOTATIONS_COLOR" value="ffffff" />
@@ -1342,22 +1351,19 @@
     </option>
     <option name="LINE_FULL_COVERAGE">
       <value>
-        <option name="FOREGROUND" value="ffff00" />
-        <option name="BACKGROUND" value="ffff00" />
+        <option name="FOREGROUND" value="99cc99" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="LINE_NONE_COVERAGE">
       <value>
-        <option name="FOREGROUND" value="ff00ff" />
         <option name="BACKGROUND" value="ff00ff" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="LINE_PARTIAL_COVERAGE">
       <value>
-        <option name="FOREGROUND" value="800080" />
-        <option name="BACKGROUND" value="800080" />
+        <option name="BACKGROUND" value="ffcc66" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
