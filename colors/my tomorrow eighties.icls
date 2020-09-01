@@ -12,7 +12,7 @@
   <option name="EDITOR_LIGATURES" value="true" />
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Iosevka Term" />
-    <option name="EDITOR_FONT_SIZE" value="17" />
+    <option name="EDITOR_FONT_SIZE" value="19" />
   </console-font>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Menlo" />
@@ -1357,7 +1357,7 @@
     </option>
     <option name="LINE_NONE_COVERAGE">
       <value>
-        <option name="BACKGROUND" value="ff00ff" />
+        <option name="FOREGROUND" value="ff00ff" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
