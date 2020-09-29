@@ -153,4 +153,10 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="ksqldb::cloud" value="final java.net.URL ksqldbEndpoint = new java.net.URL(java.lang.System.getenv(&quot;KSQLDB_ENDPOINT&quot;));&#10;    final java.lang.String basicAuthUserInfo = java.lang.System.getenv(&quot;KSQLDB_BASIC_AUTH_USER_INFO&quot;);&#10;&#10;    final io.confluent.ksql.api.client.ClientOptions clientOptions = io.confluent.ksql.api.client.ClientOptions.create()&#10;        .setHost(ksqldbEndpoint.getHost())&#10;        .setPort(ksqldbEndpoint.getPort())&#10;        .setUseTls(true)&#10;        .setUseAlpn(true) // should it be enabled by default?&#10;        .setBasicAuthCredentials(basicAuthUserInfo.split(&quot;:&quot;)[0],&#10;                                 basicAuthUserInfo.split(&quot;:&quot;)[1]);" description="create ksqldb client options" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
