@@ -159,4 +159,10 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="logv" value="private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger( $CLASS$.class );" description="slf4j logger" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
