@@ -1,5 +1,5 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping ext="avsc" type="JSON" />
       <mapping ext="gradle.kts" type="Kotlin" />
@@ -8,23 +8,21 @@
       <mapping pattern=".keepme" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <mapping ext="ksql" type="SQL" />
       <mapping pattern="Cameras" type="TypeScript" />
       <mapping ext="local" type="YAML" />
-      <removed_mapping ext="phtml" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
-      <removed_mapping ext="php4" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="avsc" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="php5" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="snakefile" approved="true" type="textmate" />
-      <removed_mapping ext="groovy" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="groovy" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="php" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="php4" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="php5" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="phtml" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="snakefile" approved="true" type="textmate" />
       <removed_mapping ext="swift" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
