@@ -2564,6 +2564,11 @@
                       <FeaturePluginData displayName="Jetty Server" pluginName="Jetty" pluginId="Jetty" />
                     </value>
                   </entry>
+                  <entry key="Jms Messenger Configuration">
+                    <value>
+                      <FeaturePluginData displayName="Jms" pluginName="Jms messenger" pluginId="jms-messenger" />
+                    </value>
+                  </entry>
                   <entry key="KotlinJavaScriptTestRunnerProtractor">
                     <value>
                       <FeaturePluginData displayName="Protractor (Kotlin)" pluginName="org.jetbrains.kotlin" pluginId="org.jetbrains.kotlin" />
