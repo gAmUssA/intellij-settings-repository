@@ -32,13 +32,4 @@
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="sel" value="select * from $table$$END$;" description="select all rows from a table" toReformat="true" toShortenFQNames="false">
-    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="selw" value="select * from $table$ $alias$ where $alias$.$END$;" description="select specific rows from a table" toReformat="true" toShortenFQNames="false">
-    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="alias" expression="complete()" defaultValue="&quot;alias&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
 </templateSet>
