@@ -6,4 +6,210 @@
     <variable name="DATE" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="ad-table2" value="|===&#10;| $cell1header$ | $cell2header$&#10;&#10;| $cell1row1$&#10;| $cell2row1$&#10;&#10;| $cell1row2$&#10;| $cell2row2$&#10;|===" description="Table with two columns" toReformat="false" toShortenFQNames="true">
+    <variable name="cell1header" expression="" defaultValue="&quot;Header Cell 1&quot;" alwaysStopAt="true" />
+    <variable name="cell2header" expression="" defaultValue="&quot;Header Cell 2&quot;" alwaysStopAt="true" />
+    <variable name="cell1row1" expression="" defaultValue="&quot;Row 1 Cell 1&quot;" alwaysStopAt="true" />
+    <variable name="cell2row1" expression="" defaultValue="&quot;Row 1 Cell 2&quot;" alwaysStopAt="true" />
+    <variable name="cell1row2" expression="" defaultValue="&quot;Row 2 Cell 1&quot;" alwaysStopAt="true" />
+    <variable name="cell2row2" expression="" defaultValue="&quot;Row 2 Cell 2&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-title1" value="= $VAR1$&#10;&#10;$END$" description="Title 1" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-title2" value="== $VAR1$&#10;&#10;$END$" description="Title 2" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-title3" value="=== $VAR1$&#10;&#10;$END$" description="Title 3" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-title4" value="==== $VAR1$&#10;&#10;$END$" description="Title 4" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-title5" value="===== $VAR1$&#10;&#10;$END$" description="Title 5" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-title6" value="====== $VAR1$&#10;&#10;$END$" description="Title 6" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-include" value="include::$FILENAME$.adoc[]&#10;&#10;$END$" description="Include file" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-horizontal-rule" value="'''" description="Horizontal rule" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="ad-page-break" value="&lt;&lt;&lt;" description="Page break" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="ad-list" value="* $NAME$&#10;$END$" description="List item" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-list-checklist" value="- [$CHECKED$] $TITLE$&#10;$END$" description="Checklist" toReformat="false" toShortenFQNames="true">
+    <variable name="CHECKED" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <variable name="TITLE" expression="" defaultValue="&quot;An Item&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-list-ordered" value=". $NAME$&#10;$END$" description="Ordered list" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-list-labeled" value="$TERM$:: $DEFINITION$&#10;$END$" description="Labeled list" toReformat="false" toShortenFQNames="true">
+    <variable name="TERM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFINITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-list-qa" value="[qanda]&#10;$QUESTION$::&#10;  $ANSWER$&#10;$END$" description="Q&amp;A" toReformat="false" toShortenFQNames="true">
+    <variable name="QUESTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ANSWER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-list-mixed" value="Operating Systems::&#10;  Linux:::&#10;    . Fedora&#10;      * Desktop&#10;    . Ubuntu&#10;      * Desktop&#10;      * Server&#10;  BSD:::&#10;    . FreeBSD&#10;    . NetBSD&#10;&#10;Cloud Providers::&#10;  PaaS:::&#10;    . OpenShift&#10;    . CloudBees&#10;  IaaS:::&#10;    . Amazon EC2&#10;    . Rackspace&#10; $END$" description="Mixed style list" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="ad-link-external" value="http://$LINK$[$TEXT$]&#10;&#10;$END$" description="External link with text" toReformat="false" toShortenFQNames="true">
+    <variable name="LINK" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-link-relative" value="link:$LINK$[$TEXT$]&#10;&#10;$END$" description="Relative link with text" toReformat="false" toShortenFQNames="true">
+    <variable name="LINK" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-link-attributes" value="http://$LINK$[$TEXT$, role=&quot;external&quot;, window=&quot;_blank&quot;]&#10;&#10;$END$" description="Link with attributes" toReformat="false" toShortenFQNames="true">
+    <variable name="LINK" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-image" value="image::$FILENAME$[]&#10;&#10;$END$" description="Image" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;filename.jpg&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-image-with-caption" value="[[img-sunset]]&#10;image::sunset.jpg[caption=&quot;Figure 1: &quot;, title=&quot;A mountain sunset&quot;, alt=&quot;Sunset&quot;, width=&quot;300&quot;, height=&quot;200&quot;, link=&quot;http://www.flickr.com/photos/javh/5448336655&quot;]&#10;&#10;$END$" description="Image with caption" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="ad-image-inline" value="Click image:icons/play.png[Play, title=&quot;Play&quot;] to get the party started.&#10;&#10;$END$" description="Inline image" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="ad-video" value="video::$FILENAME$[]&#10;&#10;$END$" description="Video" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;video_file.mp4&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-video-options" value="video::$FILENAME$[width=640, start=60, end=140, options=autoplay]&#10;&#10;$END$" description="Video options" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;video_file.mp4&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-video-youtube" value="video::$YOUTUBE$[youtube]&#10;&#10;$END$" description="Youtube video" toReformat="false" toShortenFQNames="true">
+    <variable name="YOUTUBE" expression="" defaultValue="&quot;nPER_vv2SyU&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-video-vimeo" value="video::$VIMEO$[vimeo]&#10;&#10;$END$" description="Vimeo video" toReformat="false" toShortenFQNames="true">
+    <variable name="VIMEO" expression="" defaultValue="&quot;67480300&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-source:ruby" value="[source,ruby]&#10;.$FILENAME$.rb&#10;----&#10;$SOURCE$&#10;----&#10;&#10;$END$" description="Ruby source code" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;filename&quot;" alwaysStopAt="true" />
+    <variable name="SOURCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-source:java" value="[source,java]&#10;.$FILENAME$.java&#10;----&#10;$SOURCE$&#10;----&#10;&#10;$END$" description="Java source code" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;filename&quot;" alwaysStopAt="true" />
+    <variable name="SOURCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-source:scala" value="[source,scala]&#10;.$FILENAME$.scala&#10;----&#10;$SOURCE$&#10;----&#10;&#10;$END$" description="Scala source code" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;filename&quot;" alwaysStopAt="true" />
+    <variable name="SOURCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-source:python" value="[source,python]&#10;.$FILENAME$.python&#10;----&#10;$SOURCE$&#10;----&#10;&#10;$END$" description="Python source code" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;filename&quot;" alwaysStopAt="true" />
+    <variable name="SOURCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-source:bash" value="[source,bash]&#10;.$FILENAME$.sh&#10;----&#10;$SOURCE$&#10;----&#10;&#10;$END$" description="Bash source code" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;filename&quot;" alwaysStopAt="true" />
+    <variable name="SOURCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-source:groovy" value="[source,groovy]&#10;.$FILENAME$.groovy&#10;----&#10;$SOURCE$&#10;----&#10;&#10;$END$" description="Groovy source code" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;filename&quot;" alwaysStopAt="true" />
+    <variable name="SOURCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-source:javascript" value="[source,javascript]&#10;.$FILENAME$.js&#10;----&#10;$SOURCE$&#10;----&#10;&#10;$END$" description="Javascript source code" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;filename&quot;" alwaysStopAt="true" />
+    <variable name="SOURCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-source" value="[source]&#10;.$FILENAME$&#10;----&#10;$SOURCE$&#10;----&#10;&#10;$END$" description="Source code" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;filename&quot;" alwaysStopAt="true" />
+    <variable name="SOURCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-source-callouts" value="[source,ruby]&#10;----&#10;require 'sinatra' // &lt;1&gt;&#10;&#10;get '/hi' do // &lt;2&gt;&#10;  &quot;Hello World!&quot; // &lt;3&gt;&#10;end&#10;----&#10;&lt;1&gt; Library import&#10;&lt;2&gt; URL mapping&#10;&lt;3&gt; Content for response&#10;&#10;$END$" description="Source code with callouts" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="ad-source:xml" value="[source,xml]&#10;.$FILENAME$.xml&#10;----&#10;$SOURCE$&#10;----&#10;&#10;$END$" description="XML source code" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;filename&quot;" alwaysStopAt="true" />
+    <variable name="SOURCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-sidebar" value=".$TITLE$&#10;****&#10;$CONTENT$&#10;****&#10;&#10;$END$" description="Sidebar" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="&quot;Title&quot;" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="&quot;Some content here&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-bibliography" value="_The Pragmatic Programmer_ &lt;&lt;prag&gt;&gt; should be required reading for&#10;all developers.&#10;&#10;[bibliography]&#10;- [[[prag]]] Andy Hunt &amp; Dave Thomas. The Pragmatic Programmer:&#10;  From Journeyman to Master. Addison-Wesley. 1999.&#10;- [[[regina]]] Erik Pragt. Groovy in Action, Second Edition. Manning Publications.&#10;  2015.&#10;  &#10;$END$" description="Bibliography" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="ad-footnotes" value="A statement.footnote:[Clarification about this statement.]&#10;&#10;A bold statement.footnoteref:[disclaimer,Opinions are my own.]&#10;&#10;Another bold statement.footnoteref:[disclaimer]&#10;  &#10;$END$" description="Footnotes" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="ad-config-i18n" value="// use these attributes to translate captions and labels to the document's language&#10;// more information: https://asciidoctor.org/docs/user-manual/#customizing-labels&#10;// table of contents title&#10;:toc-title: $toctitle$&#10;// admonition captions&#10;:caution-caption: $cautioncaption$&#10;:important-caption: $importantcaption$&#10;:note-caption: $notecaption$&#10;:tip-caption: $tipcaption$&#10;:warning-caption: $warningcaption$&#10;// captions for specific blocks&#10;:example-caption: $examplecaption$&#10;:figure-caption: $figurecaption$&#10;:table-caption: $tablecaption$&#10;// caption for the appendix&#10;:appendix-caption: $appendixcaption$&#10;" description="config-attributes for internationalization" toReformat="true" toShortenFQNames="true">
+    <variable name="toctitle" expression="" defaultValue="&quot;Table of Contents&quot;" alwaysStopAt="true" />
+    <variable name="cautioncaption" expression="" defaultValue="&quot;Caution&quot;" alwaysStopAt="true" />
+    <variable name="importantcaption" expression="" defaultValue="&quot;Important&quot;" alwaysStopAt="true" />
+    <variable name="notecaption" expression="" defaultValue="&quot;Note&quot;" alwaysStopAt="true" />
+    <variable name="tipcaption" expression="" defaultValue="&quot;Tip&quot;" alwaysStopAt="true" />
+    <variable name="warningcaption" expression="" defaultValue="&quot;Warning&quot;" alwaysStopAt="true" />
+    <variable name="examplecaption" expression="" defaultValue="&quot;Example&quot;" alwaysStopAt="true" />
+    <variable name="figurecaption" expression="" defaultValue="&quot;Figure&quot;" alwaysStopAt="true" />
+    <variable name="tablecaption" expression="" defaultValue="&quot;Table&quot;" alwaysStopAt="true" />
+    <variable name="appendixcaption" expression="" defaultValue="&quot;Appendix&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-config-toc" value="// see: https://asciidoctor.org/docs/user-manual/#table-of-contents-summary&#10;:toc-title: $tocTitle$&#10;// how many headline levels to display in table of contents?&#10;:toclevels: $toclevels$&#10;// https://asciidoctor.org/docs/user-manual/#sections-summary&#10;// turn numbering on or off (:sectnums!:)&#10;:sectnums:&#10;// enumerate how many section levels?&#10;:sectnumlevels: $sectnumlevels$&#10;// show anchors when hovering over section headers&#10;:sectanchors:&#10;// render section headings as self referencing links&#10;:sectlinks:&#10;// number parts of a book&#10;:partnums:&#10;" description="config-attributes for table of contents and sections" toReformat="true" toShortenFQNames="true">
+    <variable name="tocTitle" expression="" defaultValue="&quot;Table of Contents&quot;" alwaysStopAt="true" />
+    <variable name="toclevels" expression="" defaultValue="&quot;4&quot;" alwaysStopAt="true" />
+    <variable name="sectnumlevels" expression="" defaultValue="&quot;2&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-config-general" value="// see https://asciidoctor.org/docs/user-manual/#builtin-attributes for builtin attributes&#10;" description="link to a list of all available attributes" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="ad-config-render" value="// use Font Awesome for admonition icons&#10;:icons: font&#10;// the base folder for images&#10;:imagesdir: $imagesdir$&#10;// the type of document: article, book, manpage or inline&#10;// see https://asciidoctor.org/docs/user-manual/#document-types&#10;:doctype: $doctype$&#10;" description="Render configurations: icons, imagesdir, doctype" toReformat="true" toShortenFQNames="true">
+    <variable name="imagesdir" expression="" defaultValue="&quot;images&quot;" alwaysStopAt="true" />
+    <variable name="doctype" expression="" defaultValue="&quot;article&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-config-pdf" value="// use these attributes to configure some attributes for asciidoctor-pdf&#10;:pdf-page-size: $pdfSize$&#10;// see https://github.com/asciidoctor/asciidoctor-pdf/blob/master/docs/theming-guide.adoc&#10;:pdf-themesdir: $pdfTheme$&#10;" description="PDF-configuration for page-size and themesdir" toReformat="true" toShortenFQNames="true">
+    <variable name="pdfSize" expression="" defaultValue="&quot;A4&quot;" alwaysStopAt="true" />
+    <variable name="pdfTheme" expression="" defaultValue="&quot;../pdfTheme&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-tag-include" value="$cmt$ tag::$tagname$[]&#10;$SELECTION$&#10;$cmt$ end::$tagname$[]" description="Surround with Tag for include marco" toReformat="true" toShortenFQNames="true">
+    <variable name="cmt" expression="lineCommentStart()" defaultValue="" alwaysStopAt="false" />
+    <variable name="tagname" expression="" defaultValue="&quot;tagname&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>

@@ -165,4 +165,54 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="gradle_faker" value="implementation (&quot;com.github.javafaker:javafaker:1.0.2&quot;)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="&lt;abbreviation&gt;" value="&lt;TBD&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="produceChuckNorris" value="&#9;@Bean&#10;&#9;fun produceChuckNorris(): Supplier&lt;Message&lt;String&gt;&gt; {&#10;&#9;&#9;return Supplier {&#10;&#9;&#9;&#9;MessageBuilder.withPayload(Faker.instance().chuckNorris().fact()).build()&#10;&#9;&#9;}&#10;&#9;}" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="produceYaml" value="spring:&#10;  kafka:&#10;    properties:&#10;      bootstrap.servers: localhost:9092&#10;  #     Confluent Cloud config      &#10;  #      bootstrap.servers: bootstrap.us-east4.gcp.confluent.cloud:9092&#10;  #      sasl.mechanism: PLAIN&#10;  #      sasl.jaas.config: &quot;org.apache.kafka.common.security.plain.PlainLoginModule   required username='blah'   password='blah';&quot;&#10;  #      security.protocol: SASL_SSL&#10;  #    streams:&#10;  #      replication-factor: 3&#10;  cloud:&#10;    stream:&#10;      function:&#10;        definition: produceChuckNorris&#10;      bindings:&#10;        # kafka producer&#10;        produceChuckNorris-out-0:&#10;          binder: kafka&#10;          destination: facts&#10;          producer:&#10;            partition-count: 4&#10;            useNativeEncoding: true&#10;      kafka:&#10;        binder:&#10;          producer-properties:&#10;            key.serializer: org.apache.kafka.common.serialization.StringSerializer&#10;            value.serializer: org.apache.kafka.common.serialization.StringSerializer" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GENERAL_YAML_FILE" value="true" />
+      <option name="KUBERNETES_RESOURCE" value="true" />
+    </context>
+  </template>
+  <template name="consumeChuckNorris" value="@Bean&#10;&#9;fun consumeChuckNorris(): Consumer&lt;Message&lt;String&gt;&gt; {&#10;&#9;&#9;return Consumer { s: Message&lt;String&gt; -&gt;&#10;&#9;&#9;&#9;println(&#10;&#9;&#9;&#9;&#9;&quot;FACT: \u001B[3m «&quot; + s.payload + &quot;\u001B[0m»&quot;&#10;&#9;&#9;&#9;)&#10;&#9;&#9;}&#10;&#9;}&#10;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="consumeYaml" value="spring:&#10;  kafka:&#10;    properties:&#10;      bootstrap.servers: localhost:9092&#10;  #     Confluent Cloud config      &#10;  #      bootstrap.servers: bootstrap.us-east4.gcp.confluent.cloud:9092&#10;  #      sasl.mechanism: PLAIN&#10;  #      sasl.jaas.config: &quot;org.apache.kafka.common.security.plain.PlainLoginModule   required username='blah'   password='blah';&quot;&#10;  #      security.protocol: SASL_SSL&#10;  #    streams:&#10;  #      replication-factor: 3&#10;  cloud:&#10;    stream:&#10;      function:&#10;        definition: produceChuckNorris;consumeChuckNorris&#10;      bindings:&#10;        # kafka producer&#10;        produceChuckNorris-out-0:&#10;          binder: kafka&#10;          destination: facts&#10;          producer:&#10;            partition-count: 4&#10;            useNativeEncoding: true&#10;        # kafka consumer&#10;        consumeChuckNorris-in-0:&#10;          binder: kafka&#10;          destination: facts&#10;          group: myGroup&#10;      kafka:&#10;        binder:&#10;          consumer-properties:&#10;            key.deserializer: org.apache.kafka.common.serialization.StringDeserializer&#10;            value.deserializer: org.apache.kafka.common.serialization.StringDeserializer&#10;          producer-properties:&#10;            key.serializer: org.apache.kafka.common.serialization.StringSerializer&#10;            value.serializer: org.apache.kafka.common.serialization.StringSerializer&#10;            " toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GENERAL_YAML_FILE" value="true" />
+      <option name="KUBERNETES_RESOURCE" value="true" />
+    </context>
+  </template>
+  <template name="processWords" value="@Bean&#10;  fun processWords(): java.util.function.Function&lt;KStream&lt;String?, String&gt;, KStream&lt;String, Long&gt;&gt; {&#10;    return java.util.function.Function { inputStream: KStream&lt;String?, String&gt; -&gt;&#10;      val countsStream = inputStream&#10;        .flatMapValues { value: String -&gt; value.toLowerCase().split(&quot;\\W+&quot;.toRegex()) }&#10;        .map { _: String?, value: String -&gt; KeyValue(value, value) }&#10;        .groupByKey(Grouped.with(Serdes.String(), Serdes.String()))&#10;        .count(Materialized.`as`(&quot;word-count-state-store&quot;))&#10;        .toStream()&#10;      countsStream.to(&quot;counts&quot;, Produced.with(Serdes.String(), Serdes.Long()))&#10;      countsStream&#10;    }&#10;  }" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="processYaml" value="spring:&#10;  kafka:&#10;    properties:&#10;      bootstrap.servers: localhost:9092&#10;  #     Confluent Cloud config      &#10;  #      bootstrap.servers: bootstrap.us-east4.gcp.confluent.cloud:9092&#10;  #      sasl.mechanism: PLAIN&#10;  #      sasl.jaas.config: &quot;org.apache.kafka.common.security.plain.PlainLoginModule   required username='blah'   password='blah';&quot;&#10;  #      security.protocol: SASL_SSL&#10;  #    streams:&#10;  #      replication-factor: 3&#10;  cloud:&#10;    stream:&#10;      function:&#10;        definition: produceChuckNorris;consumeChuckNorris;processWords&#10;        bindings:&#10;          # input and output of KStreams topology&#10;          processWords-in-0: facts&#10;          processWords-out-0: counts&#10;      bindings:&#10;        # kafka producer&#10;        produceChuckNorris-out-0:&#10;          binder: kafka&#10;          destination: facts&#10;          producer:&#10;            partition-count: 4&#10;            useNativeEncoding: true&#10;        # kafka consumer&#10;        consumeChuckNorris-in-0:&#10;          binder: kafka&#10;          destination: facts&#10;          group: myGroup&#10;      kafka:&#10;        binder:&#10;          consumer-properties:&#10;            key.deserializer: org.apache.kafka.common.serialization.StringDeserializer&#10;            value.deserializer: org.apache.kafka.common.serialization.StringDeserializer&#10;          producer-properties:&#10;            key.serializer: org.apache.kafka.common.serialization.StringSerializer&#10;            value.serializer: org.apache.kafka.common.serialization.StringSerializer&#10;        streams:&#10;          binder:&#10;            applicationId: chuck-norris-word-count&#10;            configuration:&#10;              default.key.serde: org.apache.kafka.common.serialization.Serdes$StringSerde&#10;              default.value.serde: org.apache.kafka.common.serialization.Serdes$BytesSerde&#10;              commit.interval.ms: 1000 " toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GENERAL_YAML_FILE" value="true" />
+      <option name="KUBERNETES_RESOURCE" value="true" />
+    </context>
+  </template>
+  <template name="iqController" value="@RestController&#10;class IQRestController {&#10;&#10;  @Autowired&#10;  private lateinit var iqService: InteractiveQueryService&#10;&#10;  @GetMapping(&quot;/iq/count/{word}&quot;)&#10;  fun getCount(@PathVariable word: String): Long {&#10;    val store =&#10;      iqService.getQueryableStore(&quot;word-count-state-store&quot;, QueryableStoreTypes.keyValueStore&lt;String, Long&gt;())&#10;    return store[word]&#10;  }&#10;}&#10;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
 </templateSet>
