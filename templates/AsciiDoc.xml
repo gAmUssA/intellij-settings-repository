@@ -20,6 +20,16 @@
     <variable name="DEFINITION" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="ad-source" value="[source]&#10;.$FILENAME$&#10;----&#10;$SOURCE$&#10;----&#10;&#10;$END$" description="Source code" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;filename&quot;" alwaysStopAt="true" />
+    <variable name="SOURCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-sidebar" value=".$TITLE$&#10;****&#10;$CONTENT$&#10;****&#10;&#10;$END$" description="Sidebar" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="&quot;Title&quot;" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="&quot;Some content here&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
   <template name="ad-bibliography" value="_The Pragmatic Programmer_ &lt;&lt;prag&gt;&gt; should be required reading for&#10;all developers.&#10;&#10;[bibliography]&#10;- [[[prag]]] Andy Hunt &amp; Dave Thomas. The Pragmatic Programmer:&#10;  From Journeyman to Master. Addison-Wesley. 1999.&#10;- [[[regina]]] Erik Pragt. Groovy in Action, Second Edition. Manning Publications.&#10;  2015.&#10;  &#10;$END$" description="Bibliography" toReformat="false" toShortenFQNames="true">
     <context />
   </template>
