@@ -3,11 +3,11 @@
   <option name="LINE_SPACING" value="1.1" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Iosevka Term" />
-    <option name="EDITOR_FONT_SIZE" value="19" />
+    <option name="EDITOR_FONT_SIZE" value="20" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Menlo" />
-    <option name="EDITOR_FONT_SIZE" value="17" />
+    <option name="EDITOR_FONT_SIZE" value="20" />
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
   <console-font>
