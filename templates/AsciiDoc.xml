@@ -6,7 +6,26 @@
     <variable name="DATE" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="ad-table2" value="|===&#10;| $cell1header$ | $cell2header$&#10;&#10;| $cell1row1$&#10;| $cell2row1$&#10;&#10;| $cell1row2$&#10;| $cell2row2$&#10;|===" description="Table with two columns" toReformat="false" toShortenFQNames="true">
+    <variable name="cell1header" expression="" defaultValue="&quot;Header Cell 1&quot;" alwaysStopAt="true" />
+    <variable name="cell2header" expression="" defaultValue="&quot;Header Cell 2&quot;" alwaysStopAt="true" />
+    <variable name="cell1row1" expression="" defaultValue="&quot;Row 1 Cell 1&quot;" alwaysStopAt="true" />
+    <variable name="cell2row1" expression="" defaultValue="&quot;Row 1 Cell 2&quot;" alwaysStopAt="true" />
+    <variable name="cell1row2" expression="" defaultValue="&quot;Row 2 Cell 1&quot;" alwaysStopAt="true" />
+    <variable name="cell2row2" expression="" defaultValue="&quot;Row 2 Cell 2&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ad-list-labeled" value="$TERM$:: $DEFINITION$&#10;$END$" description="Labeled list" toReformat="false" toShortenFQNames="true">
+    <variable name="TERM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFINITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
   <template name="ad-bibliography" value="_The Pragmatic Programmer_ &lt;&lt;prag&gt;&gt; should be required reading for&#10;all developers.&#10;&#10;[bibliography]&#10;- [[[prag]]] Andy Hunt &amp; Dave Thomas. The Pragmatic Programmer:&#10;  From Journeyman to Master. Addison-Wesley. 1999.&#10;- [[[regina]]] Erik Pragt. Groovy in Action, Second Edition. Manning Publications.&#10;  2015.&#10;  &#10;$END$" description="Bibliography" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="ad-config-render" value="// use Font Awesome for admonition icons&#10;:icons: font&#10;// the base folder for images&#10;:imagesdir: $imagesdir$&#10;// the type of document: article, book, manpage or inline&#10;// see https://asciidoctor.org/docs/user-manual/#document-types&#10;:doctype: $doctype$&#10;" description="Render configurations: icons, imagesdir, doctype" toReformat="true" toShortenFQNames="true">
+    <variable name="imagesdir" expression="" defaultValue="&quot;images&quot;" alwaysStopAt="true" />
+    <variable name="doctype" expression="" defaultValue="&quot;article&quot;" alwaysStopAt="true" />
     <context />
   </template>
   <template name="ad-tag-include" value="$cmt$ tag::$tagname$[]&#10;$SELECTION$&#10;$cmt$ end::$tagname$[]" description="Surround with Tag for include marco" toReformat="true" toShortenFQNames="true">
