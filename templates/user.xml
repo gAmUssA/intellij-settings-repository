@@ -167,6 +167,7 @@
   </template>
   <template name="gradle_faker" value="implementation (&quot;com.github.javafaker:javafaker:1.0.2&quot;)" description="" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="GROOVY" value="true" />
       <option name="KOTLIN_EXPRESSION" value="true" />
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
