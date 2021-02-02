@@ -1,5 +1,5 @@
 <application>
-  <component name="download-consent" pauseIndexing="true">
+  <component name="download-consent" pauseIndexing="false">
     <option name="consentItems">
       <item download="ALLOWED" kind="jdk" url="https://index-cdn.jetbrains.com" />
       <item download="ALLOWED" kind="jdk" url="https://index-cdn.jetbrains.com/v2/jdk" />
