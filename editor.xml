@@ -47,8 +47,4 @@
   <component name="InstantHtmlEditingOptions">
     <option name="instantEditing" value="true" />
   </component>
-  <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
-    <pattern pattern="\bfixme\b.*" />
-  </component>
 </application>
