@@ -17,6 +17,7 @@
     <option name="CARET_COLOR" value="ffffff" />
     <option name="CARET_ROW_COLOR" value="2b2b2b" />
     <option name="CONSOLE_BACKGROUND_KEY" value="" />
+    <option name="DOCUMENTATION_COLOR" value="" />
     <option name="FILESTATUS_MODIFIED" value="6897bb" />
     <option name="FILESTATUS_UNKNOWN" value="d1675a" />
     <option name="GUTTER_BACKGROUND" value="3c3f41" />
@@ -2493,7 +2494,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="cccccc" />
-        <option name="BACKGROUND" value="2d2d2d" />
+        <option name="BACKGROUND" value="21252b" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
