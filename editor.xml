@@ -11,7 +11,7 @@
     <EXCLUDED_PACKAGE NAME="java.awt" />
   </component>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="26" />
+    <option name="FONT_SIZE" value="24" />
     <option name="FONT_FAMILY" value="iA Writer Mono S" />
     <option name="LINE_SPACING" value="1.1" />
     <option name="USE_LIGATURES" value="true" />
