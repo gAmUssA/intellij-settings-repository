@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping ext="klib" type="ARCHIVE" />
       <mapping ext="avsc" type="JSON" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
