@@ -188,6 +188,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.conf">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.hocon" />
+              <option name="myPluginName" value="HOCON" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.config">
           <value>
             <plugin>
