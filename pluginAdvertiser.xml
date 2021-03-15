@@ -482,6 +482,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.gdbcommandsfiletypeextension">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.nativeDebug" />
+              <option name="myPluginName" value="Native Debugging Support" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.gdsl">
           <value>
             <plugin>
@@ -1034,6 +1042,14 @@
               <option name="myPluginId" value="org.coffeescript" />
               <option name="myPluginName" value="CoffeeScript" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.lldbcommandsfiletypeextension">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.nativeDebug" />
+              <option name="myPluginName" value="Native Debugging Support" />
             </plugin>
           </value>
         </entry>
@@ -2532,6 +2548,11 @@
                   <entry key="GlassfishConfiguration">
                     <value>
                       <FeaturePluginData displayName="GlassFish Server" pluginName="GlassFish" pluginId="GlassFish" />
+                    </value>
+                  </entry>
+                  <entry key="GradleKonanAppRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Kotlin/Native Application" pluginName="org.jetbrains.kotlin" pluginId="org.jetbrains.kotlin" />
                     </value>
                   </entry>
                   <entry key="GradleRunConfiguration">
