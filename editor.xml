@@ -11,8 +11,8 @@
     <EXCLUDED_PACKAGE NAME="java.awt" />
   </component>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="24" />
-    <option name="FONT_FAMILY" value="Iosevka Nerd Font" />
+    <option name="FONT_SIZE" value="28" />
+    <option name="FONT_FAMILY" value="Iosevka Term" />
     <option name="USE_LIGATURES" value="true" />
     <option name="SECONDARY_FONT_FAMILY" value="JetBrains Mono" />
   </component>
