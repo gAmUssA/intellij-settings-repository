@@ -12,6 +12,7 @@
     <EXCLUDED_PACKAGE NAME="com.apple.eawt" />
     <EXCLUDED_PACKAGE NAME="java.awt" />
     <EXCLUDED_PACKAGE NAME="javax.xml.datatype.Duration" />
+    <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal" />
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="28" />
