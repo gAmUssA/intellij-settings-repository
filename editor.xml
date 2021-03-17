@@ -8,7 +8,10 @@
     <option name="AUTOCOMPLETE_ON_CODE_COMPLETION" value="false" />
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
+    <EXCLUDED_PACKAGE NAME="ch.qos.logback.core.util.Duration" />
+    <EXCLUDED_PACKAGE NAME="com.apple.eawt" />
     <EXCLUDED_PACKAGE NAME="java.awt" />
+    <EXCLUDED_PACKAGE NAME="javax.xml.datatype.Duration" />
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="28" />
