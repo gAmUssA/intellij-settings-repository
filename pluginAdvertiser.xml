@@ -1992,6 +1992,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.zpln">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.bigdatatools" />
+              <option name="myPluginName" value="Big Data Tools" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.zsh">
           <value>
             <plugin>
@@ -2758,6 +2766,11 @@
                   <entry key="SpaceRunConfiguration">
                     <value>
                       <FeaturePluginData displayName="Space Task" pluginName="Space" pluginId="com.jetbrains.space" />
+                    </value>
+                  </entry>
+                  <entry key="SparkSubmitConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Spark Submit" pluginName="Big Data Tools" pluginId="com.intellij.bigdatatools" />
                     </value>
                   </entry>
                   <entry key="Specs2RunConfiguration">
