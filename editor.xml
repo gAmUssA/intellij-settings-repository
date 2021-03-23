@@ -15,7 +15,7 @@
     <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal" />
   </component>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="24" />
+    <option name="FONT_SIZE" value="32" />
     <option name="FONT_FAMILY" value="Iosevka Term" />
     <option name="USE_LIGATURES" value="true" />
     <option name="SECONDARY_FONT_FAMILY" value="JetBrains Mono" />
