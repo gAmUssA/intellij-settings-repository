@@ -3,7 +3,4 @@
     <variable name="ARGS" expression="kotlinMainArguments()" defaultValue="" alwaysStopAt="false" />
     <context />
   </template>
-  <template name="psvma" value="fun main(args: Array&lt;String&gt;) {&#10;  $END$&#10;}" description="main() function" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
 </templateSet>
