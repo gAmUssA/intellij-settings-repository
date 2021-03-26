@@ -13,6 +13,7 @@
     <EXCLUDED_PACKAGE NAME="java.awt" />
     <EXCLUDED_PACKAGE NAME="javax.xml.datatype.Duration" />
     <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal" />
+    <EXCLUDED_PACKAGE NAME="sun.security" />
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="32" />
