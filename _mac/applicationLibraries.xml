@@ -82,6 +82,18 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="bootstrap" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_stackpath.bootstrapcdn.com_bootstrap_4.1.3_css_bootstrap.css" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_stackpath.bootstrapcdn.com_bootstrap_4.1.3_css_bootstrap.css" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="Bundled Protobuf Distribution">
       <CLASSES />
       <JAVADOC />
