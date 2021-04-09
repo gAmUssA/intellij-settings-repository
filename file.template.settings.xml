@@ -1,0 +1,7 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="Gherkin feature file.feature" reformat="true" live-template-enabled="false" enabled="false" />
+    </default_templates>
+  </component>
+</application>
