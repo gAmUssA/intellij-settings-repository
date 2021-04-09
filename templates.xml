@@ -426,6 +426,34 @@
           <option name="groupName" value="spring" />
           <option name="key" value="httpServerFactoryBean" />
         </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AsciiDoc" />
+          <option name="key" value="ad-video" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AsciiDoc" />
+          <option name="key" value="ad-video-options" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AsciiDoc" />
+          <option name="key" value="ad-video-youtube" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AsciiDoc" />
+          <option name="key" value="ad-video-vimeo" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AsciiDoc" />
+          <option name="key" value="ad-footnotes" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AsciiDoc" />
+          <option name="key" value="ad-admonition-block" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AsciiDoc" />
+          <option name="key" value="ad-admonition-para" />
+        </TemplateKey>
       </list>
     </option>
   </component>

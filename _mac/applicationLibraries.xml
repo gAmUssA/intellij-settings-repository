@@ -82,6 +82,18 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="bootstrap" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_stackpath.bootstrapcdn.com_bootstrap_4.1.3_css_bootstrap.css" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_stackpath.bootstrapcdn.com_bootstrap_4.1.3_css_bootstrap.css" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="Bundled Protobuf Distribution">
       <CLASSES />
       <JAVADOC />
@@ -253,6 +265,18 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/ffi-1.11.1/ext" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/ffi-1.11.1/samples" />
       </excluded>
+    </library>
+    <library name="font-awesome" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_maxcdn.bootstrapcdn.com_font-awesome_4.7.0_css_font-awesome.css" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_maxcdn.bootstrapcdn.com_font-awesome_4.7.0_css_font-awesome.css" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
     </library>
     <library name="forwardable-extended (v2.6.0, rbenv: 2.4.1) [gem]" type="rubylib">
       <properties>
@@ -519,6 +543,34 @@
       <excluded>
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/listen-3.1.5/bin" />
       </excluded>
+    </library>
+    <library name="mapbox-gl" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_api.mapbox.com_mapbox-gl-js_v0.43.0_mapbox-gl.css" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_api.mapbox.com_mapbox-gl-js_v0.43.0_mapbox-gl.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_api.mapbox.com_mapbox-gl-js_v0.43.0_mapbox-gl.css" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_api.mapbox.com_mapbox-gl-js_v0.43.0_mapbox-gl.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="mapbox-gl-directions" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_api.mapbox.com_mapbox-gl-js_plugins_mapbox-gl-directions_v3.1.2_mapbox-gl-directions.css" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_api.mapbox.com_mapbox-gl-js_plugins_mapbox-gl-directions_v3.1.2_mapbox-gl-directions.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_api.mapbox.com_mapbox-gl-js_plugins_mapbox-gl-directions_v3.1.2_mapbox-gl-directions.css" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_api.mapbox.com_mapbox-gl-js_plugins_mapbox-gl-directions_v3.1.2_mapbox-gl-directions.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
     </library>
     <library name="mercenary (v0.3.6, rbenv: 2.4.1) [gem]" type="rubylib">
       <properties>
