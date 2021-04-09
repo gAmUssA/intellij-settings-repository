@@ -196,6 +196,7 @@
   </template>
   <template name="consumeYaml" value="spring:&#10;  kafka:&#10;    properties:&#10;      bootstrap.servers: localhost:9092&#10;  #     Confluent Cloud config      &#10;  #      bootstrap.servers: bootstrap.us-east4.gcp.confluent.cloud:9092&#10;  #      sasl.mechanism: PLAIN&#10;  #      sasl.jaas.config: &quot;org.apache.kafka.common.security.plain.PlainLoginModule   required username='blah'   password='blah';&quot;&#10;  #      security.protocol: SASL_SSL&#10;  #    streams:&#10;  #      replication-factor: 3&#10;  cloud:&#10;    stream:&#10;      function:&#10;        definition: produceChuckNorris;consumeChuckNorris&#10;      bindings:&#10;        # kafka producer&#10;        produceChuckNorris-out-0:&#10;          binder: kafka&#10;          destination: facts&#10;          producer:&#10;            partition-count: 4&#10;            useNativeEncoding: true&#10;        # kafka consumer&#10;        consumeChuckNorris-in-0:&#10;          binder: kafka&#10;          destination: facts&#10;          group: myGroup&#10;      kafka:&#10;        binder:&#10;          consumer-properties:&#10;            key.deserializer: org.apache.kafka.common.serialization.StringDeserializer&#10;            value.deserializer: org.apache.kafka.common.serialization.StringDeserializer&#10;          producer-properties:&#10;            key.serializer: org.apache.kafka.common.serialization.StringSerializer&#10;            value.serializer: org.apache.kafka.common.serialization.StringSerializer&#10;            " description="" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="ANY_OPENAPI_YAML_FILE" value="true" />
       <option name="GENERAL_YAML_FILE" value="true" />
       <option name="KUBERNETES_RESOURCE" value="true" />
     </context>
@@ -214,6 +215,26 @@
   <template name="iqController" value="@RestController&#10;class IQRestController {&#10;&#10;  @Autowired&#10;  private lateinit var iqService: InteractiveQueryService&#10;&#10;  @GetMapping(&quot;/iq/count/{word}&quot;)&#10;  fun getCount(@PathVariable word: String): Long {&#10;    val store =&#10;      iqService.getQueryableStore(&quot;word-count-state-store&quot;, QueryableStoreTypes.keyValueStore&lt;String, Long&gt;())&#10;    return store[word]&#10;  }&#10;}&#10;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="func_stream" value="  // ╔═══════════╦═══════════════╦═════════════════════════════╗&#10;  // ║    SCS    ║     Kafka     ║ Java (java.util.function.*) ║&#10;  // ╠═══════════╬═══════════════╬═════════════════════════════╣&#10;  // ║ Sink      ║ Producer      ║ Supplier                    ║&#10;  // ║ Source    ║ Consumer      ║ Consumer                    ║&#10;  // ║ Processor ║ Kafka Streams ║ Function                    ║&#10;  // ╚═══════════╩═══════════════╩═════════════════════════════╝" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="produceJChuckNorris" value="@org.springframework.context.annotation.Bean&#10;  java.util.function.Supplier&lt;org.springframework.messaging.Message&lt;java.lang.String&gt;&gt; produceChuckNorris() {&#10;    return () -&gt; org.springframework.messaging.support.MessageBuilder.withPayload(com.github.javafaker.Faker.instance().chuckNorris().fact()).build();&#10;  }" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="consumeJChuck" value="@org.springframework.context.annotation.Bean&#10;  java.util.function.Consumer&lt;org.springframework.messaging.Message&lt;java.lang.String&gt;&gt; consumeChuckNorris() {&#10;    return s -&gt; out.println(&quot;FACT: \u001B[3m «&quot; + s.getPayload() + &quot;\u001B[0m»&quot;);&#10;  }" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="processWordsJ" value="@org.springframework.context.annotation.Bean&#10;  public java.util.function.Function&lt;org.apache.kafka.streams.kstream.KStream&lt;java.lang.String, java.lang.String&gt;, org.apache.kafka.streams.kstream.KStream&lt;java.lang.String, java.lang.Long&gt;&gt; processWords() {&#10;    return inputStream -&gt; {&#10;      final org.apache.kafka.common.serialization.Serde&lt;java.lang.String&gt; stringSerde = org.apache.kafka.common.serialization.Serdes.String();&#10;      final org.apache.kafka.streams.kstream.KStream&lt;java.lang.String, java.lang.Long&gt; countsStream = inputStream&#10;          .flatMapValues(value -&gt; asList(value.toLowerCase().split(&quot;\\W+&quot;)))&#10;          .map((key, value) -&gt; new org.apache.kafka.streams.KeyValue&lt;&gt;(value, value))&#10;          .groupByKey(org.apache.kafka.streams.kstream.Grouped.with(stringSerde, stringSerde))&#10;          .count(org.apache.kafka.streams.kstream.Materialized.as(&quot;word-count-state-store&quot;))&#10;          .toStream();&#10;      countsStream.to(&quot;counts&quot;, org.apache.kafka.streams.kstream.Produced.with(stringSerde, org.apache.kafka.common.serialization.Serdes.Long()));&#10;      return countsStream;&#10;    };&#10;  }" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
 </templateSet>

@@ -889,9 +889,9 @@
       <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
     </general>
     <debuggers>
-      <debugger id="javascript">
+      <debugger id="ObjectiveC">
         <configuration>
-          <custom-object-presentation />
+          <option name="LLDB_NATVIS_RENDERERS_ENABLED" value="false" />
         </configuration>
       </debugger>
     </debuggers>
