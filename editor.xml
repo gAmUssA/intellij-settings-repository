@@ -12,7 +12,7 @@
     <EXCLUDED_PACKAGE NAME="org.apache.logging.log4j.util.Supplier" />
   </component>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="32" />
+    <option name="FONT_SIZE" value="24" />
     <option name="FONT_FAMILY" value="Iosevka Nerd Font Mono" />
     <option name="FONT_REGULAR_SUB_FAMILY" value="Light" />
     <option name="FONT_BOLD_SUB_FAMILY" value="Bold" />
