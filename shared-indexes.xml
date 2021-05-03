@@ -3,7 +3,7 @@
     <option name="consentItems">
       <item download="ALLOWED" kind="jdk" url="https://index-cdn.jetbrains.com" />
       <item download="ALLOWED" kind="jdk" url="https://index-cdn.jetbrains.com/v2/jdk" />
-      <item download="DENIED" kind="mvn" url="https://index-cdn.jetbrains.com/v2/mvn" />
+      <item download="ALLOWED" kind="mvn" url="https://index-cdn.jetbrains.com/v2/mvn" />
     </option>
   </component>
 </application>
