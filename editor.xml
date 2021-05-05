@@ -8,6 +8,7 @@
     <option name="AUTOCOMPLETE_ON_CODE_COMPLETION" value="false" />
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
+    <EXCLUDED_PACKAGE NAME="com.fasterxml.jackson.databind.deser.std" />
     <EXCLUDED_PACKAGE NAME="com.fasterxml.jackson.databind.ser.std" />
     <EXCLUDED_PACKAGE NAME="java.awt" />
     <EXCLUDED_PACKAGE NAME="org.apache.logging.log4j.util.Supplier" />
