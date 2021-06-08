@@ -1,0 +1,45 @@
+<templateSet group="AsciiDoc">
+  <template name=";ad-video" value="video::$FILENAME$[]&#10;&#10;$END$" description="Video" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;video_file.mp4&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name=";ad-video-options" value="video::$FILENAME$[width=640, start=60, end=140, options=autoplay]&#10;&#10;$END$" description="Video options" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="" defaultValue="&quot;video_file.mp4&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name=";ad-video-youtube" value="video::$YOUTUBE$[youtube]&#10;&#10;$END$" description="Youtube video" toReformat="false" toShortenFQNames="true">
+    <variable name="YOUTUBE" expression="" defaultValue="&quot;nPER_vv2SyU&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name=";ad-video-vimeo" value="video::$VIMEO$[vimeo]&#10;&#10;$END$" description="Vimeo video" toReformat="false" toShortenFQNames="true">
+    <variable name="VIMEO" expression="" defaultValue="&quot;67480300&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name=";ad-footnotes" value="A statement.footnote:[Clarification about this statement.]&#10;&#10;A bold statement.footnoteref:[disclaimer,Opinions are my own.]&#10;&#10;Another bold statement.footnoteref:[disclaimer]&#10;  &#10;$END$" description="Footnotes" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name=";ad-admonition-block" value="[$TYPE$]&#10;====&#10;$TEXT$&#10;====" description="inserts an admonition block" toReformat="false" toShortenFQNames="false">
+    <variable name="TYPE" expression="enum(&quot;NOTE&quot;,&quot;TIP&quot;,&quot;IMPORTANT&quot;,&quot;CAUTION&quot;,&quot;WARNING&quot;)" defaultValue="NOTE" alwaysStopAt="true" />
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name=";ad-admonition-para" value="$TYPE$: $TEXT$&#10;" description="inserts an admonition paragraph" toReformat="false" toShortenFQNames="false">
+    <variable name="TYPE" expression="enum(&quot;NOTE&quot;,&quot;TIP&quot;,&quot;IMPORTANT&quot;,&quot;CAUTION&quot;,&quot;WARNING&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+</templateSet>

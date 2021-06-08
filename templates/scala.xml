@@ -1,0 +1,5 @@
+<templateSet group="scala">
+  <template name="main" value="def main(args: Array[String]){&#10;  $END$&#10;}" description="Template for main method" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

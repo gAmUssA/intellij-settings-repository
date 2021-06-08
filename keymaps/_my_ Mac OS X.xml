@@ -1,0 +1,67 @@
+<keymap version="1" name="[my] Mac OS X" parent="Mac OS X">
+  <action id="CopyReference" />
+  <action id="DatabaseView.SqlGenerator" />
+  <action id="Django.RunManageTaskAction" />
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift ctrl meta down" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="meta g" />
+  </action>
+  <action id="Jdbc.OpenEditor.DDL">
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+  </action>
+  <action id="Macro.gray comments">
+    <keyboard-shortcut first-keystroke="meta alt g" />
+  </action>
+  <action id="Macro.green comments">
+    <keyboard-shortcut first-keystroke="ctrl meta alt g" />
+  </action>
+  <action id="Mvc.RunTarget" />
+  <action id="ProjectViewChangeView" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="Scala.ShowImplicits">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
+  </action>
+  <action id="SelectIn" />
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="alt f1" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="shift meta f" />
+  </action>
+  <action id="TogglePresentationMode">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
+  </action>
+  <action id="asciidoc.makebold">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="one.util.ideaplugin.screenshoter.CopyImageAction">
+    <keyboard-shortcut first-keystroke="shift meta alt c" />
+  </action>
+  <action id="org.jetbrains.plugins.ruby.tasks.rake.actions.RakeTasksPopupAction" />
+</keymap>

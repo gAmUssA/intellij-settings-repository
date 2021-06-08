@@ -1,0 +1,11 @@
+<templateSet group="HTTP Request">
+  <template name="gtrp" value="GET http://$HOST$/$PATH$?$PARAM$=$VALUE$&#10;$HEADER$: $HEADER_VALUE$&#10;&#10;###" description="GET http://example.com/get?id=99" toReformat="true" toShortenFQNames="false">
+    <variable name="HOST" expression="" defaultValue="&quot;localhost:80&quot;" alwaysStopAt="true" />
+    <variable name="PATH" expression="" defaultValue="&quot;api/item&quot;" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="&quot;id&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;99&quot;" alwaysStopAt="true" />
+    <variable name="HEADER" expression="" defaultValue="&quot;Accept&quot;" alwaysStopAt="true" />
+    <variable name="HEADER_VALUE" expression="" defaultValue="&quot;application/json&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

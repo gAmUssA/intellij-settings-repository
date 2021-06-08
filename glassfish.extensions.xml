@@ -1,0 +1,23 @@
+<application>
+  <component name="GlassfishExtensions">
+    <entry type="app" extension="ear" />
+    <entry type="web" extension="war" />
+    <entry type="jar" extension="beans" />
+    <entry type="jar" extension="rar" />
+    <entry type="jar" extension="deployer" />
+    <entry type="jar" extension="par" />
+    <entry type="jar" extension="jar" />
+    <entry type="jar" extension="spring" />
+    <entry type="jar" extension="esb" />
+    <entry type="jar" extension="aop" />
+    <entry type="ejb" extension="rar" />
+    <entry type="ejb" extension="par" />
+    <entry type="ejb" extension="deployer" />
+    <entry type="ejb" extension="jar" />
+    <entry type="ejb" extension="spring" />
+    <entry type="ejb" extension="ejb3" />
+    <entry type="ejb" extension="aop" />
+    <entry type="ejb" extension="beans" />
+    <entry type="ejb" extension="esb" />
+  </component>
+</application>

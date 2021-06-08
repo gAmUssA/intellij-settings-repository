@@ -1,0 +1,9 @@
+<application>
+  <component name="GoDep">
+    <exec-paths>
+      <list>
+        <option value="/usr/local/bin/dep" />
+      </list>
+    </exec-paths>
+  </component>
+</application>

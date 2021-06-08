@@ -1,0 +1,11 @@
+<templateSet group="Shell Script">
+  <template name="cmd success check" value="if [[ $? == 0 ]]; then&#10;    echo &quot;Succeed&quot;$END$&#10;else&#10;    echo &quot;Failed&quot;&#10;fi" description="Cmd success check" toReformat="true" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="array set element" value="$ARRAY$[$INDEX$]=$VALUE$&#10;" description="Array set element at index" toReformat="false" toShortenFQNames="false">
+    <variable name="ARRAY" expression="" defaultValue="&quot;myArray&quot;" alwaysStopAt="true" />
+    <variable name="INDEX" expression="" defaultValue="&quot;index&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
