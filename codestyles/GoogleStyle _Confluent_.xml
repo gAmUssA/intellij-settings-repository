@@ -239,11 +239,11 @@
     </value>
   </option>
   <option name="RIGHT_MARGIN" value="200" />
-  <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
   <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+  <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true" />
+  <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
   <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1" />
   <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
-  <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true" />
   <option name="ALIGN_MULTILINE_ASSIGNMENT" value="true" />
   <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
   <option name="ALIGN_MULTILINE_THROWS_LIST" value="true" />
@@ -518,9 +518,6 @@
   <JetCodeStyleSettings>
     <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
   </JetCodeStyleSettings>
-  <XML>
-    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
-  </XML>
   <ADDITIONAL_INDENT_OPTIONS fileType="haml">
     <option name="INDENT_SIZE" value="2" />
   </ADDITIONAL_INDENT_OPTIONS>
@@ -621,7 +618,6 @@
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="8" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JSON">
