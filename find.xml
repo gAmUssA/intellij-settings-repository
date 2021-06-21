@@ -7,13 +7,13 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <option name="FILE_MASK" value="*.java" />
+    <option name="FILE_MASK" value="*.adoc" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
-    <mask>*.adoc</mask>
     <mask>*.java</mask>
+    <mask>*.adoc</mask>
   </component>
 </application>
