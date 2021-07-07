@@ -62,6 +62,11 @@
                       <FeaturePluginData displayName="Attach to Node.js/Chrome" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="CloudCodeCloudRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Cloud Code: Cloud Run" pluginName="Cloud Code" pluginId="com.google.gct.core" />
+                    </value>
+                  </entry>
                   <entry key="ComposePreviewRunConfiguration">
                     <value>
                       <FeaturePluginData displayName="Compose Preview" pluginName="Android" pluginId="org.jetbrains.android" bundled="true" />
@@ -85,6 +90,11 @@
                   <entry key="FirefoxRemoteDebugType">
                     <value>
                       <FeaturePluginData displayName="Firefox Remote" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" bundled="true" />
+                    </value>
+                  </entry>
+                  <entry key="GCPDebug">
+                    <value>
+                      <FeaturePluginData displayName="Google Cloud Debugger" pluginName="com.google.gct.core" pluginId="com.google.gct.core" />
                     </value>
                   </entry>
                   <entry key="GlassfishConfiguration">
@@ -297,6 +307,21 @@
                       <FeaturePluginData displayName="Docker" pluginName="IDEA CORE" pluginId="com.intellij" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="gcp-app-engine-deploy">
+                    <value>
+                      <FeaturePluginData displayName="Google App Engine Deployment" pluginName="IDEA CORE" pluginId="com.intellij" bundled="true" />
+                    </value>
+                  </entry>
+                  <entry key="gcp-app-engine-local-run">
+                    <value>
+                      <FeaturePluginData displayName="Google App Engine Standard Local Server" pluginName="com.google.gct.core" pluginId="com.google.gct.core" />
+                    </value>
+                  </entry>
+                  <entry key="google-container-tools-skaffold-run-config">
+                    <value>
+                      <FeaturePluginData displayName="Cloud Code: Kubernetes" pluginName="Cloud Code" pluginId="com.google.gct.core" />
+                    </value>
+                  </entry>
                   <entry key="js.build_tools.grunt">
                     <value>
                       <FeaturePluginData displayName="Grunt.js" pluginName="JavaScript and TypeScript" pluginId="JavaScript" bundled="true" />
@@ -355,6 +380,16 @@
                   <entry key="apk">
                     <value>
                       <FeaturePluginData displayName="APK" pluginName="Android" pluginId="org.jetbrains.android" bundled="true" />
+                    </value>
+                  </entry>
+                  <entry key="app-engine-flexible">
+                    <value>
+                      <FeaturePluginData displayName="Google App Engine Flexible" pluginName="com.google.gct.core" pluginId="com.google.gct.core" />
+                    </value>
+                  </entry>
+                  <entry key="app-engine-standard">
+                    <value>
+                      <FeaturePluginData displayName="Google App Engine Standard" pluginName="com.google.gct.core" pluginId="com.google.gct.core" />
                     </value>
                   </entry>
                   <entry key="ejb">
