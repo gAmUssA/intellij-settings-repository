@@ -1,0 +1,18 @@
+<application>
+  <component name="KubernetesSettings">
+    <specSources>
+      <SpecSource>
+        <option name="pathOrUrl" value="$USER_HOME$/projects/kong/quotes-service/kubernetes/kong/kongclusterplugins.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="$USER_HOME$/projects/kong/quotes-service/kubernetes/kong/kongconsumers.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="$USER_HOME$/projects/kong/quotes-service/kubernetes/kong/kongingresses.yaml" />
+      </SpecSource>
+      <SpecSource>
+        <option name="pathOrUrl" value="$USER_HOME$/projects/kong/quotes-service/kubernetes/kong/kongplugins.yaml" />
+      </SpecSource>
+    </specSources>
+  </component>
+</application>
