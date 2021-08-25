@@ -3,6 +3,7 @@
     <option name="TRUSTED_PATHS">
       <list>
         <option value="$USER_HOME$/Downloads" />
+        <option value="$USER_HOME$/projects/confluent/demo-scene" />
       </list>
     </option>
   </component>
