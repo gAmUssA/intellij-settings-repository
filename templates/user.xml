@@ -312,7 +312,7 @@
       <option name="XML_ATTRIBUTE" value="false" />
     </context>
   </template>
-  <template name="secretyaml" value="apiVersion: v1&#10;kind: Secret&#10;metadata:&#10;  name: spring-boot-devoxx-spring-kafka-application-yaml&#10;type: Opaque&#10;stringData:&#10;  application.yaml: |" toReformat="true" toShortenFQNames="true">
+  <template name="secretyaml" value="apiVersion: v1&#10;kind: Secret&#10;metadata:&#10;  name: spring-boot-devoxx-spring-kafka-application-yaml&#10;type: Opaque&#10;stringData:&#10;  application.yaml: |" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
       <option name="ANY_OPENAPI_YAML_FILE" value="false" />
@@ -345,13 +345,13 @@
       <option name="XML_ATTRIBUTE" value="false" />
     </context>
   </template>
-  <template name="deploymentyaml" value="---&#10;apiVersion: apps/v1&#10;kind: StatefulSet&#10;metadata:&#10;  name: devoxx-spring-kafka&#10;spec:&#10;  serviceName: devoxx-spring-kafka&#10;  podManagementPolicy: Parallel&#10;  replicas: 1&#10;  selector:&#10;    matchLabels:&#10;      app: devoxx-spring-kafka&#10;  template:&#10;    metadata:&#10;      labels:&#10;        app: devoxx-spring-kafka&#10;    spec:&#10;      containers:&#10;        - name: devoxx-spring&#10;          image: docker.io/gamussa/devoxx-spring-kafka:0.1&#10;          imagePullPolicy: Always&#10;          ports:&#10;            - containerPort: 8080&#10;          env:&#10;            - name: SPRING_CONFIG_LOCATION&#10;              value: /mnt/app/application.yaml&#10;          volumeMounts:&#10;            - name: spring-boot-devoxx-spring-kafka-application-yaml&#10;              mountPath: /mnt/app&#10;          resources:&#10;            requests:&#10;              memory: 512Mi # 768Mi&#10;              cpu: 500m # 1000m&#10;          livenessProbe:&#10;            httpGet:&#10;              path: /actuator/health&#10;              port: 8080&#10;            initialDelaySeconds: 5&#10;            periodSeconds: 10&#10;            failureThreshold: 2&#10;      volumes:&#10;        - name: spring-boot-devoxx-spring-kafka-application-yaml&#10;          secret:&#10;            secretName: spring-boot-devoxx-spring-kafka-application-yaml&#10;---&#10;apiVersion: v1&#10;kind: Service&#10;metadata:&#10;  name: devoxx-spring-kafka&#10;spec:&#10;  type: NodePort&#10;  selector:&#10;    app: devoxx-spring-kafka&#10;  ports:&#10;    - protocol: TCP&#10;      port: 8080&#10;      targetPort: 8080" toReformat="true" toShortenFQNames="true">
+  <template name="deploymentyaml" value="---&#10;apiVersion: apps/v1&#10;kind: StatefulSet&#10;metadata:&#10;  name: devoxx-spring-kafka&#10;spec:&#10;  serviceName: devoxx-spring-kafka&#10;  podManagementPolicy: Parallel&#10;  replicas: 1&#10;  selector:&#10;    matchLabels:&#10;      app: devoxx-spring-kafka&#10;  template:&#10;    metadata:&#10;      labels:&#10;        app: devoxx-spring-kafka&#10;    spec:&#10;      containers:&#10;        - name: devoxx-spring&#10;          image: docker.io/gamussa/devoxx-spring-kafka:0.1&#10;          imagePullPolicy: Always&#10;          ports:&#10;            - containerPort: 8080&#10;          env:&#10;            - name: SPRING_CONFIG_LOCATION&#10;              value: /mnt/app/application.yaml&#10;          volumeMounts:&#10;            - name: spring-boot-devoxx-spring-kafka-application-yaml&#10;              mountPath: /mnt/app&#10;          resources:&#10;            requests:&#10;              memory: 512Mi # 768Mi&#10;              cpu: 500m # 1000m&#10;          livenessProbe:&#10;            httpGet:&#10;              path: /actuator/health&#10;              port: 8080&#10;            initialDelaySeconds: 5&#10;            periodSeconds: 10&#10;            failureThreshold: 2&#10;      volumes:&#10;        - name: spring-boot-devoxx-spring-kafka-application-yaml&#10;          secret:&#10;            secretName: spring-boot-devoxx-spring-kafka-application-yaml&#10;---&#10;apiVersion: v1&#10;kind: Service&#10;metadata:&#10;  name: devoxx-spring-kafka&#10;spec:&#10;  type: NodePort&#10;  selector:&#10;    app: devoxx-spring-kafka&#10;  ports:&#10;    - protocol: TCP&#10;      port: 8080&#10;      targetPort: 8080" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GENERAL_YAML_FILE" value="true" />
       <option name="KUBERNETES_RESOURCE" value="true" />
     </context>
   </template>
-  <template name="kongrateplug" value="konghq.com/plugins: rate-free-tier" toReformat="true" toShortenFQNames="true">
+  <template name="kongrateplug" value="konghq.com/plugins: rate-free-tier" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
       <option name="ANY_OPENAPI_YAML_FILE" value="false" />
@@ -384,13 +384,13 @@
       <option name="XML_ATTRIBUTE" value="false" />
     </context>
   </template>
-  <template name="kongingressyaml" value="apiVersion: networking.k8s.io/v1&#10;kind: Ingress&#10;metadata:&#10;  name: devoxx-ingress&#10;  annotations:&#10;    konghq.com/strip-path: &quot;true&quot;&#10;    kubernetes.io/ingress.class: kong&#10;spec:&#10;  rules:&#10;    - http:&#10;        paths:&#10;          - path: /&#10;            pathType: Prefix&#10;            backend:&#10;              service:&#10;                name: devoxx-spring-kafka&#10;                port:&#10;                  number: 8080" toReformat="true" toShortenFQNames="true">
+  <template name="kongingressyaml" value="apiVersion: networking.k8s.io/v1&#10;kind: Ingress&#10;metadata:&#10;  name: devoxx-ingress&#10;  annotations:&#10;    konghq.com/strip-path: &quot;true&quot;&#10;    kubernetes.io/ingress.class: kong&#10;spec:&#10;  rules:&#10;    - http:&#10;        paths:&#10;          - path: /&#10;            pathType: Prefix&#10;            backend:&#10;              service:&#10;                name: devoxx-spring-kafka&#10;                port:&#10;                  number: 8080" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GENERAL_YAML_FILE" value="true" />
       <option name="KUBERNETES_RESOURCE" value="true" />
     </context>
   </template>
-  <template name="kongpluginyaml" value="apiVersion: configuration.konghq.com/v1&#10;kind: KongPlugin&#10;metadata:&#10;  name: rate-free-tier&#10;config:&#10;  minute: 5&#10;  limit_by: ip&#10;  policy: local&#10;plugin: rate-limiting" toReformat="true" toShortenFQNames="true">
+  <template name="kongpluginyaml" value="apiVersion: configuration.konghq.com/v1&#10;kind: KongPlugin&#10;metadata:&#10;  name: rate-free-tier&#10;config:&#10;  minute: 5&#10;  limit_by: ip&#10;  policy: local&#10;plugin: rate-limiting" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GENERAL_YAML_FILE" value="true" />
       <option name="KUBERNETES_RESOURCE" value="true" />
