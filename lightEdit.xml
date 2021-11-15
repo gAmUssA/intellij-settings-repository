@@ -2,7 +2,7 @@
   <component name="LightEdit">
     <option name="sessionFiles">
       <list>
-        <option value="file://$USER_HOME$/1.yaml" />
+        <option value="file://$USER_HOME$/Downloads/kongBuilders Nov 10th-notes.adoc" />
       </list>
     </option>
     <option name="supportedFilePatterns">
@@ -17,6 +17,9 @@
         <option value="*.xml" />
         <option value="*.yml" />
       </list>
+    </option>
+    <option name="frameInfo">
+      <frame x="1920" y="305" width="1400" height="960" extendedState="6" />
     </option>
   </component>
 </application>
