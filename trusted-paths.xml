@@ -4,6 +4,7 @@
       <list>
         <option value="$USER_HOME$/Downloads" />
         <option value="$USER_HOME$/projects/confluent/demo-scene" />
+        <option value="$USER_HOME$/projects" />
       </list>
     </option>
   </component>
