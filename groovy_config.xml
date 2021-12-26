@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="GroovyApplicationSettings">
+    <option name="EXTRACT_METHOD_SPECIFY_TYPE" value="true" />
+    <option name="EXTRACT_METHOD_VISIBILITY" value="private" />
+  </component>
+</application>
+

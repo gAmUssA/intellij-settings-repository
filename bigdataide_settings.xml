@@ -1,0 +1,39 @@
+<application>
+  <component name="BigDataIdeGlobalConnectionSettings">
+    <option name="connections">
+      <list>
+        <ExtendedConnectionData>
+          <option name="extended">
+            <map>
+              <entry key="extended" value="rO0ABXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAAnQABXByb3BzdABEck8wQUJYTnlBQnhyYjNSc2FXNHVZMjlzYkdWamRHbHZibk11Ulcxd2RIbE1hWE4wbVcvSDBLZmdZRElDQUFCNGNBPT10AAZ0dW5uZWx0APRyTzBBQlhOeUFFcGpiMjB1YW1WMFluSmhhVzV6TG1KcFoyUmhkR0YwYjI5c2N5NWpiMjV1WldOMGFXOXVMblIxYm01bGJDNXRiMlJsYkM1RGIyNXVaV04wYVc5dVUzTm9WSFZ1Ym1Wc1NXNW1iNGcwb3Q3d3pFcHNBZ0FFV2dBSmFYTkZibUZpYkdWa1NRQUtjbVZ0YjNSbFVHOXlkRXdBQ0dOdmJtWnBaMGxrZEFBU1RHcGhkbUV2YkdGdVp5OVRkSEpwYm1jN1RBQUtjbVZ0YjNSbFNHOXpkSEVBZmdBQmVIQUEvLy8vLzNRQUFIRUFmZ0FEeAA=" />
+              <entry key="fqn" value="rO0ABXQAOGNvbS5qZXRicmFpbnMuYmlnZGF0YXRvb2xzLmthZmthLnJmcy5LYWZrYUNvbm5lY3Rpb25EYXRh" />
+              <entry key="pluginId" value="rO0ABXQAGWNvbS5pbnRlbGxpai5iaWdkYXRhdG9vbHM=" />
+            </map>
+          </option>
+          <option name="fqn" value="com.jetbrains.bigdatatools.settings.ExtendedConnectionData" />
+          <option name="groupId" value="KafkaConnections" />
+          <option name="innerId" value="Kafka connection@KafkaConnections@2390413321456915151" />
+          <option name="name" value=" local Kafka via docker" />
+          <option name="pluginId" value="com.intellij.bigdatatools" />
+          <option name="port" value="-1" />
+          <option name="uri" value="localhost:9092" />
+        </ExtendedConnectionData>
+        <ExtendedConnectionData>
+          <option name="extended">
+            <map>
+              <entry key="properties" value="rO0ABXQAAA==" />
+              <entry key="tunnel" value="rO0ABXNyAEpjb20uamV0YnJhaW5zLmJpZ2RhdGF0b29scy5jb25uZWN0aW9uLnR1bm5lbC5tb2RlbC5Db25uZWN0aW9uU3NoVHVubmVsSW5mb4g0ot7wzEpsAgAEWgAJaXNFbmFibGVkSQAKcmVtb3RlUG9ydEwACGNvbmZpZ0lkdAASTGphdmEvbGFuZy9TdHJpbmc7TAAKcmVtb3RlSG9zdHEAfgABeHAA/////3QAAHEAfgAD" />
+            </map>
+          </option>
+          <option name="fqn" value="com.jetbrains.bigdatatools.kafka.rfs.KafkaConnectionData" />
+          <option name="groupId" value="KafkaConnections" />
+          <option name="innerId" value="Kafka connection@KafkaConnections@-8489083499574368432" />
+          <option name="name" value="Kafka connection" />
+          <option name="pluginId" value="com.intellij.bigdatatools" />
+          <option name="port" value="-1" />
+          <option name="uri" value="127.0.0.1:9092" />
+        </ExtendedConnectionData>
+      </list>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,9 @@
+<application>
+  <component name="AdvancedSettings">
+    <option name="settings">
+      <map>
+        <entry key="ide.max.recent.projects" value="10" />
+      </map>
+    </option>
+  </component>
+</application>

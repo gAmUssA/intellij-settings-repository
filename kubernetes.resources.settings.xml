@@ -1,0 +1,7 @@
+<application>
+  <component name="KubernetesSettings">
+    <option name="openshiftPackage">
+      <ApiPackage />
+    </option>
+  </component>
+</application>

@@ -1,0 +1,60 @@
+<application>
+  <component name="ChartsConfig">
+    <option name="settings">
+      <map>
+        <entry key="darkula">
+          <value>
+            <ChartConfig>
+              <option name="axesColor" value="-10921639" />
+              <option name="axesFont">
+                <FontInfo>
+                  <option name="color" value="-7566196" />
+                  <option name="size" value="12.0" />
+                </FontInfo>
+              </option>
+              <option name="axesTitleFont">
+                <FontInfo>
+                  <option name="color" value="-4473925" />
+                  <option name="size" value="12.0" />
+                </FontInfo>
+              </option>
+              <option name="backgroundColor" value="-12105141" />
+              <option name="chartTitleFont">
+                <FontInfo>
+                  <option name="color" value="-4473925" />
+                  <option name="size" value="17.0" />
+                </FontInfo>
+              </option>
+              <option name="gridColor" value="-8882056" />
+              <option name="hintBackColor" value="-9805739" />
+              <option name="hintFont">
+                <FontInfo>
+                  <option name="color" value="-7566196" />
+                  <option name="size" value="12.0" />
+                </FontInfo>
+              </option>
+              <option name="legendFont">
+                <FontInfo>
+                  <option name="color" value="-4473925" />
+                  <option name="size" value="12.0" />
+                </FontInfo>
+              </option>
+              <option name="plotColors">
+                <array>
+                  <option value="-9133640" />
+                  <option value="-5542579" />
+                  <option value="-11362977" />
+                  <option value="-9150058" />
+                  <option value="-6271380" />
+                  <option value="-12935280" />
+                  <option value="-6582673" />
+                  <option value="-16619629" />
+                </array>
+              </option>
+            </ChartConfig>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

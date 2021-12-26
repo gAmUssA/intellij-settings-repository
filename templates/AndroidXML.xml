@@ -1,0 +1,5 @@
+<templateSet group="AndroidXML">
+  <template name="toolsNs" value="xmlns:tools=&quot;http://schemas.android.com/tools&quot;" description="adds tools namespace to Android xml file" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

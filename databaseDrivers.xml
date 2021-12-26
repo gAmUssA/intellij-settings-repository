@@ -1,0 +1,58 @@
+<application>
+  <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="db2" name="DB2 (LUW)" />
+    <driver id="db2.jtopen" name="DB2 (JTOpen)" />
+    <driver id="derby.embedded" name="Derby (Embedded)" />
+    <driver id="derby.remote" name="Derby (Remote)" />
+    <driver id="hsqldb.local">
+      <artifact id="HSQLDB" name="HSQLDB" use="true">
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/hsqldb-2.3.2.jar</url>
+        </library>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/hsqldb-license.txt</url>
+        </library>
+      </artifact>
+    </driver>
+    <driver id="hsqldb.remote">
+      <library>
+        <url>file://$MY_VAR$/Library/Preferences/IntelliJIdea13/jdbc-drivers/hsqldb-license.txt</url>
+      </library>
+      <library>
+        <url>file://$MY_VAR$/Library/Preferences/IntelliJIdea13/jdbc-drivers/hsqldb-2.2.9.jar</url>
+      </library>
+    </driver>
+    <driver id="sqlserver.ms" name="SQL Server (Microsoft)">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="sqlserver.jtds" name="SQL Server (jTds)">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="mysql.8">
+      <artifact id="MySQL Connector/J 8" name="MySQL Connector/J 8" use="true" version="8.0.15" />
+    </driver>
+    <driver id="mysql" name="MySQL" />
+    <driver id="oracle">
+      <artifact id="Oracle" name="Oracle" use="true" version="12.1.0.2" />
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="postgresql">
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.2.22" />
+    </driver>
+    <driver id="sqlite.xerial" name="Sqlite (Xerial)" />
+    <driver id="sybase.jtds">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="sybase.ase" name="Sybase (Native)">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="oracle.jdbc.driver.OracleDriver" name="oracle.jdbc.driver.OracleDriver" driver-class="oracle.jdbc.driver.OracleDriver">
+      <library>
+        <url>jar:///Developer/oracle/ojdbc6-11.2.0.1.0.jar!/</url>
+      </library>
+      <library>
+        <url>file:///Developer/oracle/oracle-driver-license.txt</url>
+      </library>
+    </driver>
+  </component>
+</application>

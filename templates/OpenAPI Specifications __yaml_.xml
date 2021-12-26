@@ -1,0 +1,7 @@
+<templateSet group="OpenAPI Specifications (.yaml)">
+  <template name="opnp" value="openapi: 3.0.0&#10;info:&#10;  title: $TITLE$&#10;  description: $TITLE$&#10;  version: 1.0.0&#10;servers:&#10;  - url: 'https://$AUTHORITY$'&#10;paths:&#10;  $END$" description="OpenAPI 3.0.0 Specification (.yaml)" toReformat="true" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="AUTHORITY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

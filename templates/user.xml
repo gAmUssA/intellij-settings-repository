@@ -1,0 +1,399 @@
+<templateSet group="user">
+  <template name="xstore" value="Ext.define('$rootPackage$.store.$fileName$', {&#10;    extend: 'Ext.data.Store',&#10;    model: '$model$',&#10;    autoLoad: $3$,&#10;    remoteSort: $4$,&#10;    remoteFilter: $5$&#10;});" description="ExtJs store" toReformat="true" toShortenFQNames="true">
+    <variable name="rootPackage" expression="" defaultValue="MyApp" alwaysStopAt="true" />
+    <variable name="fileName" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="true" alwaysStopAt="false" />
+    <variable name="4" expression="" defaultValue="true" alwaysStopAt="false" />
+    <variable name="5" expression="" defaultValue="true" alwaysStopAt="false" />
+  </template>
+  <template name="it" value="it('$SPEC_NAME$', function () {&#10; $END$&#10;        });" description="jasmine spec" toReformat="true" toShortenFQNames="true">
+    <variable name="SPEC_NAME" expression="" defaultValue="should do something" alwaysStopAt="true" />
+  </template>
+  <template name="bi" value="beforeEach(function () {&#10;$END$&#10;        });" description="insert jasmine before each" toReformat="true" toShortenFQNames="true" />
+  <template name="ae" value="afterEach(function(){&#10;$END$            &#10;        });" description="insert Jasmine's afterEach method" toReformat="true" toShortenFQNames="true" />
+  <template name="iife" value="(function(){&#10;    &#10;})();" description="IIFE" toReformat="true" toShortenFQNames="true" />
+  <template name="hz.scp" value="com.hazelcast.cache.impl.HazelcastServerCachingProvider.createCachingProvider(com.hazelcast.core.Hazelcast.newHazelcastInstance())&#10;            .getCacheManager().createCache(&quot;city&quot;, new javax.cache.configuration.MutableConfiguration&lt;&gt;());" description="Hazelcast Server Cachign Provider4" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="hz.all" value="compile &quot;com.hazelcast:hazelcast-all:3.6.1&quot;" description="add compile time dependency for Hazelcast-all jar" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="icity" value="public static interface CityService {&#10;        public java.lang.String getCity();&#10;    }" description="[webinar] CityService interface" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="myrunner" value="@org.springframework.stereotype.Component&#10;    public static class MyCommandLineRunner implements org.springframework.boot.CommandLineRunner {&#10;        @java.lang.Override public void run(java.lang.String... args) throws java.lang.Exception {&#10;            $END$&#10;        }&#10;    }" description="[webinar] commandline runner" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="servicetime" value="java.lang.System.out.println(&quot;Calling for city&quot;);&#10;            long start = nanoTime();&#10;            java.lang.System.out.println(service.getCity());&#10;            java.lang.System.out.println(java.lang.String.format(&quot;Took: %s mills&quot;, (NANOSECONDS.toMillis(nanoTime() - start))));" description="[webinar] print bean method invocation time" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="hz.scp1" value="com.hazelcast.cache.impl.HazelcastServerCachingProvider.createCachingProvider($SELECTION$)&#10;            .getCacheManager().createCache(&quot;$END$&quot;, new javax.cache.configuration.MutableConfiguration&lt;&gt;());" description="Hazelcast Server Cachign Provider4" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="hz.instance" value="final com.hazelcast.core.HazelcastInstance hazelcastInstance = com.hazelcast.core.Hazelcast.newHazelcastInstance();" description="creates Hazelcast Member Instance" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="hz.client" value="final com.hazelcast.core.HazelcastInstance hazelcastClient = com.hazelcast.client.HazelcastClient.newHazelcastClient();" description="creates Hazelcast client instance" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="hz.clientxml" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;hazelcast-client&#10;        xsi:schemaLocation=&quot;http://www.hazelcast.com/schema/client-config http://www.hazelcast.com/schema/client-config/hazelcast-client-config-3.6.xsd&quot;&#10;        xmlns=&quot;http://www.hazelcast.com/schema/client-config&quot;&#10;        xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&#10;        &#10;        $END$&#10;&lt;/hazelcast-client&gt;&#10;" description="Hazelcast Client XML header" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="hz.memberxml" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;hazelcast&#10;        xsi:schemaLocation=&quot;http://www.hazelcast.com/schema/config http://www.hazelcast.com/schema/config/hazelcast-config-3.6.xsd&quot;&#10;        xmlns=&quot;http://www.hazelcast.com/schema/config&quot;&#10;        xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&#10;&#10;       $END$&#10;&#10;&lt;/hazelcast&gt;&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="collectJars" value="task collectJars(type: Copy) {&#10;    into &quot;$buildDir/$END$dependencies&quot;&#10;    from configurations.testRuntime&#10;}" description="collect all project jars in dependencies folder" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_DECLARATION" value="true" />
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cs" value="public interface CityService {&#10;        public java.lang.String getCity(java.lang.String state);&#10;&#10;    }" description="city service interface" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="csb" value="@org.springframework.context.annotation.Bean&#10;    public CityService getCityService() {&#10;        return state -&gt; {&#10;            switch (state) {&#10;                case &quot;OH&quot;:&#10;                    return &quot;Sandusky&quot;;&#10;                default:&#10;                    return &quot;duno&quot;;&#10;            }&#10;        };&#10;    }" description="city service bean" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="launch" value="@org.springframework.stereotype.Component&#10;    public static class Launcher implements org.springframework.boot.CommandLineRunner {&#10;&#10;        @java.lang.Override&#10;        public void run(java.lang.String... args) throws java.lang.Exception {&#10;&#10;        }&#10;    }" description="command ine launcher" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="csbench" value="java.lang.System.out.println(&quot; \n\n\nCalling for city&quot;);&#10;            long start = nanoTime();&#10;            java.lang.System.out.println(service.getCity(&quot;OH&quot;));&#10;            java.lang.System.out.println(java.lang.String.format(&quot;Took: %s mills \n&quot;, (NANOSECONDS.toMillis(nanoTime() - start))));&#10;&#10;            java.lang.System.out.println(&quot;\n\n\nCalling for city&quot;);&#10;            start = nanoTime();&#10;            java.lang.System.out.println(service.getCity(&quot;OH&quot;));&#10;            java.lang.System.out.println(java.lang.String.format(&quot;Took: %s mills\n &quot;, (NANOSECONDS.toMillis(nanoTime() - start))));" description="&quot;benchmark&quot; for city service" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="slow" value="try {&#10;                SECONDS.sleep(10);&#10;            } catch (java.lang.InterruptedException e) {&#10;                e.printStackTrace();&#10;            }" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="hzall" value="compile('com.hazelcast:hazelcast-all:3.7.4')" description="add Hazelcast all dependency" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="hzb" value="@org.springframework.context.annotation.Bean&#10;    public com.hazelcast.core.HazelcastInstance getHazelcastInstance(){&#10;        return com.hazelcast.core.Hazelcast.newHazelcastInstance();&#10;    }" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="jcache" value="compile('javax.cache:cache-api:1.0.0')" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="populate" value="final com.hazelcast.core.HazelcastInstance hazelcastInstance = newHazelcastInstance();&#10;        final com.hazelcast.core.IMap&lt;java.lang.String, java.lang.String&gt; city = hazelcastInstance.getMap(&quot;city&quot;);&#10;        city.putIfAbsent(&quot;OH&quot;, &quot;Sandusky&quot;);&#10;        city.putIfAbsent(&quot;test&quot;, &quot;dunno&quot;);" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="listen" value="public static class MyListener implements javax.cache.event.CacheEntryCreatedListener&lt;java.lang.String, java.lang.String&gt; {&#10;        @java.lang.Override&#10;        public void onCreated(java.lang.Iterable&lt;javax.cache.event.CacheEntryEvent&lt;? extends java.lang.String, ? extends java.lang.String&gt;&gt; cacheEntryEvents) throws javax.cache.event.CacheEntryListenerException {&#10;            cacheEntryEvents.forEach(e -&gt; {&#10;                java.lang.System.out.println(&quot;key: &quot; + e.getKey() + &quot;, value: &quot; + e.getValue());&#10;            });&#10;        }&#10;    }" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="register_list" value="final javax.cache.configuration.MutableConfiguration&lt;java.lang.String, java.lang.String&gt; configuration = new javax.cache.configuration.MutableConfiguration&lt;&gt;();&#10;        final javax.cache.configuration.Factory&lt;ClusterMember.MyListener&gt; tFactory = javax.cache.configuration.FactoryBuilder.factoryOf(ClusterMember.MyListener.class);&#10;        javax.cache.configuration.MutableCacheEntryListenerConfiguration celc =&#10;                new javax.cache.configuration.MutableCacheEntryListenerConfiguration(tFactory,null, false, false);&#10;&#10;        configuration.addCacheEntryListenerConfiguration(celc);&#10;        com.hazelcast.cache.impl.HazelcastServerCachingProvider.createCachingProvider(com.hazelcast.core.Hazelcast.newHazelcastInstance())&#10;                .getCacheManager().createCache(&quot;city&quot;, configuration);" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cstream" value="count = source.entrySet().parallelStream()&#10;                .flatMap(m -&gt; java.util.stream.Stream.of(PATTERN.split(m.getValue())))&#10;                .map(com.hazelcast.util.WordUtil::cleanWord)&#10;                .map(java.lang.String::toLowerCase)&#10;                .filter(m -&gt; m.length() &gt;= 5)&#10;                .collect(toMap(&#10;                        k -&gt; k,&#10;                        v -&gt; 1,&#10;                        (l, r) -&gt; l + r&#10;                ));" description="count stream" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fillMapWithData" value="public static void fillMapWithData(java.lang.String fileName, java.util.Map&lt;java.lang.Integer, java.lang.String&gt; map)&#10;            throws java.lang.Exception {&#10;&#10;&#10;        java.io.InputStream is = com.hazelcast.util.WordUtil.class.getClassLoader().getResourceAsStream(fileName);&#10;        java.io.LineNumberReader reader = new java.io.LineNumberReader(new java.io.InputStreamReader(is));&#10;&#10;        java.lang.String line;&#10;        java.lang.Integer lineNum = 0;&#10;        java.util.Map&lt;java.lang.Integer, java.lang.String&gt; localMap = new java.util.HashMap&lt;&gt;();&#10;        while ((line = reader.readLine()) != null) {&#10;            lineNum++;&#10;            localMap.put(lineNum, line);&#10;        }&#10;        map.putAll(localMap);&#10;&#10;        is.close();&#10;        reader.close();&#10;    }" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="wordUtil" value="public class WordUtil {&#10;    public static final java.util.regex.Pattern PATTERN = java.util.regex.Pattern.compile(&quot;\\W+&quot;);&#10;    public static final java.lang.String[] EXCLUDES = {&quot;which&quot;, &quot;would&quot;, &quot;could&quot;, &quot;that&quot;, &quot;with&quot;, &quot;were&quot;, &quot;this&quot;, &quot;what&quot;, &quot;there&quot;, &quot;from&quot;, &quot;their&quot;, &quot;those&quot;, &quot;chorus&quot;};&#10;&#10;    public static final java.lang.String SOURCE_SUFFIX = &quot;_source&quot;;&#10;    public static final java.lang.String COUNTS_SOURCE = &quot;_counts&quot;;&#10;&#10;    private WordUtil() {&#10;    }&#10;&#10;    public static java.lang.String cleanWord(java.lang.String word) {&#10;        return word.replaceAll(&quot;[^A-Za-zA-Яа-я]&quot;, &quot;&quot;);&#10;    }&#10;&#10;    public static void fillMapWithData(java.lang.String fileName, java.util.Map&lt;java.lang.Integer, java.lang.String&gt; map)&#10;            throws java.lang.Exception {&#10;&#10;&#10;        java.io.InputStream is = com.hazelcast.util.WordUtil.class.getClassLoader().getResourceAsStream(fileName);&#10;        java.io.LineNumberReader reader = new java.io.LineNumberReader(new java.io.InputStreamReader(is));&#10;&#10;        java.lang.String line;&#10;        java.lang.Integer lineNum = 0;&#10;        java.util.Map&lt;java.lang.Integer, java.lang.String&gt; localMap = new java.util.HashMap&lt;&gt;();&#10;        while ((line = reader.readLine()) != null) {&#10;            lineNum++;&#10;            localMap.put(lineNum, line);&#10;        }&#10;        map.putAll(localMap);&#10;&#10;        is.close();&#10;        reader.close();&#10;    }&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ksqldb::cloud" value="final java.net.URL ksqldbEndpoint = new java.net.URL(java.lang.System.getenv(&quot;KSQLDB_ENDPOINT&quot;));&#10;    final java.lang.String basicAuthUserInfo = java.lang.System.getenv(&quot;KSQLDB_BASIC_AUTH_USER_INFO&quot;);&#10;&#10;    final io.confluent.ksql.api.client.ClientOptions clientOptions = io.confluent.ksql.api.client.ClientOptions.create()&#10;        .setHost(ksqldbEndpoint.getHost())&#10;        .setPort(ksqldbEndpoint.getPort())&#10;        .setUseTls(true)&#10;        .setUseAlpn(true) // should it be enabled by default?&#10;        .setBasicAuthCredentials(basicAuthUserInfo.split(&quot;:&quot;)[0],&#10;                                 basicAuthUserInfo.split(&quot;:&quot;)[1]);" description="create ksqldb client options" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="logv" value="private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger( $CLASS$.class );" description="slf4j logger" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="gradle_faker" value="implementation (&quot;com.github.javafaker:javafaker:1.0.2&quot;)" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="&lt;abbreviation&gt;" value="&lt;TBD&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="produceChuckNorris" value="&#9;@Bean&#10;&#9;fun produceChuckNorris(): Supplier&lt;Message&lt;String&gt;&gt; {&#10;&#9;&#9;return Supplier {&#10;&#9;&#9;&#9;MessageBuilder.withPayload(Faker.instance().chuckNorris().fact()).build()&#10;&#9;&#9;}&#10;&#9;}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="produceYaml" value="spring:&#10;  kafka:&#10;    properties:&#10;      bootstrap.servers: localhost:9092&#10;  #     Confluent Cloud config      &#10;  #      bootstrap.servers: bootstrap.us-east4.gcp.confluent.cloud:9092&#10;  #      sasl.mechanism: PLAIN&#10;  #      sasl.jaas.config: &quot;org.apache.kafka.common.security.plain.PlainLoginModule   required username='blah'   password='blah';&quot;&#10;  #      security.protocol: SASL_SSL&#10;  #    streams:&#10;  #      replication-factor: 3&#10;  cloud:&#10;    stream:&#10;      function:&#10;        definition: produceChuckNorris&#10;      bindings:&#10;        # kafka producer&#10;        produceChuckNorris-out-0:&#10;          binder: kafka&#10;          destination: facts&#10;          producer:&#10;            partition-count: 4&#10;            useNativeEncoding: true&#10;      kafka:&#10;        binder:&#10;          producer-properties:&#10;            key.serializer: org.apache.kafka.common.serialization.StringSerializer&#10;            value.serializer: org.apache.kafka.common.serialization.StringSerializer" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GENERAL_YAML_FILE" value="true" />
+      <option name="KUBERNETES_RESOURCE" value="true" />
+    </context>
+  </template>
+  <template name="consumeChuckNorris" value="@Bean&#10;&#9;fun consumeChuckNorris(): Consumer&lt;Message&lt;String&gt;&gt; {&#10;&#9;&#9;return Consumer { s: Message&lt;String&gt; -&gt;&#10;&#9;&#9;&#9;println(&#10;&#9;&#9;&#9;&#9;&quot;FACT: \u001B[3m «&quot; + s.payload + &quot;\u001B[0m»&quot;&#10;&#9;&#9;&#9;)&#10;&#9;&#9;}&#10;&#9;}&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="consumeYaml" value="spring:&#10;  kafka:&#10;    properties:&#10;      bootstrap.servers: localhost:9092&#10;  #     Confluent Cloud config      &#10;  #      bootstrap.servers: bootstrap.us-east4.gcp.confluent.cloud:9092&#10;  #      sasl.mechanism: PLAIN&#10;  #      sasl.jaas.config: &quot;org.apache.kafka.common.security.plain.PlainLoginModule   required username='blah'   password='blah';&quot;&#10;  #      security.protocol: SASL_SSL&#10;  #    streams:&#10;  #      replication-factor: 3&#10;  cloud:&#10;    stream:&#10;      function:&#10;        definition: produceChuckNorris;consumeChuckNorris&#10;      bindings:&#10;        # kafka producer&#10;        produceChuckNorris-out-0:&#10;          binder: kafka&#10;          destination: facts&#10;          producer:&#10;            partition-count: 4&#10;            useNativeEncoding: true&#10;        # kafka consumer&#10;        consumeChuckNorris-in-0:&#10;          binder: kafka&#10;          destination: facts&#10;          group: myGroup&#10;      kafka:&#10;        binder:&#10;          consumer-properties:&#10;            key.deserializer: org.apache.kafka.common.serialization.StringDeserializer&#10;            value.deserializer: org.apache.kafka.common.serialization.StringDeserializer&#10;          producer-properties:&#10;            key.serializer: org.apache.kafka.common.serialization.StringSerializer&#10;            value.serializer: org.apache.kafka.common.serialization.StringSerializer&#10;            " description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ANY_OPENAPI_YAML_FILE" value="true" />
+      <option name="GENERAL_YAML_FILE" value="true" />
+      <option name="KUBERNETES_RESOURCE" value="true" />
+    </context>
+  </template>
+  <template name="processWords" value="@Bean&#10;  fun processWords(): java.util.function.Function&lt;KStream&lt;String?, String&gt;, KStream&lt;String, Long&gt;&gt; {&#10;    return java.util.function.Function { inputStream: KStream&lt;String?, String&gt; -&gt;&#10;      val countsStream = inputStream&#10;        .flatMapValues { value: String -&gt; value.toLowerCase().split(&quot;\\W+&quot;.toRegex()) }&#10;        .map { _: String?, value: String -&gt; KeyValue(value, value) }&#10;        .groupByKey(Grouped.with(Serdes.String(), Serdes.String()))&#10;        .count(Materialized.`as`(&quot;word-count-state-store&quot;))&#10;        .toStream()&#10;      countsStream.to(&quot;counts&quot;, Produced.with(Serdes.String(), Serdes.Long()))&#10;      countsStream&#10;    }&#10;  }" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="processYaml" value="spring:&#10;  kafka:&#10;    properties:&#10;      bootstrap.servers: localhost:9092&#10;  #     Confluent Cloud config      &#10;  #      bootstrap.servers: bootstrap.us-east4.gcp.confluent.cloud:9092&#10;  #      sasl.mechanism: PLAIN&#10;  #      sasl.jaas.config: &quot;org.apache.kafka.common.security.plain.PlainLoginModule   required username='blah'   password='blah';&quot;&#10;  #      security.protocol: SASL_SSL&#10;  #    streams:&#10;  #      replication-factor: 3&#10;  cloud:&#10;    stream:&#10;      function:&#10;        definition: produceChuckNorris;consumeChuckNorris;processWords&#10;        bindings:&#10;          # input and output of KStreams topology&#10;          processWords-in-0: facts&#10;          processWords-out-0: counts&#10;      bindings:&#10;        # kafka producer&#10;        produceChuckNorris-out-0:&#10;          binder: kafka&#10;          destination: facts&#10;          producer:&#10;            partition-count: 4&#10;            useNativeEncoding: true&#10;        # kafka consumer&#10;        consumeChuckNorris-in-0:&#10;          binder: kafka&#10;          destination: facts&#10;          group: myGroup&#10;      kafka:&#10;        binder:&#10;          consumer-properties:&#10;            key.deserializer: org.apache.kafka.common.serialization.StringDeserializer&#10;            value.deserializer: org.apache.kafka.common.serialization.StringDeserializer&#10;          producer-properties:&#10;            key.serializer: org.apache.kafka.common.serialization.StringSerializer&#10;            value.serializer: org.apache.kafka.common.serialization.StringSerializer&#10;        streams:&#10;          binder:&#10;            applicationId: chuck-norris-word-count&#10;            configuration:&#10;              default.key.serde: org.apache.kafka.common.serialization.Serdes$StringSerde&#10;              default.value.serde: org.apache.kafka.common.serialization.Serdes$BytesSerde&#10;              commit.interval.ms: 1000 " description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GENERAL_YAML_FILE" value="true" />
+      <option name="KUBERNETES_RESOURCE" value="true" />
+    </context>
+  </template>
+  <template name="iqController" value="@RestController&#10;class IQRestController {&#10;&#10;  @Autowired&#10;  private lateinit var iqService: InteractiveQueryService&#10;&#10;  @GetMapping(&quot;/iq/count/{word}&quot;)&#10;  fun getCount(@PathVariable word: String): Long {&#10;    val store =&#10;      iqService.getQueryableStore(&quot;word-count-state-store&quot;, QueryableStoreTypes.keyValueStore&lt;String, Long&gt;())&#10;    return store[word]&#10;  }&#10;}&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="func_stream" value="  // ╔═══════════╦═══════════════╦═════════════════════════════╗&#10;  // ║    SCS    ║     Kafka     ║ Java (java.util.function.*) ║&#10;  // ╠═══════════╬═══════════════╬═════════════════════════════╣&#10;  // ║ Sink      ║ Producer      ║ Supplier                    ║&#10;  // ║ Source    ║ Consumer      ║ Consumer                    ║&#10;  // ║ Processor ║ Kafka Streams ║ Function                    ║&#10;  // ╚═══════════╩═══════════════╩═════════════════════════════╝" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="produceJChuckNorris" value="@org.springframework.context.annotation.Bean&#10;  java.util.function.Supplier&lt;org.springframework.messaging.Message&lt;java.lang.String&gt;&gt; produceChuckNorris() {&#10;    return () -&gt; org.springframework.messaging.support.MessageBuilder.withPayload(com.github.javafaker.Faker.instance().chuckNorris().fact()).build();&#10;  }" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="consumeJChuck" value="@org.springframework.context.annotation.Bean&#10;  java.util.function.Consumer&lt;org.springframework.messaging.Message&lt;java.lang.String&gt;&gt; consumeChuckNorris() {&#10;    return s -&gt; out.println(&quot;FACT: \u001B[3m «&quot; + s.getPayload() + &quot;\u001B[0m»&quot;);&#10;  }" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="processWordsJ" value="@org.springframework.context.annotation.Bean&#10;  public java.util.function.Function&lt;org.apache.kafka.streams.kstream.KStream&lt;java.lang.String, java.lang.String&gt;, org.apache.kafka.streams.kstream.KStream&lt;java.lang.String, java.lang.Long&gt;&gt; processWords() {&#10;    return inputStream -&gt; {&#10;      final org.apache.kafka.common.serialization.Serde&lt;java.lang.String&gt; stringSerde = org.apache.kafka.common.serialization.Serdes.String();&#10;      final org.apache.kafka.streams.kstream.KStream&lt;java.lang.String, java.lang.Long&gt; countsStream = inputStream&#10;          .flatMapValues(value -&gt; asList(value.toLowerCase().split(&quot;\\W+&quot;)))&#10;          .map((key, value) -&gt; new org.apache.kafka.streams.KeyValue&lt;&gt;(value, value))&#10;          .groupByKey(org.apache.kafka.streams.kstream.Grouped.with(stringSerde, stringSerde))&#10;          .count(org.apache.kafka.streams.kstream.Materialized.as(&quot;word-count-state-store&quot;))&#10;          .toStream();&#10;      countsStream.to(&quot;counts&quot;, org.apache.kafka.streams.kstream.Produced.with(stringSerde, org.apache.kafka.common.serialization.Serdes.Long()));&#10;      return countsStream;&#10;    };&#10;  }" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="iqJController" value="@org.springframework.web.bind.annotation.RestController&#10;@lombok.RequiredArgsConstructor&#10;class IQRestController {&#10;&#10;  private final org.springframework.cloud.stream.binder.kafka.streams.InteractiveQueryService iqService;&#10;&#10;  @org.springframework.web.bind.annotation.GetMapping(&quot;/iq/count/{word}&quot;)&#10;  public java.lang.Long getCount(@org.springframework.web.bind.annotation.PathVariable final java.lang.String word) {&#10;    final org.apache.kafka.streams.state.ReadOnlyKeyValueStore&lt;java.lang.String, java.lang.Long&gt; store =&#10;        iqService.getQueryableStore(&quot;word-count-state-store&quot;, org.apache.kafka.streams.state.QueryableStoreTypes.keyValueStore());&#10;    return store.get(word);&#10;  }&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="dquote-service" value="quote-service:&#10;    image: gamussa/reactive-quote-service:0.0.3&#10;    hostname: quotes&#10;    container_name: quotes" description="docker compose quote service" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+      <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+      <option name="AsciiDoc" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="GENERAL_JSON_FILE" value="false" />
+      <option name="GENERAL_YAML_FILE" value="false" />
+      <option name="GO" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="KUBERNETES_RESOURCE" value="false" />
+      <option name="LUA_CODE" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PROTO" value="false" />
+      <option name="PROTOTEXT" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_ATTRIBUTE" value="false" />
+    </context>
+  </template>
+  <template name="kquote-service" value="services:&#10;- name: quote-service&#10;  url: http://quotes:8080&#10;  routes:&#10;  - name: quote-service-routes&#10;    paths:&#10;    - /&#10;    strip_path: true" description="Kong Declarative config for quote service" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+      <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+      <option name="AsciiDoc" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="GENERAL_JSON_FILE" value="false" />
+      <option name="GENERAL_YAML_FILE" value="false" />
+      <option name="GO" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="KUBERNETES_RESOURCE" value="false" />
+      <option name="LUA_CODE" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PROTO" value="false" />
+      <option name="PROTOTEXT" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_ATTRIBUTE" value="false" />
+    </context>
+  </template>
+  <template name="secretyaml" value="apiVersion: v1&#10;kind: Secret&#10;metadata:&#10;  name: spring-boot-devoxx-spring-kafka-application-yaml&#10;type: Opaque&#10;stringData:&#10;  application.yaml: |" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+      <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+      <option name="AsciiDoc" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="GENERAL_JSON_FILE" value="false" />
+      <option name="GO" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="LUA_CODE" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PROTO" value="false" />
+      <option name="PROTOTEXT" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_ATTRIBUTE" value="false" />
+    </context>
+  </template>
+  <template name="deploymentyaml" value="---&#10;apiVersion: apps/v1&#10;kind: StatefulSet&#10;metadata:&#10;  name: devoxx-spring-kafka&#10;spec:&#10;  serviceName: devoxx-spring-kafka&#10;  podManagementPolicy: Parallel&#10;  replicas: 1&#10;  selector:&#10;    matchLabels:&#10;      app: devoxx-spring-kafka&#10;  template:&#10;    metadata:&#10;      labels:&#10;        app: devoxx-spring-kafka&#10;    spec:&#10;      containers:&#10;        - name: devoxx-spring&#10;          image: docker.io/gamussa/devoxx-spring-kafka:0.1&#10;          imagePullPolicy: Always&#10;          ports:&#10;            - containerPort: 8080&#10;          env:&#10;            - name: SPRING_CONFIG_LOCATION&#10;              value: /mnt/app/application.yaml&#10;          volumeMounts:&#10;            - name: spring-boot-devoxx-spring-kafka-application-yaml&#10;              mountPath: /mnt/app&#10;          resources:&#10;            requests:&#10;              memory: 512Mi # 768Mi&#10;              cpu: 500m # 1000m&#10;          livenessProbe:&#10;            httpGet:&#10;              path: /actuator/health&#10;              port: 8080&#10;            initialDelaySeconds: 5&#10;            periodSeconds: 10&#10;            failureThreshold: 2&#10;      volumes:&#10;        - name: spring-boot-devoxx-spring-kafka-application-yaml&#10;          secret:&#10;            secretName: spring-boot-devoxx-spring-kafka-application-yaml&#10;---&#10;apiVersion: v1&#10;kind: Service&#10;metadata:&#10;  name: devoxx-spring-kafka&#10;spec:&#10;  type: NodePort&#10;  selector:&#10;    app: devoxx-spring-kafka&#10;  ports:&#10;    - protocol: TCP&#10;      port: 8080&#10;      targetPort: 8080" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GENERAL_YAML_FILE" value="true" />
+      <option name="KUBERNETES_RESOURCE" value="true" />
+    </context>
+  </template>
+  <template name="kongrateplug" value="konghq.com/plugins: rate-free-tier" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+      <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+      <option name="AsciiDoc" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="GENERAL_JSON_FILE" value="false" />
+      <option name="GO" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="LUA_CODE" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PROTO" value="false" />
+      <option name="PROTOTEXT" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_ATTRIBUTE" value="false" />
+    </context>
+  </template>
+  <template name="kongingressyaml" value="apiVersion: networking.k8s.io/v1&#10;kind: Ingress&#10;metadata:&#10;  name: devoxx-ingress&#10;  annotations:&#10;    konghq.com/strip-path: &quot;true&quot;&#10;    kubernetes.io/ingress.class: kong&#10;spec:&#10;  rules:&#10;    - http:&#10;        paths:&#10;          - path: /&#10;            pathType: Prefix&#10;            backend:&#10;              service:&#10;                name: devoxx-spring-kafka&#10;                port:&#10;                  number: 8080" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GENERAL_YAML_FILE" value="true" />
+      <option name="KUBERNETES_RESOURCE" value="true" />
+    </context>
+  </template>
+  <template name="kongpluginyaml" value="apiVersion: configuration.konghq.com/v1&#10;kind: KongPlugin&#10;metadata:&#10;  name: rate-free-tier&#10;config:&#10;  minute: 5&#10;  limit_by: ip&#10;  policy: local&#10;plugin: rate-limiting" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GENERAL_YAML_FILE" value="true" />
+      <option name="KUBERNETES_RESOURCE" value="true" />
+    </context>
+  </template>
+</templateSet>

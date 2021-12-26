@@ -1,0 +1,7 @@
+<templateSet group="OpenAPI Specifications (.json)">
+  <template name="opnp" value="{&#10;  &quot;openapi&quot;: &quot;3.0.0&quot;,&#10;  &quot;info&quot;: {&#10;    &quot;title&quot;: &quot;$TITLE$&quot;,&#10;    &quot;description&quot;: &quot;$TITLE$&quot;,&#10;    &quot;version&quot;: &quot;1.0.0&quot;&#10;  },&#10;  &quot;servers&quot;: [&#10;    {&#10;      &quot;url&quot;: &quot;https://$AUTHORITY$&quot;&#10;    }&#10;  ],&#10;  &quot;paths&quot;: {&#10;    $END$&#10;  }&#10;}&#10;" description="OpenAPI 3.0.0 Specification (.json)" toReformat="true" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="AUTHORITY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
