@@ -1,6 +1,7 @@
 <application>
   <component name="RainbowSettings">
     <option name="doNOTRainbowifyBigFiles" value="false" />
+    <option name="doNOTRainbowifyTheFirstLevel" value="true" />
     <option name="version" value="6.21" />
   </component>
 </application>
