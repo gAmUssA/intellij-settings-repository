@@ -4,7 +4,7 @@
     <property name="created">2021-03-07T22:42:19</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.3.2.0.0</property>
-    <property name="modified">2022-01-05T11:04:19</property>
+    <property name="modified">2022-01-20T10:46:55</property>
     <property name="originalScheme">One Dark Vivid Italic</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -14,7 +14,7 @@
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="JetBrainsMono Nerd Font Mono" />
-    <option name="EDITOR_FONT_SIZE" value="18" />
+    <option name="EDITOR_FONT_SIZE" value="28" />
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
   <colors>
@@ -89,17 +89,7 @@
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
-    <option name="ASCIIDOC_BOLD">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="ASCIIDOC_BOLDITALIC">
-      <value>
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="ASCIIDOC_ITALIC">
       <value>
         <option name="FONT_TYPE" value="2" />
       </value>
@@ -979,6 +969,9 @@
         <option name="FOREGROUND" value="89ca78" />
       </value>
     </option>
+    <option name="HTML_CODE">
+      <value />
+    </option>
     <option name="HTML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="ef596f" />
@@ -1194,13 +1187,8 @@
         <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
-    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
-      <value />
-    </option>
     <option name="KOTLIN_LABEL">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
+      <value />
     </option>
     <option name="KOTLIN_MUTABLE_VARIABLE">
       <value>
@@ -1439,7 +1427,8 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="515a6b" />
+        <option name="BACKGROUND" value="2b303c" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MESSAGE_ARGUMENT">
