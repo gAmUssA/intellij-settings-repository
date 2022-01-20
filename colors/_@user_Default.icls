@@ -4,7 +4,7 @@
     <property name="created">2021-05-04T01:02:27</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2021.1.1.0.0</property>
-    <property name="modified">2022-01-19T11:39:07</property>
+    <property name="modified">2022-01-20T10:23:42</property>
     <property name="originalScheme">Default</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
@@ -24,11 +24,20 @@
     <option name="KOTLIN_LABEL">
       <value />
     </option>
+    <option name="LUA_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="80" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3b514d" />
         <option name="FONT_TYPE" value="1" />
       </value>
+    </option>
+    <option name="TEXT">
+      <value />
     </option>
   </attributes>
 </scheme>
