@@ -1,6 +1,6 @@
 <application>
   <component name="AsciidocApplicationSettings">
-    <option name="pluginVersion" value="0.36.13" />
+    <option name="pluginVersion" value="0.36.10" />
     <AsciiDocPreviewSettings DefaultSplitLayout="Show editor only" PreviewTheme="AsciiDoc light" KrokiUrl="" HideErrorsByLanguage="">
       <option name="hideErrorsByLanguage" value="" />
     </AsciiDocPreviewSettings>
