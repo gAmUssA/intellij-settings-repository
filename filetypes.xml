@@ -13,6 +13,7 @@
       <mapping pattern=".keepme" type="PLAIN_TEXT" />
       <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
       <mapping ext="gke" type="PLAIN_TEXT" />
+      <mapping ext="back" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="jsonschema" type="PLAIN_TEXT" />
       <mapping ext="cred" type="PLAIN_TEXT" />
