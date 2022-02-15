@@ -20,7 +20,6 @@
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping ext="ksql" type="SQL" />
       <mapping pattern="Cameras" type="TypeScript" />
-      <mapping ext="qrc" type="XML" />
       <mapping ext="local" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="avsc" approved="true" type="PLAIN_TEXT" />
