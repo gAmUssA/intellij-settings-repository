@@ -8,17 +8,19 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern=".token" type="PLAIN_TEXT" />
-      <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="Brewfile" type="PLAIN_TEXT" />
       <mapping pattern=".keepme" type="PLAIN_TEXT" />
+      <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
       <mapping ext="gke" type="PLAIN_TEXT" />
+      <mapping ext="back" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="jsonschema" type="PLAIN_TEXT" />
       <mapping ext="cred" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping ext="ksql" type="SQL" />
       <mapping pattern="Cameras" type="TypeScript" />
+      <mapping pattern="Kptfile" type="YAML" />
       <mapping ext="local" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="avsc" approved="true" type="PLAIN_TEXT" />
