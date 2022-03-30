@@ -21,7 +21,6 @@
       <mapping ext="ksql" type="SQL" />
       <mapping pattern="Cameras" type="TypeScript" />
       <mapping ext="local" type="YAML" />
-      <removed_mapping pattern="Kptfile" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="avsc" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
@@ -40,6 +39,7 @@
       <removed_mapping ext="qrc" approved="true" type="XML" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
       <removed_mapping ext="swift" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="Kptfile" approved="true" type="YAML" />
     </extensionMap>
   </component>
 </application>
