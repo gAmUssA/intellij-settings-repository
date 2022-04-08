@@ -4,6 +4,9 @@
     <driver id="db2.jtopen" name="DB2 (JTOpen)" />
     <driver id="derby.embedded" name="Derby (Embedded)" />
     <driver id="derby.remote" name="Derby (Remote)" />
+    <driver id="h2.unified">
+      <artifact id="H2" name="H2" use="true" version="2.1.210" />
+    </driver>
     <driver id="hsqldb.local">
       <artifact id="HSQLDB" name="HSQLDB" use="true">
         <library>
