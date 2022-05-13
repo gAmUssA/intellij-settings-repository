@@ -4,17 +4,17 @@
     <property name="created">2021-05-04T01:02:27</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2021.1.1.0.0</property>
-    <property name="modified">2022-04-07T21:23:06</property>
+    <property name="modified">2022-05-11T16:48:52</property>
     <property name="originalScheme">Default</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
   <font>
     <option name="EDITOR_FONT_NAME" value="M+ 1mn" />
-    <option name="EDITOR_FONT_SIZE" value="24" />
+    <option name="EDITOR_FONT_SIZE" value="26" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
-    <option name="EDITOR_FONT_SIZE" value="30" />
+    <option name="EDITOR_FONT_SIZE" value="32" />
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
   <attributes>
