@@ -1,19 +1,19 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="commands" type="AUTO_DETECTED" />
       <mapping pattern="TODO" type="AUTO_DETECTED" />
+      <mapping pattern="commands" type="AUTO_DETECTED" />
       <mapping ext="avsc" type="JSON" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="gke" type="Makefile" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
-      <mapping pattern=".token" type="PLAIN_TEXT" />
       <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="Brewfile" type="PLAIN_TEXT" />
       <mapping pattern=".keepme" type="PLAIN_TEXT" />
-      <mapping ext="gke" type="PLAIN_TEXT" />
+      <mapping pattern=".token" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="back" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="jsonschema" type="PLAIN_TEXT" />
@@ -27,6 +27,7 @@
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="gke" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="groovy" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
