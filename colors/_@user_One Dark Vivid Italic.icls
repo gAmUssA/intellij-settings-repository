@@ -4,17 +4,17 @@
     <property name="created">2021-03-07T22:42:19</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.3.2.0.0</property>
-    <property name="modified">2022-06-22T13:28:53</property>
+    <property name="modified">2022-06-23T00:27:22</property>
     <property name="originalScheme">One Dark Vivid Italic</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Iosevka Nerd Font Mono" />
-    <option name="EDITOR_FONT_SIZE" value="32" />
+    <option name="EDITOR_FONT_SIZE" value="22" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="JetBrainsMono Nerd Font Mono" />
-    <option name="EDITOR_FONT_SIZE" value="24" />
+    <option name="EDITOR_FONT_SIZE" value="32" />
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
   <colors>
