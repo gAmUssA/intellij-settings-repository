@@ -41,7 +41,7 @@
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="postgresql">
-      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.2.22" />
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.4.0" />
     </driver>
     <driver id="sqlite.xerial" name="Sqlite (Xerial)" />
     <driver id="sybase.jtds">
