@@ -2,21 +2,26 @@
   <template name="kres" value="apiVersion: $API_VERSION$&#10;kind: $KIND$&#10;metadata:&#10;  $END$" description="Kubernetes Generic Resource" toReformat="true" toShortenFQNames="true">
     <variable name="API_VERSION" expression="complete()" defaultValue="&quot;v1&quot;" alwaysStopAt="true" />
     <variable name="KIND" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="kser" value="apiVersion: v1&#10;kind: Service&#10;metadata:&#10;  name: $NAME$&#10;spec:&#10;  selector:&#10;    app: $NAME$&#10;  ports:&#10;    - port: $PORT$&#10;  type: NodePort" description="Kubernetes Service" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PORT" expression="" defaultValue="&quot;8080&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="kdep" value="apiVersion: apps/v1&#10;kind: Deployment&#10;metadata:&#10;  name: $NAME$&#10;  labels:&#10;    app: $NAME$&#10;spec:&#10;  replicas: 1&#10;  template:&#10;    metadata:&#10;      name: $NAME$&#10;      labels:&#10;        app: $NAME$&#10;    spec:&#10;      containers:&#10;      - name: $NAME$&#10;        image: $IMAGE$&#10;        imagePullPolicy: IfNotPresent&#10;      restartPolicy: Always&#10;  selector:&#10;    matchLabels:&#10;      app: $NAME$&#10;" description="Kubernetes Deployment" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="IMAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="kpod" value="apiVersion: v1&#10;kind: Pod&#10;metadata:&#10;  name: $NAME$ &#10;  labels:&#10;    app: $NAME$&#10;spec:&#10;  containers:&#10;  - name: $NAME$&#10;    image: $IMAGE$&#10;    imagePullPolicy: IfNotPresent&#10;  restartPolicy: Always&#10;" description="Kubernetes Pod" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="IMAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="kcm" value="apiVersion: v1&#10;kind: ConfigMap&#10;metadata:&#10;  name: $NAME$&#10;data:&#10;  $KEY$: $END$" description="Kubernetes ConfigMap" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>
