@@ -1,68 +1,85 @@
 <templateSet group="Rails">
   <template name="ra" value="render :action =&gt; &quot;$ACTION$&quot;$END$&#10;&#10;" description="render with action" toReformat="true" toShortenFQNames="true">
     <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="ral" value="render :action =&gt; &quot;$ACTION$&quot;, :layout =&gt; &quot;$LAYOUT_NAME$&quot;$END$" description="render with action and layout" toReformat="true" toShortenFQNames="true">
     <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="LAYOUT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="rea" value="redirect_to :action =&gt; &quot;$ACTION$&quot;$END$" description="redirect_to with action" toReformat="true" toShortenFQNames="true">
     <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="reai" value="redirect_to :action =&gt; &quot;$ACTION$&quot;, :id =&gt; $ID$" description="redirect_to with action and id" toReformat="true" toShortenFQNames="true">
     <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="reca" value="redirect_to :controller =&gt; &quot;$CONTROLLER$&quot;, :action =&gt; &quot;$ACTION$&quot;$END$" description="redirect_to with controller and action" toReformat="true" toShortenFQNames="true">
     <variable name="CONTROLLER" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="recai" value="redirect_to :controller =&gt; &quot;$CONTROLLER$&quot;, :action =&gt; &quot;$ACTION$&quot;, :id =&gt; $ID$" description="redirect_to with controller, action, and id" toReformat="true" toShortenFQNames="true">
     <variable name="CONTROLLER" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="rf" value="render :file =&gt; &quot;$FILE_PATH$&quot;" description="render file" toReformat="true" toShortenFQNames="true">
     <variable name="FILE_PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="rfu" value="render :file =&gt; &quot;$FILE_PATH$&quot;, :use_full_path =&gt; $USE_FULL_PATH$" description="render file with use_full_path" toReformat="true" toShortenFQNames="true">
     <variable name="FILE_PATH" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="USE_FULL_PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="rl" value="render :layout =&gt; &quot;$LAYOUT_NAME$&quot;$END$" description="render layout" toReformat="true" toShortenFQNames="true">
     <variable name="LAYOUT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="rns" value="render :nothing =&gt; $TRUE$, :status =&gt; $HTTP_STATUS$" description="render with nothing and status" toReformat="true" toShortenFQNames="true">
     <variable name="TRUE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="HTTP_STATUS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="rp" value="render :partial =&gt; &quot;$ITEM$&quot;" description="render partial" toReformat="true" toShortenFQNames="true">
     <variable name="ITEM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="rpc" value="render :partial =&gt; &quot;$ITEM$&quot;, :collection =&gt; $ITEMS$" description="render partial with collection" toReformat="true" toShortenFQNames="true">
     <variable name="ITEM" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ITEMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="rpl" value="render :partial =&gt; &quot;$ITEM$&quot;, :locals =&gt; { :$NAME$ =&gt; &quot;$VALUE$&quot; }" description="render partial with locals" toReformat="true" toShortenFQNames="true">
     <variable name="ITEM" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="rpo" value="render :partial =&gt; &quot;$ITEM$&quot;, :object =&gt; $OBJ$" description="render partial with object" toReformat="true" toShortenFQNames="true">
     <variable name="ITEM" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="rps" value="render :partial =&gt; &quot;$ITEM$&quot;, :status =&gt; $HTTP_STATUS$" description="render partial with status" toReformat="true" toShortenFQNames="true">
     <variable name="ITEM" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="HTTP_STATUS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="rtl" value="render :text =&gt; &quot;$TEXT$&quot;, :layout =&gt; &quot;$LAYOUT_NAME$&quot;" description="render text with layout name" toReformat="true" toShortenFQNames="true">
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="LAYOUT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="rts" value="render :text =&gt; &quot;$TEXT$&quot;, :status =&gt; $HTTP_STATUS$" description="render text with status" toReformat="true" toShortenFQNames="true">
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="HTTP_STATUS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="script" value="&lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&#10;$SELECTION$&#10;&lt;/script&gt;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
@@ -73,5 +90,6 @@
   <template name="verifyr" value="verify :only =&gt; [:$E$], :session =&gt; :user, :params =&gt; :id, :redirect_to =&gt; {:action =&gt; '$INDEX$'}" description="verify user session with redirect" toReformat="true" toShortenFQNames="true">
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>

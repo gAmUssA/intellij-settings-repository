@@ -3,5 +3,6 @@
     <variable name="ITERABLE_TYPE" expression="iterableVariable()" defaultValue="" alwaysStopAt="true" />
     <variable name="ELEMENT_TYPE" expression="iterableComponentType(ITERABLE_TYPE)" defaultValue="&quot;java.lang.Object&quot;" alwaysStopAt="false" />
     <variable name="VAR" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>
