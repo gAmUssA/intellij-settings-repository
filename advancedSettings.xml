@@ -2,6 +2,7 @@
   <component name="AdvancedSettings">
     <option name="settings">
       <map>
+        <entry key="cidr.test.framework.showIndexingAsTask" value="false" />
         <entry key="ide.max.recent.projects" value="10" />
       </map>
     </option>
