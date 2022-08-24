@@ -1,0 +1,10 @@
+<application>
+  <component name="LuaCheckSettings">
+    <option name="luaCheck" value="/opt/homebrew/bin/luacheck" />
+    <option name="luaCheckArgs" value="" />
+  </component>
+  <component name="LuaSettings">
+    <option name="languageLevel" value="Lua 5.4" />
+    <option name="nilStrict" value="true" />
+  </component>
+</application>
