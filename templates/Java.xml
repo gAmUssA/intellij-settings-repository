@@ -2,5 +2,6 @@
   <template name="lazy" value="if ($VAR$ == null) {&#10;  $VAR$ = new $TYPE$($END$);&#10;}" description="Performs lazy initialization" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="variableOfType(&quot;java.lang.Object&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="subtypes(typeOfVariable(VAR))" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>

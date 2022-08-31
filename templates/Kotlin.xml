@@ -1,5 +1,6 @@
 <templateSet group="Kotlin">
   <template name="psvm" value="fun main($ARGS$) {&#10;  $END$&#10;}" description="main() function" toReformat="true" toShortenFQNames="true">
     <variable name="ARGS" expression="kotlinMainArguments()" defaultValue="" alwaysStopAt="false" />
+    <context />
   </template>
 </templateSet>
