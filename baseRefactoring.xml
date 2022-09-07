@@ -11,11 +11,11 @@
   </component>
   <component name="RefactoringSettings">
     <option name="RENAME_SEARCH_FOR_TEXT_FOR_CLASS" value="false" />
-    <option name="MOVE_PREVIEW_USAGES" value="false" />
     <option name="TYPE_COOK_COOK_OBJECTS" value="true" />
     <option name="TYPE_COOK_PRODUCE_WILDCARDS" value="true" />
     <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
     <option name="INTRODUCE_CONSTANT_VISIBILITY" value="public" />
     <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="true" />
+    <option name="RENAME_ACCESSORS" value="false" />
   </component>
 </application>
