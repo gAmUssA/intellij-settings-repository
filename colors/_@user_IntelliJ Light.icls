@@ -4,13 +4,13 @@
     <property name="created">2020-12-14T15:37:17</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.3.0.0</property>
-    <property name="modified">2022-09-09T13:16:46</property>
+    <property name="modified">2022-09-12T10:08:12</property>
     <property name="originalScheme">IntelliJ Light</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
   <font>
     <option name="EDITOR_FONT_NAME" value="M+ 1mn" />
-    <option name="EDITOR_FONT_SIZE" value="20" />
+    <option name="EDITOR_FONT_SIZE" value="30" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Monaco" />
