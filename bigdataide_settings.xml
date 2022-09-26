@@ -24,7 +24,7 @@
               <entry key="properties" value="rO0ABXQAAA==" />
               <entry key="propertyFilePath" value="rO0ABXQAAA==" />
               <entry key="propertySource" value="rO0ABX5yADhjb20uamV0YnJhaW5zLmJpZ2RhdGF0b29scy5rYWZrYS5yZnMuS2Fma2FQcm9wZXJ0eVNvdXJjZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABkRJUkVDVA==" />
-              <entry key="tunnel" value="rO0ABXNyAEpjb20uamV0YnJhaW5zLmJpZ2RhdGF0b29scy5jb25uZWN0aW9uLnR1bm5lbC5tb2RlbC5Db25uZWN0aW9uU3NoVHVubmVsSW5mb4g0ot7wzEpsAgAEWgAJaXNFbmFibGVkSQAKcmVtb3RlUG9ydEwACGNvbmZpZ0lkdAASTGphdmEvbGFuZy9TdHJpbmc7TAAKcmVtb3RlSG9zdHEAfgABeHAA/////3QAAHEAfgAD" />
+              <entry key="tunnel" value="rO0ABXNyAFBjb20uamV0YnJhaW5zLmJpZ2RhdGF0b29scy5jb25uZWN0aW9uLnR1bm5lbC5tb2RlbC5Db25uZWN0aW9uU3NoVHVubmVsRGF0YUxlZ2FjeYg0ot7wzEpsAgAEWgAJaXNFbmFibGVkSQAKcmVtb3RlUG9ydEwACGNvbmZpZ0lkdAASTGphdmEvbGFuZy9TdHJpbmc7TAAKcmVtb3RlSG9zdHEAfgABeHAA/////3QAAHEAfgAD" />
             </map>
           </option>
           <option name="fqn" value="com.jetbrains.bigdatatools.kafka.rfs.KafkaConnectionData" />
