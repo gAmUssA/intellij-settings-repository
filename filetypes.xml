@@ -7,6 +7,7 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="gke" type="Makefile" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern=".token" type="PLAIN_TEXT" />
       <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
@@ -43,7 +44,6 @@
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
       <removed_mapping ext="swift" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="Kptfile" approved="true" type="YAML" />
-      <mapping ext="gke" type="Makefile" />
     </extensionMap>
   </component>
 </application>

@@ -96,6 +96,14 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("parse", "get", "newBuilder").withParameters("java.lang.String").definedInClass("okhttp3.HttpUrl"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("url").withParameters("java.lang.String").definedInClass("okhttp3.Request.Builder"))]]></place>
     </injection>
+    <injection language="JSON5" injector-id="java">
+      <display-name>Query (org.springframework.data.mongodb.repository)</display-name>
+      <ignore-pattern>(:#\{#\w+\}|ObjectId\(.*\)|ISODate\(.*\)|new Date\(.*\))</ignore-pattern>
+      <single-file value="false" />
+      <place><![CDATA[psiMethod().withName("collation").withParameters().definedInClass("org.springframework.data.mongodb.repository.Query")]]></place>
+      <place><![CDATA[psiMethod().withName("fields").withParameters().definedInClass("org.springframework.data.mongodb.repository.Query")]]></place>
+      <place><![CDATA[psiMethod().withName("sort").withParameters().definedInClass("org.springframework.data.mongodb.repository.Query")]]></place>
+    </injection>
     <injection language="SQL" injector-id="java">
       <display-name>QueryProducer (org.hibernate.query)</display-name>
       <single-file value="true" />
@@ -200,6 +208,7 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.mutiny.Mutiny.StatelessSession"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.stage.Stage.Session"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.stage.Stage.StatelessSession"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery", "createSelectionQuery", "createNamedSelectionQuery", "createMutationQuery", "createNativeMutationQuery", "createNamedMutationQuery").definedInClass("org.hibernate.query.QueryProducer"))]]></place>
     </injection>
     <injection language="SQL" injector-id="java">
       <display-name>SmallRye Axle SqlClient (io.vertx.axle.sqlclient)</display-name>
@@ -319,6 +328,20 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query", "prepare", "preparedQuery", "preparedBatch", "rxQuery", "rxPreparedQuery", "rxPreparedBatch").definedInClass("io.vertx.reactivex.sqlclient.Pool"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query", "prepare", "preparedQuery", "preparedBatch", "rxQuery", "rxPreparedQuery", "rxPreparedBatch").definedInClass("io.vertx.reactivex.sqlclient.SqlClient"))]]></place>
     </injection>
+    <injection language="JSON" injector-id="java">
+      <display-name>WireMock (com.github.tomakehurst.wiremock.client)</display-name>
+      <single-file value="false" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("equalToJson").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("jsonResponse").withParameters("java.lang.String", "int").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("okJson").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+    </injection>
+    <injection language="XML" injector-id="java">
+      <display-name>WireMock (com.github.tomakehurst.wiremock.client)</display-name>
+      <single-file value="false" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("equalToXml").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("okTextXml").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("okXml").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+    </injection>
     <injection language="JSONPath" injector-id="java">
       <display-name>WriteContext (com.jayway.jsonpath)</display-name>
       <single-file value="true" />
@@ -356,6 +379,42 @@
       <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("Regex").definedInClass("kotlin.text.Regex"))]]></place>
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toPattern").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toRegex").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="python">
+      <display-name>&quot;SQL select/delete/insert/update/create&quot;</display-name>
+      <single-file value="true" />
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*((ALTER|DROP)\\s+INDEX\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*((ALTER|DROP)\\s+VIEW\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*((ALTER|TRUNCATE)\\s+TABLE\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*((BEGIN)|(START TRANSACTION))(\\s[^\n\r]+)?;")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*((CREATE|DROP)\\s+DATABASE\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*((CREATE|DROP)\\s+EXTENSION\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(ALTER\\s+EXTENSION\\s.+?\\s(UPDATE|(SET SCHEMA)|ADD|DROP))")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(ALTER\\s+SEQUENCE\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(BEGIN\\s+TRAN(SACTION)?\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(BEGIN\\s.+\\sEND;?$)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(COPY\\s.+?\\s(FROM|TO)\\s.+;$)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(CREATE\\s+((TEMP(ORARY)?|(GLOBAL\\s+TEMPORARY))\\s+)?TABLE\\s.+?\\(.+?\\))")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(CREATE\\s+(OR\\s+REPLACE\\s+)?FUNCTION\\s.+?\\sRETURNS?\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(CREATE\\s+(OR\\s+REPLACE\\s+)?PROC(EDURE)?\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(CREATE\\s+(OR\\s+REPLACE\\s+)?TRIGGER\\s.+?\\sON\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(CREATE\\s+(OR\\s+REPLACE\\s+)?VIEW\\s.+?\\sAS\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(CREATE\\s+(UNIQUE\\s+)?INDEX\\s.+?\\sON\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(DELETE\\s+(\\*\\s+)?FROM\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(DROP\\s+TABLE\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(INSERT\\s+((OR\\s+)?IGNORE\\s+)?INTO\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(REPLACE\\s+INTO\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(SELECT\\s.+?\\sFROM\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(UPDATE\\s.+?\\sSET\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(WITH\\s.+?\\sAS\\s.+)")]]></place>
+    </injection>
+    <injection language="SQLite" injector-id="python">
+      <display-name>sqlite3</display-name>
+      <single-file value="true" />
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("execute", 0, "_sqlite3.Connection"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("execute", 0, "_sqlite3.Cursor"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("executemany", 0, "_sqlite3.Connection"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("executemany", 0, "_sqlite3.Cursor"))]]></place>
     </injection>
     <injection language="JavaScript" injector-id="ruby">
       <display-name>Heredoc JavaScript</display-name>
