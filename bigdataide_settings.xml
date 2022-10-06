@@ -5,12 +5,12 @@
         <ExtendedConnectionData>
           <option name="extended">
             <map>
-              <entry key="extended" value="rO0ABXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAAnQABXByb3BzdABEck8wQUJYTnlBQnhyYjNSc2FXNHVZMjlzYkdWamRHbHZibk11Ulcxd2RIbE1hWE4wbVcvSDBLZmdZRElDQUFCNGNBPT10AAZ0dW5uZWx0APRyTzBBQlhOeUFFcGpiMjB1YW1WMFluSmhhVzV6TG1KcFoyUmhkR0YwYjI5c2N5NWpiMjV1WldOMGFXOXVMblIxYm01bGJDNXRiMlJsYkM1RGIyNXVaV04wYVc5dVUzTm9WSFZ1Ym1Wc1NXNW1iNGcwb3Q3d3pFcHNBZ0FFV2dBSmFYTkZibUZpYkdWa1NRQUtjbVZ0YjNSbFVHOXlkRXdBQ0dOdmJtWnBaMGxrZEFBU1RHcGhkbUV2YkdGdVp5OVRkSEpwYm1jN1RBQUtjbVZ0YjNSbFNHOXpkSEVBZmdBQmVIQUEvLy8vLzNRQUFIRUFmZ0FEeAA=" />
-              <entry key="fqn" value="rO0ABXQAOGNvbS5qZXRicmFpbnMuYmlnZGF0YXRvb2xzLmthZmthLnJmcy5LYWZrYUNvbm5lY3Rpb25EYXRh" />
+              <entry key="extended" value="rO0ABXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAA3QACGV4dGVuZGVkdAJ0ck8wQUJYTnlBQmRxWVhaaExuVjBhV3d1VEdsdWEyVmtTR0Z6YUUxaGNEVEFUbHdRYk1EN0FnQUJXZ0FMWVdOalpYTnpUM0prWlhKNGNnQVJhbUYyWVM1MWRHbHNMa2hoYzJoTllYQUZCOXJCd3haZzBRTUFBa1lBQ214dllXUkdZV04wYjNKSkFBbDBhSEpsYzJodmJHUjRjRDlBQUFBQUFBQU1kd2dBQUFBUUFBQUFBblFBQlhCeWIzQnpkQUJFY2s4d1FVSllUbmxCUW5oeVlqTlNjMkZYTkhWWk1qbHpZa2RXYW1SSGJIWmliazExVWxjeGQyUkliRTFoV0U0d2JWY3ZTREJMWm1kWlJFbERRVUZDTkdOQlBUMTBBQVowZFc1dVpXeDBBUFJ5VHpCQlFsaE9lVUZGY0dwaU1qQjFZVzFXTUZsdVNtaGhWelY2VEcxS2NGb3lVbWhrUjBZd1lqSTVjMk41TldwaU1qVjFXbGRPTUdGWE9YVk1ibEl4WW0wMWJHSkROWFJpTWxKc1lrTTFSR0l5TlhWYVYwNHdZVmM1ZFZVelRtOVdTRloxWW0xV2MxTlhOVzFpTkdjd2IzUTNkM3BGY0hOQlowRkZWMmRCU21GWVRrWmliVVpwWWtkV2ExTlJRVXRqYlZaMFlqTlNiRlZIT1hsa1JYZEJRMGRPZG1KdFduQmFNR3hyWkVGQlUxUkhjR2hrYlVWMllrZEdkVnA1T1ZSa1NFcHdZbTFqTjFSQlFVdGpiVlowWWpOU2JGTkhPWHBrU0VWQlptZEJRbVZJUVVFdkx5OHZMek5SUVVGSVJVRm1aMEZFZUFBPXQAA2ZxbnQAVHJPMEFCWFFBT0dOdmJTNXFaWFJpY21GcGJuTXVZbWxuWkdGMFlYUnZiMnh6TG10aFptdGhMbkptY3k1TFlXWnJZVU52Ym01bFkzUnBiMjVFWVhSaHQACHBsdWdpbklkdAAsck8wQUJYUUFHV052YlM1cGJuUmxiR3hwYWk1aWFXZGtZWFJoZEc5dmJITT14AA==" />
+              <entry key="fqn" value="rO0ABXQAOmNvbS5qZXRicmFpbnMuYmlnZGF0YXRvb2xzLnNldHRpbmdzLkV4dGVuZGVkQ29ubmVjdGlvbkRhdGE=" />
               <entry key="pluginId" value="rO0ABXQAGWNvbS5pbnRlbGxpai5iaWdkYXRhdG9vbHM=" />
             </map>
           </option>
-          <option name="fqn" value="com.jetbrains.bigdatatools.settings.ExtendedConnectionData" />
+          <option name="fqn" value="com.jetbrains.bigdatatools.common.settings.ExtendedConnectionData" />
           <option name="groupId" value="KafkaConnections" />
           <option name="innerId" value="Kafka connection@KafkaConnections@2390413321456915151" />
           <option name="name" value=" local Kafka via docker" />
@@ -24,7 +24,7 @@
               <entry key="properties" value="rO0ABXQAAA==" />
               <entry key="propertyFilePath" value="rO0ABXQAAA==" />
               <entry key="propertySource" value="rO0ABX5yADhjb20uamV0YnJhaW5zLmJpZ2RhdGF0b29scy5rYWZrYS5yZnMuS2Fma2FQcm9wZXJ0eVNvdXJjZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABkRJUkVDVA==" />
-              <entry key="tunnel" value="rO0ABXNyAFBjb20uamV0YnJhaW5zLmJpZ2RhdGF0b29scy5jb25uZWN0aW9uLnR1bm5lbC5tb2RlbC5Db25uZWN0aW9uU3NoVHVubmVsRGF0YUxlZ2FjeYg0ot7wzEpsAgAEWgAJaXNFbmFibGVkSQAKcmVtb3RlUG9ydEwACGNvbmZpZ0lkdAASTGphdmEvbGFuZy9TdHJpbmc7TAAKcmVtb3RlSG9zdHEAfgABeHAA/////3QAAHEAfgAD" />
+              <entry key="tunnel" value="rO0ABXNyAFdjb20uamV0YnJhaW5zLmJpZ2RhdGF0b29scy5jb21tb24uY29ubmVjdGlvbi50dW5uZWwubW9kZWwuQ29ubmVjdGlvblNzaFR1bm5lbERhdGFMZWdhY3mINKLe8MxKbAIABFoACWlzRW5hYmxlZEkACnJlbW90ZVBvcnRMAAhjb25maWdJZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnJlbW90ZUhvc3RxAH4AAXhwAP////90AABxAH4AAw==" />
             </map>
           </option>
           <option name="fqn" value="com.jetbrains.bigdatatools.kafka.rfs.KafkaConnectionData" />
