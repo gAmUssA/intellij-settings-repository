@@ -4,17 +4,17 @@
     <property name="created">2020-12-14T15:37:17</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.3.0.0</property>
-    <property name="modified">2022-10-07T09:54:58</property>
+    <property name="modified">2022-10-18T11:10:06</property>
     <property name="originalScheme">IntelliJ Light</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
   <font>
     <option name="EDITOR_FONT_NAME" value="M+ 1mn" />
-    <option name="EDITOR_FONT_SIZE" value="31" />
+    <option name="EDITOR_FONT_SIZE" value="22" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Monaco" />
-    <option name="EDITOR_FONT_SIZE" value="22" />
+    <option name="EDITOR_FONT_SIZE" value="31" />
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
   <console-font>
