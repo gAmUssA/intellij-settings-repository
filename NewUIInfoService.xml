@@ -1,5 +1,7 @@
 <application>
   <component name="NewUIInfoState"><![CDATA[{
+  "numberNotificationShowed": 1,
+  "feedbackSent": true,
   "enableNewUIDate": "2022-10-18T13:10:15.410508"
 }]]></component>
 </application>
