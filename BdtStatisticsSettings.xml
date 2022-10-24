@@ -1,0 +1,9 @@
+<application>
+  <component name="BdtStatisticsSettings">
+    <option name="reportedBrokenConnections">
+      <set>
+        <option value="Kafka connection@KafkaConnections@2390413321456915151" />
+      </set>
+    </option>
+  </component>
+</application>
